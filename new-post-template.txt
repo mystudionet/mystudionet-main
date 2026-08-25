@@ -1,0 +1,59 @@
+TITLE: How to Choose a Wedding Videographer on Long Island
+DESCRIPTION: Looking for a wedding videographer in Suffolk County or Nassau County? Here's what to look for before signing a contract — from style to delivery format.
+CATEGORY: Wedding Films
+IMAGE: wedding-videographer-guide.jpg
+TAGS: wedding videography, Long Island, Suffolk County, Nassau County, wedding film
+
+---
+
+Your opening paragraph goes here. This should be a strong hook — 2-3 sentences that make the reader want to keep reading. Answer the question: why does this matter?
+
+Second paragraph continues the introduction. Give context, share a surprising stat, or make a bold claim.
+
+## First Major Section Heading
+
+Use ## for main sections. Each section should cover one key point.
+
+Your paragraph content here. Write naturally. You can use **bold text** like this and *italic text* like this. You can also add [links like this](https://mystudionet.com/services/wedding-films.html).
+
+Another paragraph in the same section. Aim for 2-4 paragraphs per section.
+
+## Second Major Section
+
+More content here.
+
+- Bullet point one
+- Bullet point two
+- Bullet point three
+
+Use bullet lists for tips, features, or comparisons.
+
+## Third Section
+
+### Sub-heading (use ### for sub-sections)
+
+You can nest sub-sections within main sections.
+
+> Use a blockquote like this for important quotes, client testimonials, or key takeaways.
+
+## Conclusion
+
+End with a clear takeaway and a natural lead-in to the service you offer. Don't hard-sell — just give a logical next step.
+
+---
+NOTES FOR THE WRITER:
+- Aim for 800-1500 words (4-7 min read)
+- Use the exact format above — headers start with ## or ###
+- Blank lines between every paragraph/section are required
+- Image file: place the JPG/WebP in the blog/images/ folder before running the script
+- Supported image formats: .jpg .jpeg .webp .png
+- VIDEO EMBED: add a line like VIDEO: https://adilo.com/watch/xxxxx anywhere in the body
+- "You might also like" section is auto-generated — no action needed
+
+CATEGORIES (pick one):
+  Video Production Tips
+  Wedding Films
+  AI & Technology
+  Marketing & Advertising
+  Long Island Business
+  Behind the Scenes
