@@ -86,6 +86,19 @@
     ::-webkit-scrollbar { width: 3px; }
     ::-webkit-scrollbar-track { background: #000; }
     ::-webkit-scrollbar-thumb { background: #fff; }
+
+    /* NAV DROPDOWN */
+    .nav-link{color:#666;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;font-family:'Poppins',sans-serif;transition:color 0.2s;white-space:nowrap;}
+    .nav-link:hover,.nav-link.active{color:#fff;}
+    .mega-link{color:#777;font-size:0.8rem;text-decoration:none;font-family:'Poppins',sans-serif;padding:0.22rem 0;transition:color 0.2s;display:block;}
+    .mega-link:hover{color:#fff;}
+    .drop-link{color:#777;font-size:0.8rem;text-decoration:none;font-family:'Poppins',sans-serif;padding:0.65rem 1.25rem;display:block;transition:color 0.2s,background 0.2s;white-space:nowrap;}
+    .drop-link:hover{color:#fff;background:#0d0d0d;}
+    .nav-item{position:relative;}
+    .mega-panel{display:none;position:fixed;left:0;right:0;top:62px;background:#000;border-top:1px solid #1a1a1a;border-bottom:1px solid #1a1a1a;padding:2rem 1.5rem;z-index:998;}
+    .nav-item:hover .mega-panel{display:block;}
+    .dropdown-panel{display:none;position:absolute;top:calc(100% + 1.1rem);left:50%;transform:translateX(-50%);background:#000;border:1px solid #1a1a1a;min-width:220px;z-index:998;padding:0.5rem 0;}
+    .nav-item:hover .dropdown-panel{display:block;}
   </style>
 </head>
 <body style="background:#000;">
