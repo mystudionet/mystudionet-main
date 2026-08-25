@@ -28,7 +28,7 @@
 
     /* TYPOGRAPHY */
     .serif { font-family: 'Playfair Display', Georgia, serif; }
-    .label { font-size: 0.65rem; letter-spacing: 0.22em; text-transform: uppercase; color: #888; }
+    .label { font-size: 0.65rem; letter-spacing: 0.22em; text-transform: uppercase; color:#fff; }
 
     /* BUTTONS */
     .btn-primary {
@@ -65,7 +65,7 @@
 
     /* SERVICE CARD */
     .svc-card { border: 1px solid #1a1a1a; transition: border-color 0.25s; }
-    .svc-card:hover { border-color: #555; }
+    .svc-card:hover { border-color:#fff; }
     .svc-card-white { border: 1px solid #e0e0e0; transition: border-color 0.25s; }
     .svc-card-white:hover { border-color: #000; }
 
@@ -90,7 +90,7 @@
     /* NAV DROPDOWN */
     .nav-link{color:#fff;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;font-family:'Poppins',sans-serif;transition:opacity 0.2s;white-space:nowrap;}
     .nav-link:hover,.nav-link.active{opacity:0.65;}
-    .mega-col-hd{font-size:0.55rem;letter-spacing:0.22em;text-transform:uppercase;color:#888;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #222;}
+    .mega-col-hd{font-size:0.55rem;letter-spacing:0.22em;text-transform:uppercase;color:#fff;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #222;}
     .mega-link{color:#fff;font-size:0.875rem;text-decoration:none;font-family:'Poppins',sans-serif;padding:0.3rem 0;transition:opacity 0.2s;display:block;}
     .mega-link:hover{opacity:0.6;}
     .drop-link{color:#fff;font-size:0.875rem;text-decoration:none;font-family:'Poppins',sans-serif;padding:0.75rem 1.25rem;display:block;transition:background 0.15s;white-space:nowrap;}
@@ -100,6 +100,16 @@
     .nav-item.open .mega-panel{display:block;}
     .dropdown-panel{display:none;position:absolute;top:calc(100% + 0.4rem);left:50%;transform:translateX(-50%);background:#000;border:1px solid #222;min-width:220px;z-index:998;padding:0.5rem 0;}
     .nav-item.open .dropdown-panel{display:block;}
+
+    /* White background sections: force dark text */
+    [style*="background:#fff"] h1,[style*="background:#fff"] h2,[style*="background:#fff"] h3,
+    [style*="background:#fff"] h4,[style*="background:#fff"] p,[style*="background:#fff"] span,
+    [style*="background:#fff"] li,[style*="background:#fff"] label,[style*="background:#fff"] div {
+      color: #111 !important;
+    }
+    [style*="background:#fff"] a:not([style*="background:#000"]):not([style*="background: #000"]):not(.btn-primary):not(.btn-outline) {
+      color: #111 !important;
+    }
   </style>
 </head>
 <body style="background:#000;">
@@ -109,7 +119,7 @@
     <div style="max-width:1280px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;position:relative;">
       <a href="/" style="text-decoration:none;z-index:101;">
         <div class="serif" style="color:#fff;font-size:1.1rem;letter-spacing:0.04em;">Mystudionet</div>
-        <div style="font-size:0.6rem;letter-spacing:0.22em;text-transform:uppercase;color:#555;margin-top:1px;">Productions</div>
+        <div style="font-size:0.6rem;letter-spacing:0.22em;text-transform:uppercase;color:#fff;margin-top:1px;">Productions</div>
       </a>
       <div id="desk-nav" style="display:flex;align-items:center;gap:2rem;">
 
@@ -118,7 +128,7 @@
           <div class="mega-panel">
             <div style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr 1fr;gap:3rem;">
               <div>
-                <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#888;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #333;">Type of Video</div>
+                <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#fff;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #333;">Type of Video</div>
                 <div style="display:flex;flex-direction:column;gap:0.3rem;">
                   <a href="/work/video-ad.html" class="mega-link">Video Ad</a>
                   <a href="/work/product-video.html" class="mega-link">Product Video</a>
@@ -139,7 +149,7 @@
                 </div>
               </div>
               <div>
-                <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#888;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #333;">By Industry</div>
+                <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#fff;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #333;">By Industry</div>
                 <div style="display:flex;flex-direction:column;gap:0.3rem;">
                   <a href="/industry/software-tech.html" class="mega-link">Software &amp; Tech</a>
                   <a href="/industry/education.html" class="mega-link">Education</a>
@@ -158,7 +168,7 @@
                 </div>
               </div>
               <div>
-                <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#888;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #333;">By Location</div>
+                <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#fff;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #333;">By Location</div>
                 <div style="display:flex;flex-direction:column;gap:0.3rem;">
                   <a href="/location/long-island.html" class="mega-link">Long Island</a>
                   <a href="/location/nyc.html" class="mega-link">New York City</a>
@@ -203,70 +213,70 @@
       <div style="display:flex;align-items:center;justify-content:space-between;padding:1.2rem 1.5rem;border-bottom:1px solid #111;flex-shrink:0;">
         <a href="/" style="text-decoration:none;">
           <div style="font-family:'Playfair Display',serif;color:#fff;font-size:1.05rem;letter-spacing:0.04em;">Mystudionet</div>
-          <div style="font-size:0.52rem;letter-spacing:0.22em;text-transform:uppercase;color:#555;">Productions</div>
+          <div style="font-size:0.52rem;letter-spacing:0.22em;text-transform:uppercase;color:#fff;">Productions</div>
         </a>
         <button onclick="toggleMob()" aria-label="Close menu" style="background:none;border:none;color:#fff;cursor:pointer;font-size:1.5rem;line-height:1;padding:0.4rem 0.6rem;display:flex;align-items:center;justify-content:center;">✕</button>
       </div>
       <div style="flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;">
         <div style="border-bottom:1px solid #111;">
-          <button onclick="mobToggle(this)" style="width:100%;display:flex;justify-content:space-between;align-items:center;background:none;border:none;color:#fff;font-size:1.25rem;font-weight:500;font-family:'Poppins',sans-serif;padding:1rem 1.5rem;cursor:pointer;text-align:left;letter-spacing:0.01em;">Work <span class="mob-arr" style="color:#555;font-size:1.1rem;font-weight:300;transition:transform 0.2s;">+</span></button>
+          <button onclick="mobToggle(this)" style="width:100%;display:flex;justify-content:space-between;align-items:center;background:none;border:none;color:#fff;font-size:1.25rem;font-weight:500;font-family:'Poppins',sans-serif;padding:1rem 1.5rem;cursor:pointer;text-align:left;letter-spacing:0.01em;">Work <span class="mob-arr" style="color:#fff;font-size:1.1rem;font-weight:300;transition:transform 0.2s;">+</span></button>
           <div class="mob-sub" style="display:none;padding:0 1.5rem 1.25rem;">
-            <div style="font-size:0.52rem;letter-spacing:0.2em;text-transform:uppercase;color:#555;padding:0.25rem 0 0.6rem;">Type of Video</div>
-            <a href="/work/video-ad.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Video Ad</a>
-            <a href="/work/product-video.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Product Video</a>
-            <a href="/work/about-us-video.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">About Us Video</a>
-            <a href="/work/testimonial-video.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Testimonial Video</a>
-            <a href="/work/event-video.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Event Video</a>
-            <a href="/work/explainer-video.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Explainer Video</a>
-            <a href="/work/tutorial-video.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Tutorial Video</a>
-            <a href="/work/team-video.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Team Video</a>
-            <a href="/work/ai-video.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">AI Video</a>
-            <a href="/work/brand-film.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Brand Film</a>
-            <a href="/work/tv-commercial.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">TV Commercial</a>
-            <a href="/work/real-estate-video.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Real Estate Video</a>
-            <a href="/work/wedding-film.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Wedding Film</a>
-            <a href="/work/social-media-reels.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Social Media / Reels</a>
-            <a href="/work/drone-video.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Drone Video</a>
-            <a href="/work/crowdfunding-video.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">Crowdfunding Video</a>
-            <div style="font-size:0.52rem;letter-spacing:0.2em;text-transform:uppercase;color:#555;padding:0.9rem 0 0.6rem;margin-top:0.5rem;">By Industry</div>
-            <a href="/industry/software-tech.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Software &amp; Tech</a>
-            <a href="/industry/education.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Education</a>
-            <a href="/industry/retail-ecommerce.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Retail &amp; E-commerce</a>
-            <a href="/industry/beauty-fashion.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Beauty &amp; Fashion</a>
-            <a href="/industry/health-fitness.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Health &amp; Fitness</a>
-            <a href="/industry/food-restaurant.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Food &amp; Restaurant</a>
-            <a href="/industry/professional-services.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Professional Services</a>
-            <a href="/industry/home-garden.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Home &amp; Garden</a>
-            <a href="/industry/medical-biotech.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Medical &amp; Biotech</a>
-            <a href="/industry/travel-hospitality.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Travel &amp; Hospitality</a>
-            <a href="/industry/real-estate.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Real Estate</a>
-            <a href="/industry/media-entertainment.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Media &amp; Entertainment</a>
-            <a href="/industry/automotive.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Automotive</a>
-            <a href="/industry/nonprofit.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">Nonprofit</a>
-            <div style="font-size:0.52rem;letter-spacing:0.2em;text-transform:uppercase;color:#555;padding:0.9rem 0 0.6rem;margin-top:0.5rem;">By Location</div>
-            <a href="/location/long-island.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Long Island</a>
-            <a href="/location/nyc.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">New York City</a>
-            <a href="/location/hamptons.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">The Hamptons</a>
-            <a href="/location/nassau-county.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Nassau County</a>
-            <a href="/location/suffolk-county.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Suffolk County</a>
-            <a href="/location/new-jersey.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">New Jersey</a>
+            <div style="font-size:0.52rem;letter-spacing:0.2em;text-transform:uppercase;color:#fff;padding:0.25rem 0 0.6rem;">Type of Video</div>
+            <a href="/work/video-ad.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Video Ad</a>
+            <a href="/work/product-video.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Product Video</a>
+            <a href="/work/about-us-video.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">About Us Video</a>
+            <a href="/work/testimonial-video.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Testimonial Video</a>
+            <a href="/work/event-video.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Event Video</a>
+            <a href="/work/explainer-video.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Explainer Video</a>
+            <a href="/work/tutorial-video.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Tutorial Video</a>
+            <a href="/work/team-video.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Team Video</a>
+            <a href="/work/ai-video.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">AI Video</a>
+            <a href="/work/brand-film.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Brand Film</a>
+            <a href="/work/tv-commercial.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">TV Commercial</a>
+            <a href="/work/real-estate-video.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Real Estate Video</a>
+            <a href="/work/wedding-film.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Wedding Film</a>
+            <a href="/work/social-media-reels.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Social Media / Reels</a>
+            <a href="/work/drone-video.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Drone Video</a>
+            <a href="/work/crowdfunding-video.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">Crowdfunding Video</a>
+            <div style="font-size:0.52rem;letter-spacing:0.2em;text-transform:uppercase;color:#fff;padding:0.9rem 0 0.6rem;margin-top:0.5rem;">By Industry</div>
+            <a href="/industry/software-tech.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Software &amp; Tech</a>
+            <a href="/industry/education.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Education</a>
+            <a href="/industry/retail-ecommerce.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Retail &amp; E-commerce</a>
+            <a href="/industry/beauty-fashion.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Beauty &amp; Fashion</a>
+            <a href="/industry/health-fitness.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Health &amp; Fitness</a>
+            <a href="/industry/food-restaurant.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Food &amp; Restaurant</a>
+            <a href="/industry/professional-services.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Professional Services</a>
+            <a href="/industry/home-garden.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Home &amp; Garden</a>
+            <a href="/industry/medical-biotech.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Medical &amp; Biotech</a>
+            <a href="/industry/travel-hospitality.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Travel &amp; Hospitality</a>
+            <a href="/industry/real-estate.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Real Estate</a>
+            <a href="/industry/media-entertainment.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Media &amp; Entertainment</a>
+            <a href="/industry/automotive.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Automotive</a>
+            <a href="/industry/nonprofit.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">Nonprofit</a>
+            <div style="font-size:0.52rem;letter-spacing:0.2em;text-transform:uppercase;color:#fff;padding:0.9rem 0 0.6rem;margin-top:0.5rem;">By Location</div>
+            <a href="/location/long-island.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Long Island</a>
+            <a href="/location/nyc.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">New York City</a>
+            <a href="/location/hamptons.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">The Hamptons</a>
+            <a href="/location/nassau-county.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Nassau County</a>
+            <a href="/location/suffolk-county.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Suffolk County</a>
+            <a href="/location/new-jersey.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">New Jersey</a>
           </div>
         </div>
         <div style="border-bottom:1px solid #111;">
-          <button onclick="mobToggle(this)" style="width:100%;display:flex;justify-content:space-between;align-items:center;background:none;border:none;color:#fff;font-size:1.25rem;font-weight:500;font-family:'Poppins',sans-serif;padding:1rem 1.5rem;cursor:pointer;text-align:left;letter-spacing:0.01em;">Services <span class="mob-arr" style="color:#555;font-size:1.1rem;font-weight:300;">+</span></button>
+          <button onclick="mobToggle(this)" style="width:100%;display:flex;justify-content:space-between;align-items:center;background:none;border:none;color:#fff;font-size:1.25rem;font-weight:500;font-family:'Poppins',sans-serif;padding:1rem 1.5rem;cursor:pointer;text-align:left;letter-spacing:0.01em;">Services <span class="mob-arr" style="color:#fff;font-size:1.1rem;font-weight:300;">+</span></button>
           <div class="mob-sub" style="display:none;padding:0 1.5rem 1.25rem;">
-            <a href="/services/ai-production.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">AI-Powered Production</a>
-            <a href="/services/brand-commercial.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Brand &amp; Commercial</a>
-            <a href="/services/social-media.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Social Media Video</a>
-            <a href="/services/wedding-films.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">Wedding Films</a>
+            <a href="/services/ai-production.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">AI-Powered Production</a>
+            <a href="/services/brand-commercial.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Brand &amp; Commercial</a>
+            <a href="/services/social-media.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Social Media Video</a>
+            <a href="/services/wedding-films.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">Wedding Films</a>
           </div>
         </div>
         <div style="border-bottom:1px solid #111;">
-          <button onclick="mobToggle(this)" style="width:100%;display:flex;justify-content:space-between;align-items:center;background:none;border:none;color:#fff;font-size:1.25rem;font-weight:500;font-family:'Poppins',sans-serif;padding:1rem 1.5rem;cursor:pointer;text-align:left;letter-spacing:0.01em;">Marketing <span class="mob-arr" style="color:#555;font-size:1.1rem;font-weight:300;">+</span></button>
+          <button onclick="mobToggle(this)" style="width:100%;display:flex;justify-content:space-between;align-items:center;background:none;border:none;color:#fff;font-size:1.25rem;font-weight:500;font-family:'Poppins',sans-serif;padding:1rem 1.5rem;cursor:pointer;text-align:left;letter-spacing:0.01em;">Marketing <span class="mob-arr" style="color:#fff;font-size:1.1rem;font-weight:300;">+</span></button>
           <div class="mob-sub" style="display:none;padding:0 1.5rem 1.25rem;">
-            <a href="/marketing/meta-ads.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Meta Ads Management</a>
-            <a href="/marketing/google-ads.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Google Ads Management</a>
-            <a href="/marketing/youtube-ads.html" style="display:block;color:#ccc;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">YouTube Ad Management</a>
+            <a href="/marketing/meta-ads.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Meta Ads Management</a>
+            <a href="/marketing/google-ads.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Google Ads Management</a>
+            <a href="/marketing/youtube-ads.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">YouTube Ad Management</a>
           </div>
         </div>
         <a href="/about.html" style="display:block;color:#fff;font-size:1.25rem;font-weight:500;font-family:'Poppins',sans-serif;padding:1rem 1.5rem;text-decoration:none;border-bottom:1px solid #111;letter-spacing:0.01em;">About</a>
@@ -291,10 +301,10 @@
       <div class="label reveal" style="margin-bottom:2rem;">Long Island · New York · Est. 2005</div>
 
       <h1 class="serif reveal" style="font-size:clamp(2.8rem,7vw,6rem); line-height:1.06; color:#fff; margin-bottom:2rem;">
-        Video Production<br>Powered by AI.<br><em style="color:#ccc;">Driven by Story.</em>
+        Video Production<br>Powered by AI.<br><em style="color:#fff;">Driven by Story.</em>
       </h1>
 
-      <p class="reveal" style="color:#777; font-size:1.1rem; line-height:1.75; max-width:560px; margin:0 auto 3rem; font-weight:300;">
+      <p class="reveal" style="color:#fff; font-size:1.1rem; line-height:1.75; max-width:560px; margin:0 auto 3rem; font-weight:300;">
         We combine 20+ years of cinematic expertise with cutting-edge AI tools to deliver brand films, commercials, and wedding films that perform.
       </p>
 
@@ -316,7 +326,7 @@
     <div style="max-width:1280px; margin:0 auto;">
 
       <div class="reveal" style="margin-bottom:4rem;">
-        <div class="label" style="color:#aaa; margin-bottom:1rem;">What We Do</div>
+        <div class="label" style="color:#fff; margin-bottom:1rem;">What We Do</div>
         <h2 class="serif" style="font-size:clamp(2rem,4vw,3.5rem); color:#000;">Our Services</h2>
       </div>
 
@@ -325,28 +335,28 @@
         <a href="services.html#ai" class="svc-card-white reveal" style="padding:3rem 2.5rem; display:block; text-decoration:none; background:#fff;">
           <div style="font-size:1.5rem; color:#000; margin-bottom:1.5rem;">✦</div>
           <h3 class="serif" style="font-size:1.5rem; color:#000; margin-bottom:1rem;">AI-Powered Production</h3>
-          <p style="color:#666; font-size:0.9rem; line-height:1.7; margin-bottom:1.5rem;">Generative AI tools accelerate every stage — concept, storyboard, scene creation, and post. Cinematic quality, faster delivery, lower cost.</p>
+          <p style="color:#fff; font-size:0.9rem; line-height:1.7; margin-bottom:1.5rem;">Generative AI tools accelerate every stage — concept, storyboard, scene creation, and post. Cinematic quality, faster delivery, lower cost.</p>
           <span style="font-size:0.65rem; letter-spacing:0.18em; text-transform:uppercase; color:#000;">Learn More →</span>
         </a>
 
         <a href="services.html#brand" class="svc-card-white reveal" style="padding:3rem 2.5rem; display:block; text-decoration:none; background:#fff; border-left:1px solid #e0e0e0;">
           <div style="font-size:1.5rem; color:#000; margin-bottom:1.5rem;">◈</div>
           <h3 class="serif" style="font-size:1.5rem; color:#000; margin-bottom:1rem;">Brand & Commercial Video</h3>
-          <p style="color:#666; font-size:0.9rem; line-height:1.7; margin-bottom:1.5rem;">Brand films, TV commercials, product videos, and corporate content that communicates your value and drives results.</p>
+          <p style="color:#fff; font-size:0.9rem; line-height:1.7; margin-bottom:1.5rem;">Brand films, TV commercials, product videos, and corporate content that communicates your value and drives results.</p>
           <span style="font-size:0.65rem; letter-spacing:0.18em; text-transform:uppercase; color:#000;">Learn More →</span>
         </a>
 
         <a href="services.html#social" class="svc-card-white reveal" style="padding:3rem 2.5rem; display:block; text-decoration:none; background:#fff; border-left:1px solid #e0e0e0;">
           <div style="font-size:1.5rem; color:#000; margin-bottom:1.5rem;">◎</div>
           <h3 class="serif" style="font-size:1.5rem; color:#000; margin-bottom:1rem;">Social Media Video</h3>
-          <p style="color:#666; font-size:0.9rem; line-height:1.7; margin-bottom:1.5rem;">Platform-native Reels, TikToks, and YouTube content engineered for engagement and algorithmic reach.</p>
+          <p style="color:#fff; font-size:0.9rem; line-height:1.7; margin-bottom:1.5rem;">Platform-native Reels, TikToks, and YouTube content engineered for engagement and algorithmic reach.</p>
           <span style="font-size:0.65rem; letter-spacing:0.18em; text-transform:uppercase; color:#000;">Learn More →</span>
         </a>
 
         <a href="services.html#wedding" class="svc-card-white reveal" style="padding:3rem 2.5rem; display:block; text-decoration:none; background:#fff; border-left:1px solid #e0e0e0;">
           <div style="font-size:1.5rem; color:#000; margin-bottom:1.5rem;">◇</div>
           <h3 class="serif" style="font-size:1.5rem; color:#000; margin-bottom:1rem;">Wedding Films</h3>
-          <p style="color:#666; font-size:0.9rem; line-height:1.7; margin-bottom:1.5rem;">Cinematic wedding films for Long Island brides. 300+ weddings. Starting at $2,400.</p>
+          <p style="color:#fff; font-size:0.9rem; line-height:1.7; margin-bottom:1.5rem;">Cinematic wedding films for Long Island brides. 300+ weddings. Starting at $2,400.</p>
           <span style="font-size:0.65rem; letter-spacing:0.18em; text-transform:uppercase; color:#000;">Learn More →</span>
         </a>
 
@@ -380,9 +390,9 @@
             </div>
           </div>
           <div style="padding:1.5rem 0;">
-            <div class="label" style="color:#555; margin-bottom:0.5rem;">AI-Powered Production</div>
+            <div class="label" style="color:#fff; margin-bottom:0.5rem;">AI-Powered Production</div>
             <h3 class="serif" style="color:#fff; font-size:1.3rem;">Project Title Here</h3>
-            <p style="color:#555; font-size:0.8rem; margin-top:0.25rem;">Client · Long Island, NY</p>
+            <p style="color:#fff; font-size:0.8rem; margin-top:0.25rem;">Client · Long Island, NY</p>
           </div>
         </div>
 
@@ -397,7 +407,7 @@
             </div>
           </div>
           <div style="padding:1rem 0;">
-            <div class="label" style="color:#555; margin-bottom:0.3rem;">Brand & Commercial</div>
+            <div class="label" style="color:#fff; margin-bottom:0.3rem;">Brand & Commercial</div>
             <h3 class="serif" style="color:#fff; font-size:1.1rem;">Project Title Here</h3>
           </div>
         </div>
@@ -413,7 +423,7 @@
             </div>
           </div>
           <div style="padding:1rem 0;">
-            <div class="label" style="color:#555; margin-bottom:0.3rem;">Wedding Films</div>
+            <div class="label" style="color:#fff; margin-bottom:0.3rem;">Wedding Films</div>
             <h3 class="serif" style="color:#fff; font-size:1.1rem;">Yeliz & Zafer</h3>
           </div>
         </div>
@@ -433,7 +443,7 @@
     <div style="max-width:1280px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:6rem; align-items:center;">
 
       <div class="reveal">
-        <div class="label" style="color:#aaa; margin-bottom:1.5rem;">The Difference</div>
+        <div class="label" style="color:#fff; margin-bottom:1.5rem;">The Difference</div>
         <h2 class="serif" style="font-size:clamp(2rem,4vw,3rem); color:#000; line-height:1.15; margin-bottom:2.5rem;">
           Why AI-Powered<br>Production Changes<br><em>Everything</em>
         </h2>
@@ -442,28 +452,28 @@
             <span style="color:#000; flex-shrink:0; margin-top:2px;">→</span>
             <div>
               <p style="color:#000; font-size:0.9rem; font-weight:500; margin-bottom:0.3rem;">Faster Turnaround</p>
-              <p style="color:#777; font-size:0.85rem; line-height:1.6;">AI pre-production cuts planning time by 60%. Concepts, storyboards, scripts in days.</p>
+              <p style="color:#fff; font-size:0.85rem; line-height:1.6;">AI pre-production cuts planning time by 60%. Concepts, storyboards, scripts in days.</p>
             </div>
           </div>
           <div style="display:flex; gap:1.5rem; padding:1.5rem 0; border-bottom:1px solid #e8e8e8;">
             <span style="color:#000; flex-shrink:0; margin-top:2px;">→</span>
             <div>
               <p style="color:#000; font-size:0.9rem; font-weight:500; margin-bottom:0.3rem;">Lower Cost, Higher Quality</p>
-              <p style="color:#777; font-size:0.85rem; line-height:1.6;">AI eliminates traditional bottlenecks. Cinematic quality at budgets that were impossible before.</p>
+              <p style="color:#fff; font-size:0.85rem; line-height:1.6;">AI eliminates traditional bottlenecks. Cinematic quality at budgets that were impossible before.</p>
             </div>
           </div>
           <div style="display:flex; gap:1.5rem; padding:1.5rem 0; border-bottom:1px solid #e8e8e8;">
             <span style="color:#000; flex-shrink:0; margin-top:2px;">→</span>
             <div>
               <p style="color:#000; font-size:0.9rem; font-weight:500; margin-bottom:0.3rem;">Unlimited Creative Range</p>
-              <p style="color:#777; font-size:0.85rem; line-height:1.6;">Photorealistic environments, stylized visuals — AI expands what's possible on any budget.</p>
+              <p style="color:#fff; font-size:0.85rem; line-height:1.6;">Photorealistic environments, stylized visuals — AI expands what's possible on any budget.</p>
             </div>
           </div>
           <div style="display:flex; gap:1.5rem; padding:1.5rem 0;">
             <span style="color:#000; flex-shrink:0; margin-top:2px;">→</span>
             <div>
               <p style="color:#000; font-size:0.9rem; font-weight:500; margin-bottom:0.3rem;">Human Direction, Always</p>
-              <p style="color:#777; font-size:0.85rem; line-height:1.6;">AI is the tool. Kursad Yonet is the director. Every frame intentional, every story human.</p>
+              <p style="color:#fff; font-size:0.85rem; line-height:1.6;">AI is the tool. Kursad Yonet is the director. Every frame intentional, every story human.</p>
             </div>
           </div>
         </div>
@@ -473,7 +483,7 @@
       </div>
 
       <div class="reveal">
-        <div style="background:#f2f2f2; aspect-ratio:1/1; display:flex; align-items:center; justify-content:center; color:#ccc; font-size:0.7rem; letter-spacing:0.1em; text-transform:uppercase; text-align:center; padding:2rem;">
+        <div style="background:#f2f2f2; aspect-ratio:1/1; display:flex; align-items:center; justify-content:center; color:#fff; font-size:0.7rem; letter-spacing:0.1em; text-transform:uppercase; text-align:center; padding:2rem;">
           [ AI Process Visual or Showreel ]
         </div>
       </div>
@@ -487,19 +497,19 @@
     <div style="max-width:1000px; margin:0 auto; display:grid; grid-template-columns:repeat(4,1fr); gap:2rem; text-align:center;">
       <div class="reveal">
         <div class="serif" style="font-size:3rem; color:#fff; margin-bottom:0.5rem;">300+</div>
-        <div class="label" style="color:#555;">Projects Completed</div>
+        <div class="label" style="color:#fff;">Projects Completed</div>
       </div>
       <div class="reveal">
         <div class="serif" style="font-size:3rem; color:#fff; margin-bottom:0.5rem;">20+</div>
-        <div class="label" style="color:#555;">Years of Experience</div>
+        <div class="label" style="color:#fff;">Years of Experience</div>
       </div>
       <div class="reveal">
         <div class="serif" style="font-size:3rem; color:#fff; margin-bottom:0.5rem;">4K</div>
-        <div class="label" style="color:#555;">Cinematic Quality</div>
+        <div class="label" style="color:#fff;">Cinematic Quality</div>
       </div>
       <div class="reveal">
         <div class="serif" style="font-size:3rem; color:#fff; margin-bottom:0.5rem;">AI</div>
-        <div class="label" style="color:#555;">Powered Studio</div>
+        <div class="label" style="color:#fff;">Powered Studio</div>
       </div>
     </div>
   </section>
@@ -509,7 +519,7 @@
   <section style="background:#fff; padding:7rem 1.5rem;">
     <div style="max-width:1000px; margin:0 auto;">
       <div class="reveal" style="text-align:center; margin-bottom:4rem;">
-        <div class="label" style="color:#aaa; margin-bottom:1rem;">Client Stories</div>
+        <div class="label" style="color:#fff; margin-bottom:1rem;">Client Stories</div>
         <h2 class="serif" style="font-size:clamp(2rem,4vw,3rem); color:#000;">What Clients Say</h2>
       </div>
       <div style="display:grid; grid-template-columns:1fr 1fr; gap:2px; background:#e0e0e0;">
@@ -520,7 +530,7 @@
           </blockquote>
           <div>
             <p style="color:#000; font-size:0.85rem; font-weight:500;">Bahadır Cantürk</p>
-            <p style="color:#aaa; font-size:0.75rem; margin-top:0.2rem;">Google Review</p>
+            <p style="color:#fff; font-size:0.75rem; margin-top:0.2rem;">Google Review</p>
           </div>
         </div>
         <div class="reveal" style="background:#fff; padding:3rem 2.5rem;">
@@ -530,7 +540,7 @@
           </blockquote>
           <div>
             <p style="color:#000; font-size:0.85rem; font-weight:500;">Merve Yoruk</p>
-            <p style="color:#aaa; font-size:0.75rem; margin-top:0.2rem;">Google Review</p>
+            <p style="color:#fff; font-size:0.75rem; margin-top:0.2rem;">Google Review</p>
           </div>
         </div>
       </div>
@@ -545,7 +555,7 @@
       <h2 class="serif" style="font-size:clamp(2.5rem,5vw,4rem); color:#fff; line-height:1.15; margin-bottom:2rem;">
         Ready to Make<br>Something Extraordinary?
       </h2>
-      <p style="color:#666; margin-bottom:3rem; font-size:1rem; line-height:1.7;">Tell us about your project. We'll respond within 24 hours.</p>
+      <p style="color:#fff; margin-bottom:3rem; font-size:1rem; line-height:1.7;">Tell us about your project. We'll respond within 24 hours.</p>
       <a href="contact.html" class="btn-primary">Book a Discovery Call</a>
     </div>
   </section>
@@ -556,12 +566,12 @@
     <div style="max-width:1280px; margin:0 auto; display:grid; grid-template-columns:1fr auto 1fr; align-items:center; gap:2rem;">
       <div>
         <div class="serif" style="color:#fff; font-size:1rem; letter-spacing:0.04em;">Mystudionet</div>
-        <div class="label" style="color:#444; margin-top:2px;">Productions</div>
+        <div class="label" style="color:#fff; margin-top:2px;">Productions</div>
       </div>
-      <p style="color:#444; font-size:0.7rem; text-align:center;">© 2025 Mystudionet Productions · Long Island, NY</p>
+      <p style="color:#fff; font-size:0.7rem; text-align:center;">© 2025 Mystudionet Productions · Long Island, NY</p>
       <div style="text-align:right;">
-        <a href="tel:+16313555588" style="color:#444; font-size:0.75rem; text-decoration:none; display:block;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#444'">(631) 355-5588</a>
-        <a href="mailto:hello@mystudionet.com" style="color:#444; font-size:0.75rem; text-decoration:none; display:block; margin-top:0.25rem;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#444'">hello@mystudionet.com</a>
+        <a href="tel:+16313555588" style="color:#fff; font-size:0.75rem; text-decoration:none; display:block;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">(631) 355-5588</a>
+        <a href="mailto:hello@mystudionet.com" style="color:#fff; font-size:0.75rem; text-decoration:none; display:block; margin-top:0.25rem;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">hello@mystudionet.com</a>
       </div>
     </div>
   </footer>
