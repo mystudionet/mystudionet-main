@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Kursad Yonet | Mystudionet Productions — Long Island Filmmaker</title>
+  <meta name="description" content="Meet Kursad Yonet — filmmaker, founder of Mystudionet Productions, and Long Island's leading AI-powered video production director with 20+ years of experience.">
+  <link rel="canonical" href="https://mystudionet.com/about.html">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: { ink:'#08080A', panel:'#111114', border:'#2A2A30', gold:'#C9A96E', muted:'#7A7A82', light:'#F0EFE9' }, fontFamily: { serif:['Playfair Display','Georgia','serif'], sans:['Inter','system-ui','sans-serif'] } } }
+    }
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; } html { scroll-behavior: smooth; }
+    body { background:#08080A; color:#F0EFE9; font-family:'Inter',sans-serif; -webkit-font-smoothing:antialiased; }
+    #nav { transition:background 0.4s,border-color 0.4s; }
+    #nav.scrolled { background:rgba(8,8,10,0.97); border-bottom:1px solid #2A2A30; backdrop-filter:blur(12px); }
+    .gold-line { width:48px; height:1px; background:linear-gradient(90deg,transparent,#C9A96E,transparent); }
+    .btn-gold { display:inline-block; background:linear-gradient(135deg,#C9A96E,#A8833F); color:#08080A; font-weight:600; font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; padding:0.85rem 2rem; text-decoration:none; transition:opacity 0.25s,transform 0.25s; }
+    .btn-gold:hover { opacity:0.88; transform:translateY(-2px); }
+    .reveal { opacity:0; transform:translateY(18px); transition:opacity 0.6s ease,transform 0.6s ease; }
+    .reveal.visible { opacity:1; transform:translateY(0); }
+    ::-webkit-scrollbar { width:4px; } ::-webkit-scrollbar-track { background:#08080A; } ::-webkit-scrollbar-thumb { background:#C9A96E; }
+  </style>
+</head>
+<body class="bg-ink">
+
+  <!-- NAV -->
+  <nav id="nav" class="fixed top-0 left-0 right-0 z-50 px-6 py-5">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <a href="/" class="leading-tight no-underline">
+        <div class="font-serif text-light text-lg tracking-wide">Mystudionet</div>
+        <div class="text-muted text-[0.55rem] uppercase tracking-[0.25em]">Productions</div>
+      </a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="work.html" class="text-muted hover:text-light text-xs uppercase tracking-widest transition-colors">Work</a>
+        <a href="services.html" class="text-muted hover:text-light text-xs uppercase tracking-widest transition-colors">Services</a>
+        <a href="about.html" class="text-gold text-xs uppercase tracking-widest">About</a>
+        <a href="contact.html" class="text-muted hover:text-light text-xs uppercase tracking-widest transition-colors">Contact</a>
+        <a href="contact.html" class="btn-gold" style="padding:0.55rem 1.25rem;font-size:0.65rem;">Start a Project</a>
+      </div>
+      <button class="md:hidden text-light" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+        <svg width="22" height="16" viewBox="0 0 22 16" fill="none"><rect y="0" width="22" height="1.5" fill="currentColor"/><rect y="7" width="22" height="1.5" fill="currentColor"/><rect y="14" width="22" height="1.5" fill="currentColor"/></svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden mt-6 pb-4 border-t border-border pt-6 flex flex-col gap-4 px-2">
+      <a href="work.html" class="text-muted text-sm uppercase tracking-widest">Work</a>
+      <a href="services.html" class="text-muted text-sm uppercase tracking-widest">Services</a>
+      <a href="about.html" class="text-gold text-sm uppercase tracking-widest">About</a>
+      <a href="contact.html" class="text-muted text-sm uppercase tracking-widest">Contact</a>
+      <a href="contact.html" class="btn-gold inline-block w-fit mt-2">Start a Project</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="pt-36 pb-20 px-6 bg-ink">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      <div class="reveal">
+        <p class="text-gold uppercase tracking-[0.25em] text-xs font-medium mb-4">The Filmmaker</p>
+        <h1 class="font-serif text-5xl md:text-6xl text-light leading-tight mb-6">Kursad<br>Yonet</h1>
+        <div class="gold-line mb-8"></div>
+        <p class="text-muted text-lg leading-relaxed mb-6">I'm the founder and director behind Mystudionet Productions. For over 20 years, I've been telling stories through a lens — first with traditional cinema techniques, now with the most advanced AI filmmaking tools available anywhere.</p>
+        <p class="text-muted leading-relaxed mb-6">Based on Long Island, I've filmed 300+ projects across Suffolk County, Nassau County, the Hamptons, and New Jersey — from intimate wedding films to large-scale brand productions.</p>
+        <p class="text-muted leading-relaxed mb-10">What drives me: the belief that every brand, every couple, every business has a story that deserves to be told beautifully. AI gives us the tools to tell it smarter. The human eye still decides what matters.</p>
+        <a href="contact.html" class="btn-gold">Work With Me</a>
+      </div>
+      <div class="reveal">
+        <img src="kursad.jpg" alt="Kursad Yonet — Founder, Mystudionet Productions" class="w-full max-w-md mx-auto md:mx-0 object-cover shadow-2xl">
+      </div>
+    </div>
+  </section>
+
+  <!-- NUMBERS -->
+  <section class="py-16 px-6 bg-panel border-t border-b border-border">
+    <div class="max-w-5xl mx-auto">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div class="reveal">
+          <div class="font-serif text-4xl text-gold mb-2">300+</div>
+          <div class="text-muted text-xs uppercase tracking-widest">Projects</div>
+        </div>
+        <div class="reveal">
+          <div class="font-serif text-4xl text-gold mb-2">20+</div>
+          <div class="text-muted text-xs uppercase tracking-widest">Years Filming</div>
+        </div>
+        <div class="reveal">
+          <div class="font-serif text-4xl text-gold mb-2">4</div>
+          <div class="text-muted text-xs uppercase tracking-widest">Service Areas</div>
+        </div>
+        <div class="reveal">
+          <div class="font-serif text-4xl text-gold mb-2">AI</div>
+          <div class="text-muted text-xs uppercase tracking-widest">Powered Studio</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI PHILOSOPHY -->
+  <section class="py-24 px-6 bg-ink">
+    <div class="max-w-3xl mx-auto text-center">
+      <div class="reveal">
+        <p class="text-gold uppercase tracking-[0.25em] text-xs font-medium mb-6">My Approach</p>
+        <h2 class="font-serif text-4xl text-light mb-8">AI is a Tool.<br><em class="text-gold">Story is the Product.</em></h2>
+        <p class="text-muted leading-relaxed mb-6">When AI filmmaking tools emerged, I was one of the first filmmakers in the region to integrate them into professional production. Not as a gimmick — but because they genuinely make the work better.</p>
+        <p class="text-muted leading-relaxed mb-6">AI handles what was once the slow, expensive part: pre-visualization, scene generation, rapid iteration. I handle what AI can't: the instinct for the right moment, the understanding of emotion, the director's eye that makes a film feel human.</p>
+        <p class="text-muted leading-relaxed">The result is a studio that moves at the speed of a startup and delivers at the quality of a legacy production house — at a price that makes sense for Long Island businesses and couples.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="py-24 px-6 bg-panel border-t border-border">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16 reveal">
+        <p class="text-gold uppercase tracking-[0.25em] text-xs font-medium mb-4">How It Works</p>
+        <h2 class="font-serif text-4xl text-light">The Process</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="reveal text-center">
+          <div class="font-serif text-5xl text-border mb-4">01</div>
+          <h3 class="text-light font-medium mb-3">Discovery Call</h3>
+          <p class="text-muted text-sm leading-relaxed">We talk about your vision, your audience, your goals. 30 minutes, no commitment.</p>
+        </div>
+        <div class="reveal text-center">
+          <div class="font-serif text-5xl text-border mb-4">02</div>
+          <h3 class="text-light font-medium mb-3">AI Pre-Production</h3>
+          <p class="text-muted text-sm leading-relaxed">Concept, script, storyboard — developed with AI tools in days, not weeks.</p>
+        </div>
+        <div class="reveal text-center">
+          <div class="font-serif text-5xl text-border mb-4">03</div>
+          <h3 class="text-light font-medium mb-3">Production</h3>
+          <p class="text-muted text-sm leading-relaxed">Camera rolls, director's eye on every frame. Live action, AI-generated, or both.</p>
+        </div>
+        <div class="reveal text-center">
+          <div class="font-serif text-5xl text-border mb-4">04</div>
+          <h3 class="text-light font-medium mb-3">Delivery</h3>
+          <p class="text-muted text-sm leading-relaxed">4K master + all platform formats delivered. Ready to publish, broadcast, or share.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-24 px-6 bg-ink text-center">
+    <div class="max-w-xl mx-auto reveal">
+      <h2 class="font-serif text-4xl text-light mb-6">Let's Make<br><em class="text-gold">Something Together</em></h2>
+      <p class="text-muted mb-10">A 30-minute call is all it takes to get started.</p>
+      <a href="contact.html" class="btn-gold">Book a Discovery Call</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-10 px-6 bg-panel border-t border-border">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-6">
+      <div class="leading-tight">
+        <div class="font-serif text-light text-lg tracking-wide">Mystudionet</div>
+        <div class="text-muted text-[0.55rem] uppercase tracking-[0.25em]">Productions</div>
+      </div>
+      <p class="text-muted text-xs self-center">© 2025 Mystudionet Productions · Long Island, NY</p>
+      <a href="mailto:hello@mystudionet.com" class="text-muted text-xs hover:text-gold transition-colors self-center">hello@mystudionet.com</a>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', function() { document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60); });
+    const obs = new IntersectionObserver(function(entries) { entries.forEach(function(e) { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } }); }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(function(el) { obs.observe(el); });
+  </script>
+</body>
+</html>

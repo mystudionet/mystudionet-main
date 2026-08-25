@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Mystudionet Productions — Book a Discovery Call</title>
+  <meta name="description" content="Start your video project with Mystudionet Productions. Book a free discovery call with Kursad Yonet — Long Island's AI-powered video production director.">
+  <link rel="canonical" href="https://mystudionet.com/contact.html">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: { ink:'#08080A', panel:'#111114', border:'#2A2A30', gold:'#C9A96E', muted:'#7A7A82', light:'#F0EFE9' }, fontFamily: { serif:['Playfair Display','Georgia','serif'], sans:['Inter','system-ui','sans-serif'] } } }
+    }
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; } html { scroll-behavior: smooth; }
+    body { background:#08080A; color:#F0EFE9; font-family:'Inter',sans-serif; -webkit-font-smoothing:antialiased; }
+    #nav { transition:background 0.4s,border-color 0.4s; }
+    #nav.scrolled { background:rgba(8,8,10,0.97); border-bottom:1px solid #2A2A30; backdrop-filter:blur(12px); }
+    .gold-line { width:48px; height:1px; background:linear-gradient(90deg,transparent,#C9A96E,transparent); }
+    .field { width:100%; padding:0.85rem 1rem; background:#111114; border:1px solid #2A2A30; color:#F0EFE9; font-family:'Inter',sans-serif; font-size:0.875rem; transition:border-color 0.2s,box-shadow 0.2s; appearance:none; }
+    .field::placeholder { color:#4A4A52; }
+    .field:focus { outline:none; border-color:#C9A96E; box-shadow:0 0 0 3px rgba(201,169,110,0.1); }
+    .select-wrap { position:relative; }
+    .select-wrap::after { content:'▾'; position:absolute; right:1rem; top:50%; transform:translateY(-50%); color:#4A4A52; pointer-events:none; font-size:0.75rem; }
+    .btn-gold { display:inline-block; background:linear-gradient(135deg,#C9A96E,#A8833F); color:#08080A; font-weight:600; font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; padding:1rem 2.5rem; border:none; cursor:pointer; text-decoration:none; transition:opacity 0.25s,transform 0.25s; width:100%; text-align:center; }
+    .btn-gold:hover { opacity:0.88; transform:translateY(-2px); }
+    .btn-gold:disabled { opacity:0.5; cursor:not-allowed; transform:none; }
+    .reveal { opacity:0; transform:translateY(18px); transition:opacity 0.6s ease,transform 0.6s ease; }
+    .reveal.visible { opacity:1; transform:translateY(0); }
+    #success-msg { display:none; }
+    #success-msg.show { display:block; }
+    ::-webkit-scrollbar { width:4px; } ::-webkit-scrollbar-track { background:#08080A; } ::-webkit-scrollbar-thumb { background:#C9A96E; }
+  </style>
+</head>
+<body class="bg-ink">
+
+  <!-- NAV -->
+  <nav id="nav" class="fixed top-0 left-0 right-0 z-50 px-6 py-5">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <a href="/" class="leading-tight no-underline">
+        <div class="font-serif text-light text-lg tracking-wide">Mystudionet</div>
+        <div class="text-muted text-[0.55rem] uppercase tracking-[0.25em]">Productions</div>
+      </a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="work.html" class="text-muted hover:text-light text-xs uppercase tracking-widest transition-colors">Work</a>
+        <a href="services.html" class="text-muted hover:text-light text-xs uppercase tracking-widest transition-colors">Services</a>
+        <a href="about.html" class="text-muted hover:text-light text-xs uppercase tracking-widest transition-colors">About</a>
+        <a href="contact.html" class="text-gold text-xs uppercase tracking-widest">Contact</a>
+        <a href="contact.html" class="btn-gold" style="padding:0.55rem 1.25rem;font-size:0.65rem;width:auto;">Start a Project</a>
+      </div>
+      <button class="md:hidden text-light" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+        <svg width="22" height="16" viewBox="0 0 22 16" fill="none"><rect y="0" width="22" height="1.5" fill="currentColor"/><rect y="7" width="22" height="1.5" fill="currentColor"/><rect y="14" width="22" height="1.5" fill="currentColor"/></svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden mt-6 pb-4 border-t border-border pt-6 flex flex-col gap-4 px-2">
+      <a href="work.html" class="text-muted text-sm uppercase tracking-widest">Work</a>
+      <a href="services.html" class="text-muted text-sm uppercase tracking-widest">Services</a>
+      <a href="about.html" class="text-muted text-sm uppercase tracking-widest">About</a>
+      <a href="contact.html" class="text-gold text-sm uppercase tracking-widest">Contact</a>
+    </div>
+  </nav>
+
+  <!-- PAGE CONTENT -->
+  <section class="pt-36 pb-28 px-6 bg-ink">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20">
+
+      <!-- Left: Info -->
+      <div class="reveal">
+        <p class="text-gold uppercase tracking-[0.25em] text-xs font-medium mb-4">Get In Touch</p>
+        <h1 class="font-serif text-5xl text-light mb-6">Start a<br><em class="text-gold">Project</em></h1>
+        <div class="gold-line mb-10"></div>
+
+        <p class="text-muted leading-relaxed mb-10">Tell us about your project and we'll get back to you within 24 hours with ideas, availability, and a clear next step.</p>
+
+        <div class="space-y-6 mb-12">
+          <div class="flex gap-4 items-start">
+            <span class="text-gold mt-0.5">→</span>
+            <div>
+              <p class="text-light text-sm font-medium">Phone</p>
+              <a href="tel:+16313555588" class="text-muted text-sm hover:text-gold transition-colors">(631) 355-5588</a>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <span class="text-gold mt-0.5">→</span>
+            <div>
+              <p class="text-light text-sm font-medium">Email</p>
+              <a href="mailto:hello@mystudionet.com" class="text-muted text-sm hover:text-gold transition-colors">hello@mystudionet.com</a>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <span class="text-gold mt-0.5">→</span>
+            <div>
+              <p class="text-light text-sm font-medium">Service Areas</p>
+              <p class="text-muted text-sm">Suffolk County · Nassau County<br>The Hamptons · New Jersey</p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <span class="text-gold mt-0.5">→</span>
+            <div>
+              <p class="text-light text-sm font-medium">Response Time</p>
+              <p class="text-muted text-sm">Within 24 hours, always</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="border border-border p-6">
+          <p class="text-gold text-xs uppercase tracking-widest mb-3">Wedding Inquiries</p>
+          <p class="text-muted text-sm leading-relaxed mb-4">For wedding film packages and availability, visit our dedicated wedding page.</p>
+          <a href="https://wedding.mystudionet.com" class="text-gold text-xs uppercase tracking-widest hover:text-light transition-colors">Visit Wedding Site →</a>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="reveal">
+
+        <div id="success-msg" class="border border-border p-10 text-center mb-6">
+          <div class="font-serif text-gold text-3xl mb-3">✓</div>
+          <h3 class="font-serif text-xl text-light mb-2">Message Received</h3>
+          <p class="text-muted text-sm">Kursad will be in touch within 24 hours.</p>
+        </div>
+
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="space-y-4" novalidate>
+          <input type="hidden" name="access_key" value="2e7eb787-2842-4a24-830e-d1ebda82c1b1">
+          <input type="hidden" name="subject" value="New Project Inquiry — Mystudionet Productions">
+          <input type="hidden" name="from_name" value="Mystudionet Main Site">
+          <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1">
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs uppercase tracking-wider text-muted font-medium mb-2">Name *</label>
+              <input type="text" name="name" required placeholder="Your name" class="field">
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider text-muted font-medium mb-2">Email *</label>
+              <input type="email" name="email" required placeholder="your@email.com" class="field">
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-muted font-medium mb-2">Phone</label>
+            <input type="tel" name="phone" placeholder="(631) 000-0000" class="field">
+          </div>
+
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-muted font-medium mb-2">Service *</label>
+            <div class="select-wrap">
+              <select name="service" required class="field">
+                <option value="" disabled selected>Select a service</option>
+                <option>AI-Powered Production</option>
+                <option>Brand & Commercial Video</option>
+                <option>Social Media Video</option>
+                <option>Wedding Film</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-muted font-medium mb-2">Budget Range</label>
+            <div class="select-wrap">
+              <select name="budget" class="field">
+                <option value="" disabled selected>Approximate budget</option>
+                <option>Under $2,500</option>
+                <option>$2,500 – $5,000</option>
+                <option>$5,000 – $10,000</option>
+                <option>$10,000 – $25,000</option>
+                <option>$25,000+</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-muted font-medium mb-2">Project Details *</label>
+            <textarea name="message" required rows="5" placeholder="Tell us about your project — what you need, your timeline, and anything else we should know..." class="field resize-none"></textarea>
+          </div>
+
+          <button type="submit" id="submit-btn" class="btn-gold">Send Message</button>
+
+          <p class="text-muted text-xs text-center">We respect your privacy. Your information is never shared.</p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-10 px-6 bg-panel border-t border-border">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-6">
+      <div class="leading-tight">
+        <div class="font-serif text-light text-lg tracking-wide">Mystudionet</div>
+        <div class="text-muted text-[0.55rem] uppercase tracking-[0.25em]">Productions</div>
+      </div>
+      <p class="text-muted text-xs self-center">© 2025 Mystudionet Productions · Long Island, NY</p>
+      <a href="mailto:hello@mystudionet.com" class="text-muted text-xs hover:text-gold transition-colors self-center">hello@mystudionet.com</a>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', function() { document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60); });
+
+    document.getElementById('contact-form').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submit-btn');
+      btn.textContent = 'Sending...'; btn.disabled = true;
+      try {
+        const res = await fetch('https://api.web3forms.com/submit', { method:'POST', body:new FormData(this) });
+        const json = await res.json();
+        if (json.success) {
+          this.style.display = 'none';
+          document.getElementById('success-msg').classList.add('show');
+        } else { btn.textContent = 'Send Message'; btn.disabled = false; alert('Something went wrong. Please email us directly.'); }
+      } catch(err) { btn.textContent = 'Send Message'; btn.disabled = false; alert('Connection error. Please try again.'); }
+    });
+
+    const obs = new IntersectionObserver(function(entries) { entries.forEach(function(e) { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } }); }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(function(el) { obs.observe(el); });
+  </script>
+</body>
+</html>

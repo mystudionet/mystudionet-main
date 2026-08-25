@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Work | Mystudionet Productions — Long Island Video Production</title>
+  <meta name="description" content="Portfolio of brand films, commercials, social media video, and cinematic wedding films produced by Mystudionet Productions on Long Island, NY.">
+  <link rel="canonical" href="https://mystudionet.com/work.html">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#08080A', panel: '#111114', card: '#1A1A1F',
+            border: '#2A2A30', gold: '#C9A96E', muted: '#7A7A82', light: '#F0EFE9',
+          },
+          fontFamily: { serif: ['Playfair Display','Georgia','serif'], sans: ['Inter','system-ui','sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background: #08080A; color: #F0EFE9; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    #nav { transition: background 0.4s ease, border-color 0.4s ease; }
+    #nav.scrolled { background: rgba(8,8,10,0.97); border-bottom: 1px solid #2A2A30; backdrop-filter: blur(12px); }
+    .gold-line { width: 48px; height: 1px; background: linear-gradient(90deg, transparent, #C9A96E, transparent); }
+    .btn-gold { display:inline-block; background:linear-gradient(135deg,#C9A96E,#A8833F); color:#08080A; font-weight:600; font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; padding:0.85rem 2rem; text-decoration:none; transition:opacity 0.25s,transform 0.25s; }
+    .btn-gold:hover { opacity:0.88; transform:translateY(-2px); }
+    .btn-ghost { display:inline-block; border:1px solid #2A2A30; color:#F0EFE9; font-weight:500; font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; padding:0.85rem 2rem; text-decoration:none; transition:border-color 0.25s,color 0.25s; }
+    .btn-ghost:hover { border-color:#C9A96E; color:#C9A96E; }
+    .filter-btn { cursor:pointer; border:1px solid #2A2A30; color:#7A7A82; font-size:0.65rem; letter-spacing:0.15em; text-transform:uppercase; padding:0.5rem 1.25rem; transition:all 0.2s; background:none; }
+    .filter-btn.active, .filter-btn:hover { border-color:#C9A96E; color:#C9A96E; }
+    .work-card { overflow:hidden; transition:transform 0.3s; }
+    .work-overlay { opacity:0; transition:opacity 0.3s; background:rgba(0,0,0,0.55); }
+    .work-card:hover .work-overlay { opacity:1; }
+    .vid-placeholder { background:#1A1A1F; display:flex; align-items:center; justify-content:center; }
+    .reveal { opacity:0; transform:translateY(18px); transition:opacity 0.6s ease, transform 0.6s ease; }
+    .reveal.visible { opacity:1; transform:translateY(0); }
+    ::-webkit-scrollbar { width:4px; } ::-webkit-scrollbar-track { background:#08080A; } ::-webkit-scrollbar-thumb { background:#C9A96E; }
+
+    /* Modal */
+    #video-modal { display:none; }
+    #video-modal.open { display:flex; }
+    .modal-video-wrap { position:relative; padding-bottom:56.25%; width:100%; }
+    .modal-video-wrap iframe, .modal-video-wrap video { position:absolute; top:0; left:0; width:100%; height:100%; border:0; }
+  </style>
+</head>
+<body class="bg-ink">
+
+  <!-- NAV -->
+  <nav id="nav" class="fixed top-0 left-0 right-0 z-50 px-6 py-5">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <a href="/" class="leading-tight no-underline">
+        <div class="font-serif text-light text-lg tracking-wide">Mystudionet</div>
+        <div class="text-muted text-[0.55rem] uppercase tracking-[0.25em]">Productions</div>
+      </a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="work.html" class="text-gold text-xs uppercase tracking-widest">Work</a>
+        <a href="services.html" class="text-muted hover:text-light text-xs uppercase tracking-widest transition-colors">Services</a>
+        <a href="about.html" class="text-muted hover:text-light text-xs uppercase tracking-widest transition-colors">About</a>
+        <a href="contact.html" class="text-muted hover:text-light text-xs uppercase tracking-widest transition-colors">Contact</a>
+        <a href="contact.html" class="btn-gold" style="padding:0.55rem 1.25rem; font-size:0.65rem;">Start a Project</a>
+      </div>
+      <button class="md:hidden text-light" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+        <svg width="22" height="16" viewBox="0 0 22 16" fill="none"><rect y="0" width="22" height="1.5" fill="currentColor"/><rect y="7" width="22" height="1.5" fill="currentColor"/><rect y="14" width="22" height="1.5" fill="currentColor"/></svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden mt-6 pb-4 border-t border-border pt-6 flex flex-col gap-4 px-2">
+      <a href="work.html" class="text-gold text-sm uppercase tracking-widest">Work</a>
+      <a href="services.html" class="text-muted text-sm uppercase tracking-widest">Services</a>
+      <a href="about.html" class="text-muted text-sm uppercase tracking-widest">About</a>
+      <a href="contact.html" class="text-muted text-sm uppercase tracking-widest">Contact</a>
+      <a href="contact.html" class="btn-gold inline-block w-fit mt-2">Start a Project</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="pt-36 pb-16 px-6 bg-ink">
+    <div class="max-w-7xl mx-auto">
+      <div class="reveal">
+        <p class="text-gold uppercase tracking-[0.25em] text-xs font-medium mb-4">Portfolio</p>
+        <h1 class="font-serif text-5xl md:text-6xl text-light mb-6">Selected Work</h1>
+        <p class="text-muted text-lg max-w-xl leading-relaxed">Brand films, commercials, social media content, and cinematic wedding films — each project crafted with AI-powered precision.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILTERS -->
+  <section class="px-6 pb-12 bg-ink">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex flex-wrap gap-3 reveal">
+        <button class="filter-btn active" data-filter="all">All Work</button>
+        <button class="filter-btn" data-filter="ai">AI-Powered</button>
+        <button class="filter-btn" data-filter="brand">Brand & Commercial</button>
+        <button class="filter-btn" data-filter="social">Social Media</button>
+        <button class="filter-btn" data-filter="wedding">Wedding Films</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK GRID -->
+  <section class="px-6 pb-28 bg-ink">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="work-grid">
+
+        <!--
+          WORK ITEM TEMPLATE — duplicate and fill in:
+          data-category: "ai" | "brand" | "social" | "wedding"
+          data-video: Vimeo/R2 URL or Adilo src
+          Thumbnail: replace vid-placeholder div with <img src="..." class="w-full h-full object-cover">
+        -->
+
+        <!-- Item 1 -->
+        <div class="work-card reveal cursor-pointer" data-category="ai" onclick="openModal('REPLACE_VIDEO_URL_1')">
+          <div class="relative overflow-hidden rounded-sm" style="padding-bottom:56.25%; height:0; position:relative;">
+            <div class="vid-placeholder absolute inset-0 flex items-center justify-center">
+              <span class="text-border text-xs tracking-widest text-center px-4">[ AI Brand Film — Thumbnail ]</span>
+            </div>
+            <div class="work-overlay absolute inset-0 flex items-center justify-center rounded-sm">
+              <div class="w-14 h-14 rounded-full border border-gold flex items-center justify-center">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#C9A96E"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 pb-6 border-b border-border">
+            <span class="text-gold text-xs uppercase tracking-widest">AI-Powered Production</span>
+            <h3 class="font-serif text-lg text-light mt-2">Project Title Here</h3>
+            <p class="text-muted text-sm mt-1">Client Name · Long Island, NY</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="work-card reveal cursor-pointer" data-category="brand" onclick="openModal('REPLACE_VIDEO_URL_2')">
+          <div class="relative overflow-hidden rounded-sm" style="padding-bottom:56.25%; height:0; position:relative;">
+            <div class="vid-placeholder absolute inset-0 flex items-center justify-center">
+              <span class="text-border text-xs tracking-widest text-center px-4">[ Brand Film — Thumbnail ]</span>
+            </div>
+            <div class="work-overlay absolute inset-0 flex items-center justify-center rounded-sm">
+              <div class="w-14 h-14 rounded-full border border-gold flex items-center justify-center">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#C9A96E"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 pb-6 border-b border-border">
+            <span class="text-gold text-xs uppercase tracking-widest">Brand & Commercial</span>
+            <h3 class="font-serif text-lg text-light mt-2">Project Title Here</h3>
+            <p class="text-muted text-sm mt-1">Client Name · Long Island, NY</p>
+          </div>
+        </div>
+
+        <!-- Item 3 — Wedding: Yeliz & Zafer -->
+        <div class="work-card reveal cursor-pointer" data-category="wedding" onclick="openModal('https://adilo.bigcommand.com/watch/zvnAdswf')">
+          <div class="relative overflow-hidden rounded-sm" style="padding-bottom:56.25%; height:0; position:relative;">
+            <div class="vid-placeholder absolute inset-0 flex items-center justify-center">
+              <span class="text-border text-xs tracking-widest text-center px-4">[ Yeliz & Zafer — Thumbnail ]</span>
+            </div>
+            <div class="work-overlay absolute inset-0 flex items-center justify-center rounded-sm">
+              <div class="w-14 h-14 rounded-full border border-gold flex items-center justify-center">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#C9A96E"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 pb-6 border-b border-border">
+            <span class="text-gold text-xs uppercase tracking-widest">Wedding Films</span>
+            <h3 class="font-serif text-lg text-light mt-2">Yeliz & Zafer</h3>
+            <p class="text-muted text-sm mt-1">Long Island, NY · 2022</p>
+          </div>
+        </div>
+
+        <!-- Item 4 — Wedding: Kristen & Jackie -->
+        <div class="work-card reveal cursor-pointer" data-category="wedding" onclick="openModal('https://adilo.bigcommand.com/watch/l4x4YRaE')">
+          <div class="relative overflow-hidden rounded-sm" style="padding-bottom:56.25%; height:0; position:relative;">
+            <div class="vid-placeholder absolute inset-0 flex items-center justify-center">
+              <span class="text-border text-xs tracking-widest text-center px-4">[ Kristen & Jackie — Thumbnail ]</span>
+            </div>
+            <div class="work-overlay absolute inset-0 flex items-center justify-center rounded-sm">
+              <div class="w-14 h-14 rounded-full border border-gold flex items-center justify-center">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#C9A96E"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 pb-6 border-b border-border">
+            <span class="text-gold text-xs uppercase tracking-widest">Wedding Films</span>
+            <h3 class="font-serif text-lg text-light mt-2">Kristen & Jackie</h3>
+            <p class="text-muted text-sm mt-1">Long Island, NY · 2024</p>
+          </div>
+        </div>
+
+        <!-- Item 5 — Wedding: Heather & Mike -->
+        <div class="work-card reveal cursor-pointer" data-category="wedding" onclick="openModal('https://video.mystudionet.com/watch/6BwiwtBH')">
+          <div class="relative overflow-hidden rounded-sm" style="padding-bottom:56.25%; height:0; position:relative;">
+            <div class="vid-placeholder absolute inset-0 flex items-center justify-center">
+              <span class="text-border text-xs tracking-widest text-center px-4">[ Heather & Mike — Thumbnail ]</span>
+            </div>
+            <div class="work-overlay absolute inset-0 flex items-center justify-center rounded-sm">
+              <div class="w-14 h-14 rounded-full border border-gold flex items-center justify-center">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#C9A96E"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 pb-6 border-b border-border">
+            <span class="text-gold text-xs uppercase tracking-widest">Wedding Films</span>
+            <h3 class="font-serif text-lg text-light mt-2">Heather & Mike</h3>
+            <p class="text-muted text-sm mt-1">Long Island, NY · 2025</p>
+          </div>
+        </div>
+
+        <!-- Item 6 — Social placeholder -->
+        <div class="work-card reveal cursor-pointer" data-category="social" onclick="openModal('REPLACE_VIDEO_URL_6')">
+          <div class="relative overflow-hidden rounded-sm" style="padding-bottom:56.25%; height:0; position:relative;">
+            <div class="vid-placeholder absolute inset-0 flex items-center justify-center">
+              <span class="text-border text-xs tracking-widest text-center px-4">[ Social Media Video — Thumbnail ]</span>
+            </div>
+            <div class="work-overlay absolute inset-0 flex items-center justify-center rounded-sm">
+              <div class="w-14 h-14 rounded-full border border-gold flex items-center justify-center">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#C9A96E"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 pb-6 border-b border-border">
+            <span class="text-gold text-xs uppercase tracking-widest">Social Media</span>
+            <h3 class="font-serif text-lg text-light mt-2">Project Title Here</h3>
+            <p class="text-muted text-sm mt-1">Client Name · 2025</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO MODAL -->
+  <div id="video-modal" class="fixed inset-0 z-50 bg-black/90 items-center justify-center p-6">
+    <button onclick="closeModal()" class="absolute top-6 right-6 text-muted hover:text-light text-2xl leading-none">✕</button>
+    <div class="w-full max-w-4xl">
+      <div class="modal-video-wrap" id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="py-10 px-6 bg-panel border-t border-border">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-6">
+      <div class="leading-tight">
+        <div class="font-serif text-light text-lg tracking-wide">Mystudionet</div>
+        <div class="text-muted text-[0.55rem] uppercase tracking-[0.25em]">Productions</div>
+      </div>
+      <p class="text-muted text-xs self-center">© 2025 Mystudionet Productions · Long Island, NY</p>
+      <a href="mailto:hello@mystudionet.com" class="text-muted text-xs hover:text-gold transition-colors self-center">hello@mystudionet.com</a>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', function() {
+      document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Filter
+    document.querySelectorAll('.filter-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+        this.classList.add('active');
+        const filter = this.dataset.filter;
+        document.querySelectorAll('#work-grid .work-card').forEach(function(card) {
+          card.style.display = (filter === 'all' || card.dataset.category === filter) ? '' : 'none';
+        });
+      });
+    });
+
+    // Modal
+    function openModal(url) {
+      const modal = document.getElementById('video-modal');
+      const content = document.getElementById('modal-content');
+      content.innerHTML = '<iframe src="' + url + '" allowfullscreen allowtransparency="true" frameborder="0" scrolling="no" mozallowfullscreen webkitallowfullscreen></iframe>';
+      modal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeModal() {
+      document.getElementById('video-modal').classList.remove('open');
+      document.getElementById('modal-content').innerHTML = '';
+      document.body.style.overflow = '';
+    }
+    document.getElementById('video-modal').addEventListener('click', function(e) {
+      if (e.target === this) closeModal();
+    });
+
+    // Reveal
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e) { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(function(el) { observer.observe(el); });
+  </script>
+</body>
+</html>
