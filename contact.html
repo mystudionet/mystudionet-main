@@ -38,28 +38,106 @@
 <body style="background:#000;">
 
   <!-- NAV -->
-  <nav id="nav" class="fixed top-0 left-0 right-0 z-50 px-6 py-5">
-    <div style="max-width:1280px;" class="mx-auto flex items-center justify-between">
-      <a href="/" style="text-decoration:none;">
-        <div class="serif" style="color:#fff; font-size:1.1rem; letter-spacing:0.04em;">Mystudionet</div>
-        <div class="label" style="color:#555; margin-top:1px;">Productions</div>
+  <nav id="nav" style="position:fixed;top:0;left:0;right:0;z-index:1000;padding:1.25rem 1.5rem;">
+    <div style="max-width:1280px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;position:relative;">
+      <a href="/" style="text-decoration:none;z-index:101;">
+        <div class="serif" style="color:#fff;font-size:1.1rem;letter-spacing:0.04em;">Mystudionet</div>
+        <div style="font-size:0.6rem;letter-spacing:0.22em;text-transform:uppercase;color:#555;margin-top:1px;">Productions</div>
       </a>
-      <div class="hidden md:flex items-center" style="gap:2.5rem;">
-        <a href="work.html" style="color:#666; font-size:0.7rem; letter-spacing:0.18em; text-transform:uppercase; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#666'">Work</a>
-        <a href="services.html" style="color:#666; font-size:0.7rem; letter-spacing:0.18em; text-transform:uppercase; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#666'">Services</a>
-        <a href="about.html" style="color:#666; font-size:0.7rem; letter-spacing:0.18em; text-transform:uppercase; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#666'">About</a>
-        <a href="contact.html" style="color:#fff; font-size:0.7rem; letter-spacing:0.18em; text-transform:uppercase; text-decoration:none;">Contact</a>
-        <a href="contact.html" class="btn-primary" style="padding:0.55rem 1.3rem; font-size:0.65rem;">Start a Project</a>
+      <div id="desk-nav" style="display:flex;align-items:center;gap:2rem;">
+
+        <div class="nav-item">
+          <a href="/work.html" class="nav-link" style="">Work ▾</a>
+          <div class="mega-panel">
+            <div style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr 1fr;gap:3rem;">
+              <div>
+                <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#444;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #1a1a1a;">Type of Video</div>
+                <div style="display:flex;flex-direction:column;gap:0.3rem;">
+                  <a href="/work/video-ad.html" class="mega-link">Video Ad</a>
+                  <a href="/work/product-video.html" class="mega-link">Product Video</a>
+                  <a href="/work/about-us-video.html" class="mega-link">About Us Video</a>
+                  <a href="/work/testimonial-video.html" class="mega-link">Testimonial Video</a>
+                  <a href="/work/event-video.html" class="mega-link">Event Video</a>
+                  <a href="/work/explainer-video.html" class="mega-link">Explainer Video</a>
+                  <a href="/work/tutorial-video.html" class="mega-link">Tutorial Video</a>
+                  <a href="/work/team-video.html" class="mega-link">Team Video</a>
+                  <a href="/work/ai-video.html" class="mega-link">AI Video</a>
+                  <a href="/work/brand-film.html" class="mega-link">Brand Film</a>
+                  <a href="/work/tv-commercial.html" class="mega-link">TV Commercial</a>
+                  <a href="/work/real-estate-video.html" class="mega-link">Real Estate Video</a>
+                  <a href="/work/wedding-film.html" class="mega-link">Wedding Film</a>
+                  <a href="/work/social-media-reels.html" class="mega-link">Social Media / Reels</a>
+                  <a href="/work/drone-video.html" class="mega-link">Drone Video</a>
+                  <a href="/work/crowdfunding-video.html" class="mega-link">Crowdfunding Video</a>
+                </div>
+              </div>
+              <div>
+                <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#444;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #1a1a1a;">By Industry</div>
+                <div style="display:flex;flex-direction:column;gap:0.3rem;">
+                  <a href="/industry/software-tech.html" class="mega-link">Software &amp; Tech</a>
+                  <a href="/industry/education.html" class="mega-link">Education</a>
+                  <a href="/industry/retail-ecommerce.html" class="mega-link">Retail &amp; E-commerce</a>
+                  <a href="/industry/beauty-fashion.html" class="mega-link">Beauty &amp; Fashion</a>
+                  <a href="/industry/health-fitness.html" class="mega-link">Health &amp; Fitness</a>
+                  <a href="/industry/food-restaurant.html" class="mega-link">Food &amp; Restaurant</a>
+                  <a href="/industry/professional-services.html" class="mega-link">Professional Services</a>
+                  <a href="/industry/home-garden.html" class="mega-link">Home &amp; Garden</a>
+                  <a href="/industry/medical-biotech.html" class="mega-link">Medical &amp; Biotech</a>
+                  <a href="/industry/travel-hospitality.html" class="mega-link">Travel &amp; Hospitality</a>
+                  <a href="/industry/real-estate.html" class="mega-link">Real Estate</a>
+                  <a href="/industry/media-entertainment.html" class="mega-link">Media &amp; Entertainment</a>
+                  <a href="/industry/automotive.html" class="mega-link">Automotive</a>
+                  <a href="/industry/nonprofit.html" class="mega-link">Nonprofit</a>
+                </div>
+              </div>
+              <div>
+                <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#444;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #1a1a1a;">By Location</div>
+                <div style="display:flex;flex-direction:column;gap:0.3rem;">
+                  <a href="/location/long-island.html" class="mega-link">Long Island</a>
+                  <a href="/location/nyc.html" class="mega-link">New York City</a>
+                  <a href="/location/hamptons.html" class="mega-link">The Hamptons</a>
+                  <a href="/location/nassau-county.html" class="mega-link">Nassau County</a>
+                  <a href="/location/suffolk-county.html" class="mega-link">Suffolk County</a>
+                  <a href="/location/new-jersey.html" class="mega-link">New Jersey</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="/services.html" class="nav-link" style="">Services ▾</a>
+          <div class="dropdown-panel">
+            <a href="/services/ai-production.html" class="drop-link">AI-Powered Production</a>
+            <a href="/services/brand-commercial.html" class="drop-link">Brand &amp; Commercial</a>
+            <a href="/services/social-media.html" class="drop-link">Social Media Video</a>
+            <a href="/services/wedding-films.html" class="drop-link">Wedding Films</a>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="/marketing/" class="nav-link" style="">Marketing ▾</a>
+          <div class="dropdown-panel">
+            <a href="/marketing/meta-ads.html" class="drop-link">Meta Ads Management</a>
+            <a href="/marketing/google-ads.html" class="drop-link">Google Ads Management</a>
+            <a href="/marketing/youtube-ads.html" class="drop-link">YouTube Ad Management</a>
+          </div>
+        </div>
+
+        <a href="/about.html" class="nav-link" style="">About</a>
+        <a href="/contact.html" class="nav-link active" style="color:#fff;">Contact</a>
+        <a href="/contact.html" style="display:inline-block;background:#fff;color:#000;font-size:0.65rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:0.55rem 1.3rem;text-decoration:none;border:1px solid #fff;font-family:'Poppins',sans-serif;transition:background 0.2s,color 0.2s;" onmouseover="this.style.background='#000';this.style.color='#fff';" onmouseout="this.style.background='#fff';this.style.color='#000';">Start a Project</a>
       </div>
-      <button class="md:hidden" style="color:#fff; background:none; border:none; cursor:pointer;" onclick="toggleMob()">
+      <button id="mob-btn" onclick="toggleMob()" style="display:none;color:#fff;background:none;border:none;cursor:pointer;">
         <svg width="22" height="14" viewBox="0 0 22 14" fill="none"><rect width="22" height="1.5" fill="currentColor"/><rect y="6" width="22" height="1.5" fill="currentColor"/><rect y="12" width="22" height="1.5" fill="currentColor"/></svg>
       </button>
     </div>
-    <div id="mob" style="display:none; padding:1.5rem 0.5rem 1rem; border-top:1px solid #1a1a1a; margin-top:1rem; flex-direction:column; gap:1.25rem;">
-      <a href="work.html" style="color:#888; font-size:0.8rem; letter-spacing:0.18em; text-transform:uppercase; text-decoration:none;">Work</a>
-      <a href="services.html" style="color:#888; font-size:0.8rem; letter-spacing:0.18em; text-transform:uppercase; text-decoration:none;">Services</a>
-      <a href="about.html" style="color:#888; font-size:0.8rem; letter-spacing:0.18em; text-transform:uppercase; text-decoration:none;">About</a>
-      <a href="contact.html" style="color:#fff; font-size:0.8rem; letter-spacing:0.18em; text-transform:uppercase; text-decoration:none;">Contact</a>
+    <div id="mob-menu" style="display:none;padding:1.5rem 0.5rem 1rem;border-top:1px solid #1a1a1a;margin-top:1rem;flex-direction:column;gap:1rem;">
+      <a href="/work.html" style="color:#888;font-size:0.8rem;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;font-family:'Poppins',sans-serif;">Work</a>
+      <a href="/services.html" style="color:#888;font-size:0.8rem;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;font-family:'Poppins',sans-serif;">Services</a>
+      <a href="/marketing/" style="color:#888;font-size:0.8rem;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;font-family:'Poppins',sans-serif;">Marketing</a>
+      <a href="/about.html" style="color:#888;font-size:0.8rem;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;font-family:'Poppins',sans-serif;">About</a>
+      <a href="/contact.html" style="color:#888;font-size:0.8rem;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;font-family:'Poppins',sans-serif;">Contact</a>
     </div>
   </nav>
 
@@ -201,25 +279,11 @@
   </footer>
 
   <script>
-    window.addEventListener('scroll', function() { document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60); });
-    function toggleMob() { var m = document.getElementById('mob'); m.style.display = m.style.display === 'flex' ? 'none' : 'flex'; if (m.style.display === 'flex') m.style.flexDirection = 'column'; }
-
-    document.getElementById('contact-form').addEventListener('submit', async function(e) {
-      e.preventDefault();
-      var btn = document.getElementById('submit-btn');
-      btn.textContent = 'Sending...'; btn.disabled = true;
-      try {
-        var res = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: new FormData(this) });
-        var json = await res.json();
-        if (json.success) {
-          this.style.display = 'none';
-          document.getElementById('success-msg').style.display = 'block';
-        } else { btn.textContent = 'Send Message'; btn.disabled = false; alert('Something went wrong. Please email us directly.'); }
-      } catch(err) { btn.textContent = 'Send Message'; btn.disabled = false; alert('Connection error. Please try again.'); }
-    });
-
-    var obs = new IntersectionObserver(function(e) { e.forEach(function(x) { if (x.isIntersecting) { x.target.classList.add('visible'); obs.unobserve(x.target); } }); }, { threshold: 0.08 });
-    document.querySelectorAll('.reveal').forEach(function(el) { obs.observe(el); });
+    window.addEventListener('scroll',function(){document.getElementById('nav').classList.toggle('scrolled',window.scrollY>60);});
+    function toggleMob(){var m=document.getElementById('mob-menu');m.style.display=m.style.display==='flex'?'none':'flex';if(m.style.display==='flex')m.style.flexDirection='column';}
+    (function(){var btn=document.getElementById('mob-btn');var nav=document.getElementById('desk-nav');function chk(){if(window.innerWidth<900){btn.style.display='block';nav.style.display='none';}else{btn.style.display='none';nav.style.display='flex';document.getElementById('mob-menu').style.display='none';}}chk();window.addEventListener('resize',chk);})();
+    var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('visible');obs.unobserve(x.target);}});},{threshold:0.08});
+    document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
   </script>
 </body>
 </html>
