@@ -101,6 +101,17 @@
     .dropdown-panel{display:none;position:absolute;top:calc(100% + 0.4rem);left:50%;transform:translateX(-50%);background:#000;border:1px solid #222;min-width:220px;z-index:998;padding:0.5rem 0;}
     .nav-item.open .dropdown-panel{display:block;}
 
+    /* RECENT AI PROJECTS GRID */
+    .ai-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;}
+    .ai-card{border-radius:14px;overflow:hidden;border:1px solid #1a1a1a;background:#0a0a0a;transition:border-color 0.25s,transform 0.3s;cursor:pointer;}
+    .ai-card:hover{border-color:#555;transform:translateY(-4px);}
+    .ai-video-wrap{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;background:#0d0d0d;}
+    .ai-video-wrap video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;}
+    .ai-ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#222;font-size:0.6rem;letter-spacing:0.12em;text-transform:uppercase;font-family:'Poppins',sans-serif;}
+    .ai-card-lbl{padding:1.1rem 1.4rem;font-family:'Playfair Display',serif;color:#fff;font-size:1.05rem;letter-spacing:0.01em;}
+    @media(max-width:900px){.ai-grid{grid-template-columns:repeat(2,1fr);}}
+    @media(max-width:560px){.ai-grid{grid-template-columns:1fr;}}
+
     /* White background sections: force dark text */
     [style*="background:#fff"] h1,[style*="background:#fff"] h2,[style*="background:#fff"] h3,
     [style*="background:#fff"] h4,[style*="background:#fff"] p,[style*="background:#fff"] span,
@@ -446,6 +457,75 @@
       </div>
 
       <div style="margin-top:3rem;" class="reveal">
+        <a href="work.html" class="btn-outline">View All Work</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ── RECENT AI PROJECTS — BLACK ───────────── -->
+  <section style="background:#000; padding:7rem 1.5rem; border-top:1px solid #111;">
+    <div style="max-width:1280px; margin:0 auto;">
+
+      <div class="reveal" style="text-align:center; margin-bottom:3.5rem;">
+        <div class="label" style="color:#fff; margin-bottom:1rem;">Powered by AI</div>
+        <h2 class="serif" style="font-size:clamp(2rem,4vw,3.2rem); color:#fff;">Recent AI Projects</h2>
+      </div>
+
+      <div class="ai-grid reveal">
+
+        <div class="ai-card">
+          <div class="ai-video-wrap">
+            <video autoplay muted loop playsinline src="AI_BRAND_FILM.mp4"></video>
+            <div class="ai-ph">AI Brand Film · coming soon</div>
+          </div>
+          <div class="ai-card-lbl">AI Brand Film</div>
+        </div>
+
+        <div class="ai-card">
+          <div class="ai-video-wrap">
+            <video autoplay muted loop playsinline src="AI_WEDDING_FILM.mp4"></video>
+            <div class="ai-ph">AI Wedding Film · coming soon</div>
+          </div>
+          <div class="ai-card-lbl">AI Wedding Film</div>
+        </div>
+
+        <div class="ai-card">
+          <div class="ai-video-wrap">
+            <video autoplay muted loop playsinline src="AI_TV_COMMERCIAL.mp4"></video>
+            <div class="ai-ph">AI TV Commercial · coming soon</div>
+          </div>
+          <div class="ai-card-lbl">AI TV Commercial</div>
+        </div>
+
+        <div class="ai-card">
+          <div class="ai-video-wrap">
+            <video autoplay muted loop playsinline src="AI_VIDEO_AD.mp4"></video>
+            <div class="ai-ph">AI Video Ad · coming soon</div>
+          </div>
+          <div class="ai-card-lbl">AI Video Ad</div>
+        </div>
+
+        <div class="ai-card">
+          <div class="ai-video-wrap">
+            <video autoplay muted loop playsinline src="AI_SOCIAL_MEDIA.mp4"></video>
+            <div class="ai-ph">AI Social Media / Reels · coming soon</div>
+          </div>
+          <div class="ai-card-lbl">AI Social Media / Reels</div>
+        </div>
+
+        <div class="ai-card">
+          <div class="ai-video-wrap">
+            <video autoplay muted loop playsinline src="AI_PRODUCT_VIDEO.mp4"></video>
+            <div class="ai-ph">AI Product Video · coming soon</div>
+          </div>
+          <div class="ai-card-lbl">AI Product Video</div>
+        </div>
+
+      </div>
+
+      <div class="reveal" style="text-align:center; margin-top:3.5rem;">
         <a href="work.html" class="btn-outline">View All Work</a>
       </div>
 
