@@ -16,14 +16,14 @@
     html { scroll-behavior: smooth; }
     body { background: #000; color: #fff; font-family: 'Poppins', sans-serif; -webkit-font-smoothing: antialiased; }
     .serif { font-family: 'Playfair Display', Georgia, serif; }
-    .label { font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase; color:#fff; }
+    .label { font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase; color:#fff; }
     #nav { transition: background 0.3s, border-color 0.3s; }
     #nav.scrolled { background: #000; border-bottom: 1px solid #222; }
     .btn-primary { display: inline-block; background: #fff; color: #000; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.9rem 2.2rem; text-decoration: none; border: 1px solid #fff; transition: background 0.2s, color 0.2s; }
     .btn-primary:hover { background: #000; color: #fff; }
 
     /* Filter buttons */
-    .filter-btn { cursor: pointer; border: 1px solid #1a1a1a; color:#fff; font-size: 0.6rem; font-family: 'Poppins', sans-serif; letter-spacing: 0.18em; text-transform: uppercase; padding: 0.5rem 1.25rem; transition: all 0.2s; background: transparent; }
+    .filter-btn { cursor: pointer; border: 1px solid #1a1a1a; color:#fff; font-size: 0.82rem; font-family: 'Poppins', sans-serif; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.7rem 1.6rem; border-radius: 999px; transition: all 0.2s; background: transparent; }
     .filter-btn.active, .filter-btn:hover { border-color: #fff; color: #fff; }
 
     /* Work cards */
@@ -45,7 +45,7 @@
     ::-webkit-scrollbar { width: 3px; } ::-webkit-scrollbar-track { background: #000; } ::-webkit-scrollbar-thumb { background: #fff; }
   
     /* NAV DROPDOWN */
-    .nav-link{color:#fff;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;font-family:'Poppins',sans-serif;transition:opacity 0.2s;white-space:nowrap;}
+    .nav-link{color:#fff;font-size:1rem;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;font-family:'Poppins',sans-serif;transition:opacity 0.2s;white-space:nowrap;}
     .nav-link:hover,.nav-link.active{opacity:0.65;}
     .mega-col-hd{font-size:0.55rem;letter-spacing:0.22em;text-transform:uppercase;color:#fff;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #222;}
     .mega-link{color:#fff;font-size:0.875rem;text-decoration:none;font-family:'Poppins',sans-serif;padding:0.3rem 0;transition:opacity 0.2s;display:block;}
@@ -72,7 +72,7 @@
 <body style="background:#000;">
 
   <!-- NAV -->
-  <nav id="nav" style="position:fixed;top:0;left:0;right:0;z-index:1000;padding:1.25rem 1.5rem;">
+  <nav id="nav" style="position:fixed;top:0;left:0;right:0;z-index:1000;padding:1rem 1.5rem;">
     <div style="max-width:1280px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;position:relative;">
       <a href="/" style="text-decoration:none;z-index:101;">
         <div class="serif" style="color:#fff;font-size:1.1rem;letter-spacing:0.04em;">Mystudionet</div>
@@ -160,7 +160,7 @@
 
         <a href="/about.html" class="nav-link" style="">About</a>
         <a href="/contact.html" class="nav-link" style="">Contact</a>
-        <a href="/contact.html" style="display:inline-block;background:#fff;color:#000;font-size:0.65rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:0.55rem 1.3rem;text-decoration:none;border:1px solid #fff;font-family:'Poppins',sans-serif;transition:background 0.2s,color 0.2s;" onmouseover="this.style.background='#000';this.style.color='#fff';" onmouseout="this.style.background='#fff';this.style.color='#000';">Start a Project</a>
+        <a href="/contact.html" style="display:inline-block;background:#fff;color:#000;font-size:0.65rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:0.9rem 2.2rem;text-decoration:none;border:1px solid #fff;font-family:'Poppins',sans-serif;font-size:0.92rem;border-radius:999px;transition:background 0.2s,color 0.2s;" onmouseover="this.style.background='#000';this.style.color='#fff';" onmouseout="this.style.background='#fff';this.style.color='#000';">Start a Project</a>
       </div>
       <button id="mob-btn" onclick="toggleMob()" style="display:none;color:#fff;background:none;border:none;cursor:pointer;">
         <svg width="22" height="14" viewBox="0 0 22 14" fill="none"><rect width="22" height="1.5" fill="currentColor"/><rect y="6" width="22" height="1.5" fill="currentColor"/><rect y="12" width="22" height="1.5" fill="currentColor"/></svg>
@@ -252,7 +252,7 @@
       <div class="reveal">
         <div class="label" style="margin-bottom:1.5rem;">Portfolio</div>
         <h1 class="serif" style="font-size:clamp(2.8rem,6vw,5rem); color:#fff; line-height:1.05; margin-bottom:1.5rem;">Selected Work</h1>
-        <p style="color:#fff; font-size:0.92rem; max-width:520px; line-height:1.85; font-weight:300;">Brand films, commercials, social media content, and cinematic wedding films — each project crafted with AI-powered precision.</p>
+        <p style="color:#fff; font-size:1.15rem; max-width:580px; line-height:1.8; font-weight:300;">Brand films, commercials, social media content, and cinematic wedding films — each project crafted with AI-powered precision.</p>
       </div>
     </div>
   </section>
@@ -289,8 +289,8 @@
           </div>
           <div style="margin-top:1.25rem; padding-bottom:2rem; border-bottom:1px solid #111;">
             <div class="label" style="margin-bottom:0.5rem;">AI-Powered Production</div>
-            <h3 class="serif" style="color:#fff; font-size:1.15rem; margin-bottom:0.25rem;">Project Title Here</h3>
-            <p style="color:#fff; font-size:0.78rem;">Client Name · Long Island, NY</p>
+            <h3 class="serif" style="color:#fff; font-size:1.45rem; margin-bottom:0.35rem;">Project Title Here</h3>
+            <p style="color:#fff; font-size:0.95rem;">Client Name · Long Island, NY</p>
           </div>
         </div>
 
@@ -306,8 +306,8 @@
           </div>
           <div style="margin-top:1.25rem; padding-bottom:2rem; border-bottom:1px solid #111;">
             <div class="label" style="margin-bottom:0.5rem;">Brand & Commercial</div>
-            <h3 class="serif" style="color:#fff; font-size:1.15rem; margin-bottom:0.25rem;">Project Title Here</h3>
-            <p style="color:#fff; font-size:0.78rem;">Client Name · Long Island, NY</p>
+            <h3 class="serif" style="color:#fff; font-size:1.45rem; margin-bottom:0.35rem;">Project Title Here</h3>
+            <p style="color:#fff; font-size:0.95rem;">Client Name · Long Island, NY</p>
           </div>
         </div>
 
@@ -323,8 +323,8 @@
           </div>
           <div style="margin-top:1.25rem; padding-bottom:2rem; border-bottom:1px solid #111;">
             <div class="label" style="margin-bottom:0.5rem;">Wedding Films</div>
-            <h3 class="serif" style="color:#fff; font-size:1.15rem; margin-bottom:0.25rem;">Yeliz & Zafer</h3>
-            <p style="color:#fff; font-size:0.78rem;">Long Island, NY · 2022</p>
+            <h3 class="serif" style="color:#fff; font-size:1.45rem; margin-bottom:0.35rem;">Yeliz & Zafer</h3>
+            <p style="color:#fff; font-size:0.95rem;">Long Island, NY · 2022</p>
           </div>
         </div>
 
@@ -340,8 +340,8 @@
           </div>
           <div style="margin-top:1.25rem; padding-bottom:2rem; border-bottom:1px solid #111;">
             <div class="label" style="margin-bottom:0.5rem;">Wedding Films</div>
-            <h3 class="serif" style="color:#fff; font-size:1.15rem; margin-bottom:0.25rem;">Kristen & Jackie</h3>
-            <p style="color:#fff; font-size:0.78rem;">Long Island, NY · 2024</p>
+            <h3 class="serif" style="color:#fff; font-size:1.45rem; margin-bottom:0.35rem;">Kristen & Jackie</h3>
+            <p style="color:#fff; font-size:0.95rem;">Long Island, NY · 2024</p>
           </div>
         </div>
 
@@ -357,8 +357,8 @@
           </div>
           <div style="margin-top:1.25rem; padding-bottom:2rem; border-bottom:1px solid #111;">
             <div class="label" style="margin-bottom:0.5rem;">Wedding Films</div>
-            <h3 class="serif" style="color:#fff; font-size:1.15rem; margin-bottom:0.25rem;">Heather & Mike</h3>
-            <p style="color:#fff; font-size:0.78rem;">Long Island, NY · 2025</p>
+            <h3 class="serif" style="color:#fff; font-size:1.45rem; margin-bottom:0.35rem;">Heather & Mike</h3>
+            <p style="color:#fff; font-size:0.95rem;">Long Island, NY · 2025</p>
           </div>
         </div>
 
@@ -374,8 +374,8 @@
           </div>
           <div style="margin-top:1.25rem; padding-bottom:2rem; border-bottom:1px solid #111;">
             <div class="label" style="margin-bottom:0.5rem;">Social Media</div>
-            <h3 class="serif" style="color:#fff; font-size:1.15rem; margin-bottom:0.25rem;">Project Title Here</h3>
-            <p style="color:#fff; font-size:0.78rem;">Client Name · 2025</p>
+            <h3 class="serif" style="color:#fff; font-size:1.45rem; margin-bottom:0.35rem;">Project Title Here</h3>
+            <p style="color:#fff; font-size:0.95rem;">Client Name · 2025</p>
           </div>
         </div>
 
