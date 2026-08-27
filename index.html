@@ -336,6 +336,14 @@
     </div>
   </section>
 
+  <!-- MP4 VIDEO MODAL -->
+  <div id="mp4-modal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.96);align-items:center;justify-content:center;padding:1.5rem;">
+    <button onclick="closeMp4Modal()" style="position:absolute;top:1.25rem;right:1.25rem;color:#fff;background:none;border:none;cursor:pointer;font-size:2rem;line-height:1;z-index:1;">✕</button>
+    <div style="width:100%;max-width:960px;">
+      <video id="mp4-player" src="" controls autoplay style="width:100%;display:block;border-radius:8px;"></video>
+    </div>
+  </div>
+
   <!-- HERO VIDEO MODAL -->
   <div id="hero-modal" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.96); align-items:center; justify-content:center; padding:2rem;">
     <button onclick="closeHeroModal()" style="position:absolute; top:1.5rem; right:1.5rem; color:#fff; background:none; border:none; cursor:pointer; font-size:1.75rem; line-height:1;">✕</button>
@@ -402,7 +410,7 @@
 
       <div class="ai-grid reveal">
 
-        <div class="ai-card">
+        <div class="ai-card" onclick="openMp4Modal('https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/FINAL-LAW_AND_TRAVEL_CAPTION.mp4')">
           <div class="ai-video-wrap">
             <video autoplay muted loop playsinline src="https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/FINAL-LAW_AND_TRAVEL_CAPTION.mp4"></video>
           </div>
@@ -647,6 +655,10 @@
     var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('visible');obs.unobserve(x.target);}});},{threshold:0.08});
     document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
 
+    function openMp4Modal(src){var m=document.getElementById('mp4-modal');var v=document.getElementById('mp4-player');v.src=src;m.style.display='flex';document.body.style.overflow='hidden';}
+    function closeMp4Modal(){var v=document.getElementById('mp4-player');v.pause();v.src='';document.getElementById('mp4-modal').style.display='none';document.body.style.overflow='';}
+    document.getElementById('mp4-modal').addEventListener('click',function(e){if(e.target===this)closeMp4Modal();});
+
     var HERO_VIDEO_URL='VIDEO_URL_PLACEHOLDER';
     function openHeroModal(){
       if(HERO_VIDEO_URL==='VIDEO_URL_PLACEHOLDER')return;
@@ -662,7 +674,7 @@
       document.getElementById('hero-modal').style.display='none';
       document.body.style.overflow='';
     }
-    document.addEventListener('keydown',function(e){if(e.key==='Escape')closeHeroModal();});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeHeroModal();closeMp4Modal();}});
   </script>
 </body>
 </html>
