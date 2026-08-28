@@ -295,23 +295,40 @@
   </nav>
 
   <!-- HERO -->
-  <section style="background:#000;padding:9rem 1.5rem 5rem;">
+  <section style="background:#000;padding:9rem 1.5rem 5rem;text-align:center;">
     <div style="max-width:1280px;margin:0 auto;" class="reveal">
       <div style="font-size:0.6rem;letter-spacing:0.22em;text-transform:uppercase;color:#fff;margin-bottom:1.5rem;">Type of Video</div>
       <h1 class="serif" style="font-size:clamp(2.8rem,6vw,5rem);color:#fff;line-height:1.05;margin-bottom:1.5rem;">Video Ad Production</h1>
-      <p style="color:#fff;font-size:1rem;max-width:580px;line-height:1.85;font-weight:300;">High-converting video ads engineered for performance. We produce 15–60 second video ads for Meta, Google, and YouTube that drive real business results.</p>
+      <p style="color:#fff;font-size:1rem;max-width:580px;line-height:1.85;font-weight:300;margin:0 auto;">High-converting video ads engineered for performance. We produce 15–60 second video ads for Meta, Google, and YouTube that drive real business results.</p>
     </div>
   </section>
 
   <!-- FEATURED VIDEO -->
   <section style="background:#000;padding:0 1.5rem 5rem;">
     <div style="max-width:1280px;margin:0 auto;">
-      <video autoplay muted loop playsinline style="width:100%;display:block;">
-        <source src="https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/FINAL-LAW_AND_TRAVEL_CAPTION.mp4" type="video/mp4">
-      </video>
+      <div onclick="openVideoModal('vadModal')" style="position:relative;cursor:pointer;display:block;">
+        <video muted loop playsinline autoplay style="width:100%;display:block;">
+          <source src="https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/FINAL-LAW_AND_TRAVEL_CAPTION.mp4" type="video/mp4">
+        </video>
+        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+          <div style="width:72px;height:72px;border-radius:50%;background:rgba(255,255,255,0.15);backdrop-filter:blur(4px);border:2px solid rgba(255,255,255,0.6);display:flex;align-items:center;justify-content:center;transition:background 0.2s;">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><polygon points="5,3 19,12 5,21"/></svg>
+          </div>
+        </div>
+      </div>
       <p style="font-size:0.6rem;letter-spacing:0.18em;text-transform:uppercase;color:#555;margin-top:1rem;font-family:'Poppins',sans-serif;">AI Animation Ad / Law & Travel</p>
     </div>
   </section>
+
+  <!-- VIDEO MODAL -->
+  <div id="vadModal" onclick="closeVideoModal('vadModal')" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.92);z-index:9999;align-items:center;justify-content:center;">
+    <div onclick="event.stopPropagation()" style="position:relative;width:90%;max-width:1100px;">
+      <button onclick="closeVideoModal('vadModal')" style="position:absolute;top:-2.5rem;right:0;background:none;border:none;color:#fff;font-size:1.8rem;cursor:pointer;line-height:1;">✕</button>
+      <video id="vadModalVideo" loop playsinline controls style="width:100%;display:block;">
+        <source src="https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/FINAL-LAW_AND_TRAVEL_CAPTION.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
 
   <!-- CONTENT — WHITE -->
   <section style="background:#fff;padding:6rem 1.5rem;border-top:1px solid #e0e0e0;">
@@ -421,6 +438,8 @@
     (function(){var T={};document.querySelectorAll('.nav-item').forEach(function(item,i){item.addEventListener('mouseenter',function(){clearTimeout(T[i]);item.classList.add('open');});item.addEventListener('mouseleave',function(){T[i]=setTimeout(function(){item.classList.remove('open');},220);});var p=item.querySelector('.mega-panel,.dropdown-panel');if(p){p.addEventListener('mouseenter',function(){clearTimeout(T[i]);});p.addEventListener('mouseleave',function(){T[i]=setTimeout(function(){item.classList.remove('open');},220);});}});})();
     var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('visible');obs.unobserve(x.target);}});},{threshold:0.08});
     document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
+    function openVideoModal(id){var m=document.getElementById(id);m.style.display='flex';var v=m.querySelector('video');if(v){v.currentTime=0;v.play();}document.body.style.overflow='hidden';}
+    function closeVideoModal(id){var m=document.getElementById(id);m.style.display='none';var v=m.querySelector('video');if(v){v.pause();}document.body.style.overflow='';}
   </script>
   <script defer type="text/javascript" id="chatbot-initials-script" src="https://chat-bbl.noform.ai/script-chatbot.js" data-server-url="https://app.noform.ai" data-bot-id="671aa4e11e9da18305d7baca"></script>
 </body>
