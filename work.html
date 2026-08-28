@@ -27,11 +27,13 @@
     .filter-btn.active, .filter-btn:hover { border-color: #fff; color: #fff; }
 
     /* Work cards */
-    .work-card { cursor: pointer; }
-    .work-thumb { transition: transform 0.5s cubic-bezier(0.25,0.46,0.45,0.94); }
-    .work-card:hover .work-thumb { transform: scale(1.04); }
-    .work-overlay { opacity: 0; transition: opacity 0.3s; background: rgba(0,0,0,0.5); }
+    .work-card { cursor: pointer; transition: transform 0.3s; }
+    .work-card:hover { transform: translateY(-4px); }
+    .work-card:hover > div:first-child { border-color: #555 !important; }
+    .work-overlay { opacity: 0; transition: opacity 0.3s; background: rgba(0,0,0,0.35); }
     .work-card:hover .work-overlay { opacity: 1; }
+    @media(max-width:900px){#work-grid{grid-template-columns:repeat(2,1fr)!important;}}
+    @media(max-width:560px){#work-grid{grid-template-columns:1fr!important;}}
     .vid-placeholder { background: #0d0d0d; display: flex; align-items: center; justify-content: center; color: #222; font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; text-align: center; padding: 1rem; }
 
     /* Modal */
@@ -331,110 +333,167 @@
   </section>
 
 
-  <!-- WORK GRID — BLACK -->
+  <!-- WORK GRID -->
   <section style="background:#000; padding:0 1.5rem 7rem;">
     <div style="max-width:1280px; margin:0 auto;">
-      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:3rem;" id="work-grid">
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:2rem;" id="work-grid">
 
-        <!-- Item 1 — AI placeholder -->
-        <div class="work-card reveal" data-category="ai" onclick="openModal('REPLACE_VIDEO_URL_1')">
-          <div style="position:relative; overflow:hidden; padding-bottom:56.25%; height:0;">
-            <div class="vid-placeholder work-thumb" style="position:absolute; inset:0;">AI Brand Film — Thumbnail</div>
-            <div class="work-overlay" style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
-              <div style="width:50px; height:50px; border:1px solid #fff; border-radius:50%; display:flex; align-items:center; justify-content:center;">
-                <svg width="14" height="14" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+        <!-- 1. Law & Travel — AI Animation Ad -->
+        <div class="work-card reveal" data-category="ai brand" onclick="openWorkModal('https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/FINAL-LAW_AND_TRAVEL_CAPTION.mp4')">
+          <div style="border-radius:12px;overflow:hidden;position:relative;padding-bottom:56.25%;height:0;background:#0d0d0d;border:1px solid #1a1a1a;transition:border-color 0.25s;">
+            <video autoplay muted loop playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;" src="https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/FINAL-LAW_AND_TRAVEL_CAPTION.mp4"></video>
+            <div class="work-overlay" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+              <div style="width:56px;height:56px;border:1.5px solid rgba(255,255,255,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.4);">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
               </div>
             </div>
           </div>
-          <div style="margin-top:1.25rem; padding-bottom:2rem; border-bottom:1px solid #111;">
-            <div class="label" style="margin-bottom:0.5rem;">AI-Powered Production</div>
-            <h3 class="serif" style="color:#fff; font-size:1.45rem; margin-bottom:0.35rem;">Project Title Here</h3>
-            <p style="color:#fff; font-size:0.95rem;">Client Name · Long Island, NY</p>
+          <div style="margin-top:1.1rem;padding-bottom:1.75rem;border-bottom:1px solid #111;">
+            <div class="label" style="margin-bottom:0.4rem;font-size:0.6rem;color:#888;">AI Animation Ad</div>
+            <h3 class="serif" style="color:#fff;font-size:1.3rem;margin-bottom:0.25rem;line-height:1.2;">Law &amp; Travel</h3>
+            <p style="color:#666;font-size:0.82rem;font-family:'Poppins',sans-serif;margin:0;">Tourism Campaign · 2025</p>
           </div>
         </div>
 
-        <!-- Item 2 — Brand placeholder -->
-        <div class="work-card reveal" data-category="brand" onclick="openModal('REPLACE_VIDEO_URL_2')">
-          <div style="position:relative; overflow:hidden; padding-bottom:56.25%; height:0;">
-            <div class="vid-placeholder work-thumb" style="position:absolute; inset:0;">Brand Film — Thumbnail</div>
-            <div class="work-overlay" style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
-              <div style="width:50px; height:50px; border:1px solid #fff; border-radius:50%; display:flex; align-items:center; justify-content:center;">
-                <svg width="14" height="14" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+        <!-- 2. Mystudionet Brand Film — TV Commercial -->
+        <div class="work-card reveal" data-category="ai brand" onclick="openWorkModal('https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/TV-COMMERCIAL-FINAL.mp4')">
+          <div style="border-radius:12px;overflow:hidden;position:relative;padding-bottom:56.25%;height:0;background:#0d0d0d;border:1px solid #1a1a1a;transition:border-color 0.25s;">
+            <video autoplay muted loop playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;" src="https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/TV-COMMERCIAL-FINAL.mp4"></video>
+            <div class="work-overlay" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+              <div style="width:56px;height:56px;border:1.5px solid rgba(255,255,255,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.4);">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
               </div>
             </div>
           </div>
-          <div style="margin-top:1.25rem; padding-bottom:2rem; border-bottom:1px solid #111;">
-            <div class="label" style="margin-bottom:0.5rem;">Brand & Commercial</div>
-            <h3 class="serif" style="color:#fff; font-size:1.45rem; margin-bottom:0.35rem;">Project Title Here</h3>
-            <p style="color:#fff; font-size:0.95rem;">Client Name · Long Island, NY</p>
+          <div style="margin-top:1.1rem;padding-bottom:1.75rem;border-bottom:1px solid #111;">
+            <div class="label" style="margin-bottom:0.4rem;font-size:0.6rem;color:#888;">AI Brand Film</div>
+            <h3 class="serif" style="color:#fff;font-size:1.3rem;margin-bottom:0.25rem;line-height:1.2;">Mystudionet Brand Spot</h3>
+            <p style="color:#666;font-size:0.82rem;font-family:'Poppins',sans-serif;margin:0;">60s TV Commercial · 2025</p>
           </div>
         </div>
 
-        <!-- Item 3 — Yeliz & Zafer -->
-        <div class="work-card reveal" data-category="wedding" onclick="openModal('https://adilo.bigcommand.com/watch/zvnAdswf')">
-          <div style="position:relative; overflow:hidden; padding-bottom:56.25%; height:0;">
-            <div class="vid-placeholder work-thumb" style="position:absolute; inset:0;">Yeliz & Zafer — Thumbnail</div>
-            <div class="work-overlay" style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
-              <div style="width:50px; height:50px; border:1px solid #fff; border-radius:50%; display:flex; align-items:center; justify-content:center;">
-                <svg width="14" height="14" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+        <!-- 3. Bagel Lab — AI TV Commercial -->
+        <div class="work-card reveal" data-category="ai brand" onclick="openWorkModal('https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/bagel-lab-ad.mp4')">
+          <div style="border-radius:12px;overflow:hidden;position:relative;padding-bottom:56.25%;height:0;background:#0d0d0d;border:1px solid #1a1a1a;transition:border-color 0.25s;">
+            <video autoplay muted loop playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;" src="https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/bagel-lab-ad.mp4"></video>
+            <div class="work-overlay" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+              <div style="width:56px;height:56px;border:1.5px solid rgba(255,255,255,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.4);">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
               </div>
             </div>
           </div>
-          <div style="margin-top:1.25rem; padding-bottom:2rem; border-bottom:1px solid #111;">
-            <div class="label" style="margin-bottom:0.5rem;">Wedding Films</div>
-            <h3 class="serif" style="color:#fff; font-size:1.45rem; margin-bottom:0.35rem;">Yeliz & Zafer</h3>
-            <p style="color:#fff; font-size:0.95rem;">Long Island, NY · 2022</p>
+          <div style="margin-top:1.1rem;padding-bottom:1.75rem;border-bottom:1px solid #111;">
+            <div class="label" style="margin-bottom:0.4rem;font-size:0.6rem;color:#888;">AI TV Commercial</div>
+            <h3 class="serif" style="color:#fff;font-size:1.3rem;margin-bottom:0.25rem;line-height:1.2;">Bagel Lab</h3>
+            <p style="color:#666;font-size:0.82rem;font-family:'Poppins',sans-serif;margin:0;">Food &amp; Restaurant · 2025</p>
           </div>
         </div>
 
-        <!-- Item 4 — Kristen & Jackie -->
-        <div class="work-card reveal" data-category="wedding" onclick="openModal('https://adilo.bigcommand.com/watch/l4x4YRaE')">
-          <div style="position:relative; overflow:hidden; padding-bottom:56.25%; height:0;">
-            <div class="vid-placeholder work-thumb" style="position:absolute; inset:0;">Kristen & Jackie — Thumbnail</div>
-            <div class="work-overlay" style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
-              <div style="width:50px; height:50px; border:1px solid #fff; border-radius:50%; display:flex; align-items:center; justify-content:center;">
-                <svg width="14" height="14" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+        <!-- 4. Bayco Home Pros — AI Video Ad -->
+        <div class="work-card reveal" data-category="ai social" onclick="openWorkModal('https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/Bayco_Home_Pros_Ai_VIDEO.mp4')">
+          <div style="border-radius:12px;overflow:hidden;position:relative;padding-bottom:56.25%;height:0;background:#0d0d0d;border:1px solid #1a1a1a;transition:border-color 0.25s;">
+            <video autoplay muted loop playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;" src="https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/Bayco_Home_Pros_Ai_VIDEO.mp4"></video>
+            <div class="work-overlay" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+              <div style="width:56px;height:56px;border:1.5px solid rgba(255,255,255,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.4);">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
               </div>
             </div>
           </div>
-          <div style="margin-top:1.25rem; padding-bottom:2rem; border-bottom:1px solid #111;">
-            <div class="label" style="margin-bottom:0.5rem;">Wedding Films</div>
-            <h3 class="serif" style="color:#fff; font-size:1.45rem; margin-bottom:0.35rem;">Kristen & Jackie</h3>
-            <p style="color:#fff; font-size:0.95rem;">Long Island, NY · 2024</p>
+          <div style="margin-top:1.1rem;padding-bottom:1.75rem;border-bottom:1px solid #111;">
+            <div class="label" style="margin-bottom:0.4rem;font-size:0.6rem;color:#888;">AI Video Ad</div>
+            <h3 class="serif" style="color:#fff;font-size:1.3rem;margin-bottom:0.25rem;line-height:1.2;">Bayco Home Pros</h3>
+            <p style="color:#666;font-size:0.82rem;font-family:'Poppins',sans-serif;margin:0;">Home Services · Long Island · 2025</p>
           </div>
         </div>
 
-        <!-- Item 5 — Heather & Mike -->
-        <div class="work-card reveal" data-category="wedding" onclick="openModal('https://video.mystudionet.com/watch/6BwiwtBH')">
-          <div style="position:relative; overflow:hidden; padding-bottom:56.25%; height:0;">
-            <div class="vid-placeholder work-thumb" style="position:absolute; inset:0;">Heather & Mike — Thumbnail</div>
-            <div class="work-overlay" style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
-              <div style="width:50px; height:50px; border:1px solid #fff; border-radius:50%; display:flex; align-items:center; justify-content:center;">
-                <svg width="14" height="14" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+        <!-- 5. Burger Store — AI Social Media -->
+        <div class="work-card reveal" data-category="ai social" onclick="openWorkModal('https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/ai-commercial_burger_store.mp4')">
+          <div style="border-radius:12px;overflow:hidden;position:relative;padding-bottom:56.25%;height:0;background:#0d0d0d;border:1px solid #1a1a1a;transition:border-color 0.25s;">
+            <video autoplay muted loop playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;" src="https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/ai-commercial_burger_store.mp4"></video>
+            <div class="work-overlay" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+              <div style="width:56px;height:56px;border:1.5px solid rgba(255,255,255,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.4);">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
               </div>
             </div>
           </div>
-          <div style="margin-top:1.25rem; padding-bottom:2rem; border-bottom:1px solid #111;">
-            <div class="label" style="margin-bottom:0.5rem;">Wedding Films</div>
-            <h3 class="serif" style="color:#fff; font-size:1.45rem; margin-bottom:0.35rem;">Heather & Mike</h3>
-            <p style="color:#fff; font-size:0.95rem;">Long Island, NY · 2025</p>
+          <div style="margin-top:1.1rem;padding-bottom:1.75rem;border-bottom:1px solid #111;">
+            <div class="label" style="margin-bottom:0.4rem;font-size:0.6rem;color:#888;">AI Social Media</div>
+            <h3 class="serif" style="color:#fff;font-size:1.3rem;margin-bottom:0.25rem;line-height:1.2;">Burger Store</h3>
+            <p style="color:#666;font-size:0.82rem;font-family:'Poppins',sans-serif;margin:0;">Food &amp; Restaurant · 2025</p>
           </div>
         </div>
 
-        <!-- Item 6 — Social placeholder -->
-        <div class="work-card reveal" data-category="social" onclick="openModal('REPLACE_VIDEO_URL_6')">
-          <div style="position:relative; overflow:hidden; padding-bottom:56.25%; height:0;">
-            <div class="vid-placeholder work-thumb" style="position:absolute; inset:0;">Social Media Video — Thumbnail</div>
-            <div class="work-overlay" style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
-              <div style="width:50px; height:50px; border:1px solid #fff; border-radius:50%; display:flex; align-items:center; justify-content:center;">
-                <svg width="14" height="14" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+        <!-- 6. Bulova Watch — AI Product Video -->
+        <div class="work-card reveal" data-category="ai brand" onclick="openWorkModal('https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/ai_product_video_Bulova_watch.mp4')">
+          <div style="border-radius:12px;overflow:hidden;position:relative;padding-bottom:56.25%;height:0;background:#0d0d0d;border:1px solid #1a1a1a;transition:border-color 0.25s;">
+            <video autoplay muted loop playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;" src="https://pub-dbce67b5c0fc4024ba33aa7ea754c675.r2.dev/Main%20Page/ai_product_video_Bulova_watch.mp4"></video>
+            <div class="work-overlay" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+              <div style="width:56px;height:56px;border:1.5px solid rgba(255,255,255,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.4);">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
               </div>
             </div>
           </div>
-          <div style="margin-top:1.25rem; padding-bottom:2rem; border-bottom:1px solid #111;">
-            <div class="label" style="margin-bottom:0.5rem;">Social Media</div>
-            <h3 class="serif" style="color:#fff; font-size:1.45rem; margin-bottom:0.35rem;">Project Title Here</h3>
-            <p style="color:#fff; font-size:0.95rem;">Client Name · 2025</p>
+          <div style="margin-top:1.1rem;padding-bottom:1.75rem;border-bottom:1px solid #111;">
+            <div class="label" style="margin-bottom:0.4rem;font-size:0.6rem;color:#888;">AI Product Video</div>
+            <h3 class="serif" style="color:#fff;font-size:1.3rem;margin-bottom:0.25rem;line-height:1.2;">Bulova Watch</h3>
+            <p style="color:#666;font-size:0.82rem;font-family:'Poppins',sans-serif;margin:0;">Luxury Retail · 2025</p>
+          </div>
+        </div>
+
+        <!-- 7. Yeliz & Zafer — Wedding Film -->
+        <div class="work-card reveal" data-category="wedding" onclick="openWorkModal('https://adilo.bigcommand.com/watch/zvnAdswf')">
+          <div style="border-radius:12px;overflow:hidden;position:relative;padding-bottom:56.25%;height:0;background:#0d0d0d;border:1px solid #1a1a1a;transition:border-color 0.25s;display:flex;align-items:center;justify-content:center;">
+            <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:0.75rem;">
+              <div style="font-family:'Playfair Display',serif;font-size:1.1rem;color:#333;font-style:italic;">Yeliz &amp; Zafer</div>
+            </div>
+            <div class="work-overlay" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+              <div style="width:56px;height:56px;border:1.5px solid rgba(255,255,255,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.4);">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:1.1rem;padding-bottom:1.75rem;border-bottom:1px solid #111;">
+            <div class="label" style="margin-bottom:0.4rem;font-size:0.6rem;color:#888;">Wedding Film</div>
+            <h3 class="serif" style="color:#fff;font-size:1.3rem;margin-bottom:0.25rem;line-height:1.2;">Yeliz &amp; Zafer</h3>
+            <p style="color:#666;font-size:0.82rem;font-family:'Poppins',sans-serif;margin:0;">Long Island, NY · 2022</p>
+          </div>
+        </div>
+
+        <!-- 8. Kristen & Jackie — Wedding Film -->
+        <div class="work-card reveal" data-category="wedding" onclick="openWorkModal('https://adilo.bigcommand.com/watch/l4x4YRaE')">
+          <div style="border-radius:12px;overflow:hidden;position:relative;padding-bottom:56.25%;height:0;background:#0d0d0d;border:1px solid #1a1a1a;transition:border-color 0.25s;">
+            <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:0.75rem;">
+              <div style="font-family:'Playfair Display',serif;font-size:1.1rem;color:#333;font-style:italic;">Kristen &amp; Jackie</div>
+            </div>
+            <div class="work-overlay" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+              <div style="width:56px;height:56px;border:1.5px solid rgba(255,255,255,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.4);">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:1.1rem;padding-bottom:1.75rem;border-bottom:1px solid #111;">
+            <div class="label" style="margin-bottom:0.4rem;font-size:0.6rem;color:#888;">Wedding Film</div>
+            <h3 class="serif" style="color:#fff;font-size:1.3rem;margin-bottom:0.25rem;line-height:1.2;">Kristen &amp; Jackie</h3>
+            <p style="color:#666;font-size:0.82rem;font-family:'Poppins',sans-serif;margin:0;">Long Island, NY · 2024</p>
+          </div>
+        </div>
+
+        <!-- 9. Heather & Mike — Wedding Film -->
+        <div class="work-card reveal" data-category="wedding" onclick="openWorkModal('https://video.mystudionet.com/watch/6BwiwtBH')">
+          <div style="border-radius:12px;overflow:hidden;position:relative;padding-bottom:56.25%;height:0;background:#0d0d0d;border:1px solid #1a1a1a;transition:border-color 0.25s;">
+            <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:0.75rem;">
+              <div style="font-family:'Playfair Display',serif;font-size:1.1rem;color:#333;font-style:italic;">Heather &amp; Mike</div>
+            </div>
+            <div class="work-overlay" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+              <div style="width:56px;height:56px;border:1.5px solid rgba(255,255,255,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.4);">
+                <svg width="16" height="16" viewBox="0 0 18 18" fill="#fff"><path d="M6 3.5L14.5 9 6 14.5V3.5Z"/></svg>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:1.1rem;padding-bottom:1.75rem;border-bottom:1px solid #111;">
+            <div class="label" style="margin-bottom:0.4rem;font-size:0.6rem;color:#888;">Wedding Film</div>
+            <h3 class="serif" style="color:#fff;font-size:1.3rem;margin-bottom:0.25rem;line-height:1.2;">Heather &amp; Mike</h3>
+            <p style="color:#666;font-size:0.82rem;font-family:'Poppins',sans-serif;margin:0;">Long Island, NY · 2025</p>
           </div>
         </div>
 
@@ -444,10 +503,15 @@
 
 
   <!-- VIDEO MODAL -->
-  <div id="video-modal" style="position:fixed; inset:0; z-index:100; background:rgba(0,0,0,0.95); align-items:center; justify-content:center; padding:2rem;">
-    <button onclick="closeModal()" style="position:absolute; top:1.5rem; right:1.5rem; color:#fff; background:none; border:none; cursor:pointer; font-size:1.5rem; line-height:1; transition:color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">✕</button>
-    <div style="width:100%; max-width:960px;">
-      <div class="modal-video-wrap" id="modal-content"></div>
+  <div id="video-modal" style="position:fixed;inset:0;z-index:9000;background:rgba(0,0,0,0.95);display:none;align-items:center;justify-content:center;padding:2rem;">
+    <button onclick="closeWorkModal()" style="position:absolute;top:1.25rem;right:1.5rem;color:#fff;background:none;border:none;cursor:pointer;font-size:1.8rem;line-height:1;z-index:1;">✕</button>
+    <div style="width:100%;max-width:960px;">
+      <div id="modal-iframe-wrap" style="position:relative;padding-bottom:56.25%;width:100%;display:none;">
+        <iframe id="modal-iframe" allow="autoplay; fullscreen" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+      <div id="modal-video-wrap" style="position:relative;padding-bottom:56.25%;width:100%;display:none;">
+        <video id="modal-video" controls style="position:absolute;top:0;left:0;width:100%;height:100%;background:#000;"></video>
+      </div>
     </div>
   </div>
 
@@ -516,6 +580,47 @@
     (function(){var T={};document.querySelectorAll('.nav-item').forEach(function(item,i){item.addEventListener('mouseenter',function(){clearTimeout(T[i]);item.classList.add('open');});item.addEventListener('mouseleave',function(){T[i]=setTimeout(function(){item.classList.remove('open');},220);});var p=item.querySelector('.mega-panel,.dropdown-panel');if(p){p.addEventListener('mouseenter',function(){clearTimeout(T[i]);});p.addEventListener('mouseleave',function(){T[i]=setTimeout(function(){item.classList.remove('open');},220);});}});})();
     var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('visible');obs.unobserve(x.target);}});},{threshold:0.08});
     document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
+
+    /* Work modal — handles R2 MP4 and iframe (Adilo) URLs */
+    function openWorkModal(url){
+      var modal=document.getElementById('video-modal');
+      var iw=document.getElementById('modal-iframe-wrap');
+      var vw=document.getElementById('modal-video-wrap');
+      var iframe=document.getElementById('modal-iframe');
+      var vid=document.getElementById('modal-video');
+      modal.style.display='flex';
+      document.body.style.overflow='hidden';
+      if(url.indexOf('.mp4')>-1||url.indexOf('r2.dev')>-1){
+        iw.style.display='none'; vw.style.display='block';
+        vid.src=url; vid.load(); vid.play().catch(function(){});
+      } else {
+        vw.style.display='none'; iw.style.display='block';
+        iframe.src=url+(url.indexOf('?')>-1?'&':'?')+'autoplay=1';
+      }
+    }
+    function closeWorkModal(){
+      var modal=document.getElementById('video-modal');
+      modal.style.display='none';
+      document.body.style.overflow='';
+      var iframe=document.getElementById('modal-iframe');
+      var vid=document.getElementById('modal-video');
+      if(iframe){iframe.src='';}
+      if(vid){vid.pause();vid.src='';}
+    }
+    document.getElementById('video-modal').addEventListener('click',function(e){if(e.target===this)closeWorkModal();});
+
+    /* Filter buttons */
+    document.querySelectorAll('.filter-btn').forEach(function(btn){
+      btn.addEventListener('click',function(){
+        document.querySelectorAll('.filter-btn').forEach(function(b){b.classList.remove('active');});
+        btn.classList.add('active');
+        var f=btn.getAttribute('data-filter');
+        document.querySelectorAll('#work-grid .work-card').forEach(function(card){
+          var cat=card.getAttribute('data-category')||'';
+          card.style.display=(f==='all'||cat.indexOf(f)>-1)?'block':'none';
+        });
+      });
+    });
   </script>
 </body>
 </html>
