@@ -424,5 +424,6 @@
     var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('visible');obs.unobserve(x.target);}});},{threshold:0.08});
     document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
   </script>
+  <script defer type="text/javascript" id="chatbot-initials-script" src="https://chat-bbl.noform.ai/script-chatbot.js" data-server-url="https://app.noform.ai" data-bot-id="671aa4e11e9da18305d7baca"></script>
 </body>
 </html>
