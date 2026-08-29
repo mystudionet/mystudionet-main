@@ -58,6 +58,12 @@ def excerpt(body, length=160):
     plain = ' '.join(plain.split())
     return plain[:length].rsplit(' ', 1)[0] + '…' if len(plain) > length else plain
 
+def inline_fmt(t):
+    t = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', t)
+    t = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', t)
+    t = re.sub(r'\[(.+?)\]\((.+?)\)', r'<a href="\2" style="color:#fff;text-decoration:underline;text-underline-offset:3px;">\1</a>', t)
+    return t
+
 def parse_content(body):
     html = []
     for block in re.split(r'\n{2,}', body.strip()):
@@ -72,8 +78,15 @@ def parse_content(body):
             html.append(f'<h3 style="font-size:1.1rem;color:#fff;margin:2rem 0 0.75rem;font-weight:600;letter-spacing:0.02em;">{h}</h3>')
         elif block.startswith(('- ', '* ')):
             items = [ln[2:].strip() for ln in block.split('\n') if ln.strip().startswith(('- ','* '))]
-            lis = ''.join(f'<li style="color:#fff;font-size:1rem;line-height:1.8;margin-bottom:0.35rem;">{i}</li>' for i in items)
+            lis = ''.join(f'<li style="color:#fff;font-size:1rem;line-height:1.8;margin-bottom:0.35rem;">{inline_fmt(i)}</li>' for i in items)
             html.append(f'<ul style="margin:0.5rem 0 1.5rem;padding-left:1.4rem;list-style:disc;">{lis}</ul>')
+        elif block.startswith('IMG: '):
+            parts = [x.strip() for x in block[5:].split('|')]
+            fn = parts[0]
+            alt = parts[1] if len(parts) > 1 else ''
+            cap = parts[2] if len(parts) > 2 else ''
+            cap_html = f'<div style="font-size:0.78rem;color:#fff;opacity:0.45;margin:-1.2rem 0 2.2rem;line-height:1.6;">{cap}</div>' if cap else ''
+            html.append(f'<img src="/blog/images/{fn}" alt="{alt}" style="width:100%;margin:2rem 0;display:block;" loading="lazy">{cap_html}')
         elif block.startswith('VIDEO: '):
             raw_url = block[7:].strip()
             # Convert watch URL → embed URL for common platforms
@@ -94,7 +107,7 @@ def parse_content(body):
             html.append(f'<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:2rem 0;"><iframe src="{embed_url}" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" allowfullscreen loading="lazy" title="Video"></iframe></div>')
         elif block.startswith(('1. ', '2. ')):
             items = [re.sub(r'^\d+\.\s+', '', ln).strip() for ln in block.split('\n') if re.match(r'^\d+\.', ln.strip())]
-            lis = ''.join(f'<li style="color:#fff;font-size:1rem;line-height:1.8;margin-bottom:0.35rem;">{i}</li>' for i in items)
+            lis = ''.join(f'<li style="color:#fff;font-size:1rem;line-height:1.8;margin-bottom:0.35rem;">{inline_fmt(i)}</li>' for i in items)
             html.append(f'<ol style="margin:0.5rem 0 1.5rem;padding-left:1.4rem;">{lis}</ol>')
         elif block.startswith('> '):
             q = block[2:].strip()
