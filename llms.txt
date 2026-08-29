@@ -24,8 +24,72 @@ Mystudionet combines 20+ years of cinematic expertise with cutting-edge AI produ
 - About: https://mystudionet.com/about.html
 - Contact: https://mystudionet.com/contact.html
 - Blog: https://mystudionet.com/blog/
+- Marketing Services: https://mystudionet.com/marketing/
 
-## Work by Type
+## Detailed FAQ & Content Pages (Markdown)
+
+### Core Pages
+- Homepage FAQ: https://mystudionet.com/index.md
+- About FAQ: https://mystudionet.com/about.md
+- Services FAQ: https://mystudionet.com/services.md
+- Portfolio FAQ: https://mystudionet.com/work.md
+- Contact FAQ: https://mystudionet.com/contact.md
+
+### Location Pages
+- Long Island: https://mystudionet.com/location/long-island.md
+- New York City: https://mystudionet.com/location/nyc.md
+- Nassau County: https://mystudionet.com/location/nassau-county.md
+- Suffolk County: https://mystudionet.com/location/suffolk-county.md
+- The Hamptons: https://mystudionet.com/location/hamptons.md
+- New Jersey: https://mystudionet.com/location/new-jersey.md
+
+### Service Pages
+- AI Video Production: https://mystudionet.com/services/ai-production.md
+- Brand & Commercial: https://mystudionet.com/services/brand-commercial.md
+- Wedding Films: https://mystudionet.com/services/wedding-films.md
+- Social Media Video: https://mystudionet.com/services/social-media.md
+
+### Work / Portfolio Pages
+- Video Ads: https://mystudionet.com/work/video-ad.md
+- Brand Films: https://mystudionet.com/work/brand-film.md
+- TV Commercials: https://mystudionet.com/work/tv-commercial.md
+- Product Video: https://mystudionet.com/work/product-video.md
+- Wedding Films: https://mystudionet.com/work/wedding-film.md
+- Social Media Reels: https://mystudionet.com/work/social-media-reels.md
+- AI Video: https://mystudionet.com/work/ai-video.md
+- Drone Video: https://mystudionet.com/work/drone-video.md
+- Testimonial Video: https://mystudionet.com/work/testimonial-video.md
+- Event Video: https://mystudionet.com/work/event-video.md
+- Explainer Video: https://mystudionet.com/work/explainer-video.md
+- About-Us Video: https://mystudionet.com/work/about-us-video.md
+- Real Estate Video: https://mystudionet.com/work/real-estate-video.md
+- Team Video: https://mystudionet.com/work/team-video.md
+- Crowdfunding Video: https://mystudionet.com/work/crowdfunding-video.md
+- Tutorial Video: https://mystudionet.com/work/tutorial-video.md
+
+### Industry Pages
+- Food & Restaurant: https://mystudionet.com/industry/food-restaurant.md
+- Real Estate: https://mystudionet.com/industry/real-estate.md
+- Health & Fitness: https://mystudionet.com/industry/health-fitness.md
+- Professional Services: https://mystudionet.com/industry/professional-services.md
+- Home & Garden: https://mystudionet.com/industry/home-garden.md
+- Retail & E-Commerce: https://mystudionet.com/industry/retail-ecommerce.md
+- Beauty & Fashion: https://mystudionet.com/industry/beauty-fashion.md
+- Automotive: https://mystudionet.com/industry/automotive.md
+- Education: https://mystudionet.com/industry/education.md
+- Software & Tech: https://mystudionet.com/industry/software-tech.md
+- Nonprofit: https://mystudionet.com/industry/nonprofit.md
+- Medical & Healthcare: https://mystudionet.com/industry/medical-biotech.md
+- Travel & Hospitality: https://mystudionet.com/industry/travel-hospitality.md
+- Media & Entertainment: https://mystudionet.com/industry/media-entertainment.md
+
+### Marketing Pages
+- Video Marketing Overview: https://mystudionet.com/marketing/index.md
+- Google Ads Management: https://mystudionet.com/marketing/google-ads.md
+- Meta Ads (Facebook & Instagram): https://mystudionet.com/marketing/meta-ads.md
+- YouTube Ads: https://mystudionet.com/marketing/youtube-ads.md
+
+## Work by Type (HTML)
 
 - Video Ad: https://mystudionet.com/work/video-ad.html
 - Brand Film: https://mystudionet.com/work/brand-film.html
@@ -59,7 +123,8 @@ Software & Tech, Education, Retail & E-commerce, Beauty & Fashion, Health & Fitn
 ## Contact
 
 - Website: https://mystudionet.com
-- Email: hello@mystudionet.com
+- Email: info@mystudionet.com
 - Phone: (631) 355-5588
 - Instagram: https://instagram.com/mystudionet
 - YouTube: https://youtube.com/@mystudionet
+- Book a free discovery call: https://tidycal.com/mystudionet/30-minute-discovery
