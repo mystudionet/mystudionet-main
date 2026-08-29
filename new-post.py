@@ -213,7 +213,7 @@ FOOTER_HTML = '''  <footer style="background:#000;border-top:1px solid #1a1a1a;p
         <div style="font-family:\'Playfair Display\',serif;color:#fff;font-size:1rem;letter-spacing:0.04em;">Mystudionet</div>
         <div style="font-size:0.6rem;letter-spacing:0.22em;text-transform:uppercase;color:#fff;opacity:0.4;margin-top:2px;">Productions</div>
       </div>
-      <p style="color:#fff;opacity:0.4;font-size:0.7rem;text-align:center;">© 2025 Mystudionet Productions · Long Island, NY</p>
+      <p style="color:#fff;opacity:0.4;font-size:0.7rem;text-align:center;">© 2026 Mystudionet Productions · Long Island, NY</p>
       <div style="text-align:right;">
         <a href="tel:+16313555588" style="color:#fff;opacity:0.5;font-size:0.75rem;text-decoration:none;display:block;" onmouseover="this.style.opacity=\'1\'" onmouseout="this.style.opacity=\'0.5\'">(631) 355-5588</a>
         <a href="mailto:hello@mystudionet.com" style="color:#fff;opacity:0.5;font-size:0.75rem;text-decoration:none;display:block;margin-top:0.25rem;" onmouseover="this.style.opacity=\'1\'" onmouseout="this.style.opacity=\'0.5\'">hello@mystudionet.com</a>
