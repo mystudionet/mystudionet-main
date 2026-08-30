@@ -62,6 +62,11 @@
     [style*="background: #fff"] h4,[style*="background: #fff"] p,[style*="background: #fff"] span,
     [style*="background: #fff"] li,[style*="background: #fff"] label,[style*="background: #fff"] div{color:#111 !important;}
     [style*="background: #fff"] a:not([style*="background:#000"]):not([style*="background: #000"]):not(.btn-primary):not(.btn-outline){color:#111 !important;}
+  
+    /* MOBILE: collapse all inline multi-column grids to single column */
+    @media(max-width:800px){
+      [style*="grid-template-columns"]{grid-template-columns:1fr !important;gap:2.5rem !important;}
+    }
   </style>
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mystudionet.com/services/brand-commercial.html">
