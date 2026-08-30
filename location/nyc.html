@@ -13,7 +13,7 @@
   <style>
     body{margin:0;}
     .serif{font-family:'Playfair Display',Georgia,serif;}
-    .nav-link{color:#fff;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;font-family:'Poppins',sans-serif;transition:color 0.2s;white-space:nowrap;}
+    .nav-link{color:#000;font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;text-decoration:none;font-family:'Poppins',sans-serif;transition:color 0.2s;white-space:nowrap;}
     .nav-link:hover,.nav-link.active{color:#fff;}
     .mega-link{color:#222;font-size:0.8rem;text-decoration:none;font-family:'Poppins',sans-serif;padding:0.22rem 0;transition:color 0.2s;display:block;}
     .mega-link:hover{color:#fff;}
@@ -24,8 +24,8 @@
     .nav-item:hover .mega-panel{display:block;}
     .dropdown-panel{display:none;position:absolute;top:calc(100% + 1.1rem);left:50%;transform:translateX(-50%);background:#000;border:1px solid #1a1a1a;min-width:220px;z-index:998;padding:0.5rem 0;}
     .nav-item:hover .dropdown-panel{display:block;}
-    #nav{transition:background 0.3s,border-color 0.3s;}
-    #nav.scrolled{background:#000!important;border-bottom:1px solid #222;}
+    #nav { background: #fff; border-bottom: 1px solid #e8e8e8; transition: background 0.3s, border-color 0.3s, box-shadow 0.3s; }
+    #nav.scrolled { background: #fff; border-bottom: 1px solid #ddd; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
     .reveal{opacity:0;transform:translateY(18px);transition:opacity 0.6s ease,transform 0.6s ease;}
     .reveal.visible{opacity:1;transform:translateY(0);}
     .btn-p{display:inline-block;background:#fff;color:#000;font-size:0.72rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:0.9rem 2.2rem;text-decoration:none;border:1px solid #fff;transition:background 0.2s,color 0.2s;font-family:'Poppins',sans-serif;}
@@ -57,6 +57,11 @@
     [style*="background:#fff"] a:not([style*="background:#000"]):not([style*="background: #000"]):not(.btn-primary):not(.btn-outline) {
       color: #111 !important;
     }
+  
+    [style*="background: #fff"] h1,[style*="background: #fff"] h2,[style*="background: #fff"] h3,
+    [style*="background: #fff"] h4,[style*="background: #fff"] p,[style*="background: #fff"] span,
+    [style*="background: #fff"] li,[style*="background: #fff"] label,[style*="background: #fff"] div{color:#111 !important;}
+    [style*="background: #fff"] a:not([style*="background:#000"]):not([style*="background: #000"]):not(.btn-primary):not(.btn-outline){color:#111 !important;}
   </style>
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mystudionet.com/location/nyc.html">
