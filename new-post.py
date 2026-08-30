@@ -382,6 +382,14 @@ def generate_post_html(meta, content_html, related=[]):
       [style*="grid-template-columns"]{grid-template-columns:1fr !important;gap:2.5rem !important;}
     }
   </style>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RG3RKR89SM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RG3RKR89SM');
+  </script>
 </head>
 <body>
 
