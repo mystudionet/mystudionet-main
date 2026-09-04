@@ -9,7 +9,7 @@ Mystudionet Productions has been at the forefront of AI video production since i
 ## Frequently Asked Questions
 
 ### What AI video examples does Mystudionet Productions have in its portfolio?
-Mystudionet's AI video portfolio at mystudionet.com/work/ai-video.html includes AI-generated brand films, TV-style commercials, social media ads, product videos, and cinematic short films. The portfolio demonstrates the range of visual styles, subject matter, and production quality achievable through AI video generation as practiced by the studio.
+Mystudionet's AI video portfolio at mystudionet.com/work/ai-video includes AI-generated brand films, TV-style commercials, social media ads, product videos, and cinematic short films. The portfolio demonstrates the range of visual styles, subject matter, and production quality achievable through AI video generation as practiced by the studio.
 
 ### How realistic is AI-generated video from Mystudionet Productions?
 AI video generation technology has advanced dramatically, and Mystudionet Productions works with the most capable current tools to achieve the highest possible visual realism and cinematic quality. Many of the studio's AI-generated videos are indistinguishable from traditionally filmed content to most viewers, while others intentionally embrace stylized AI aesthetics as a creative choice.
@@ -37,7 +37,7 @@ AI video production is advancing rapidly and is expected to become the dominant 
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/work/ai-video.html
+- **Website:** https://mystudionet.com/work/ai-video
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

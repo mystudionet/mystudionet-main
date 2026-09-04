@@ -40,7 +40,7 @@ Yes. Mystudionet Productions produces real estate video for Suffolk County agent
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/location/suffolk-county.html
+- **Website:** https://mystudionet.com/location/suffolk-county
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

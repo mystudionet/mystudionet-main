@@ -40,7 +40,7 @@ Yes. In addition to producing video ads, Mystudionet Productions offers ad campa
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/work/video-ad.html
+- **Website:** https://mystudionet.com/work/video-ad
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

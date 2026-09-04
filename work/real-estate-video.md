@@ -40,7 +40,7 @@ Yes. In addition to property listing videos, Mystudionet Productions creates per
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/work/real-estate-video.html
+- **Website:** https://mystudionet.com/work/real-estate-video
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

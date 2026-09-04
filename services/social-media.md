@@ -40,7 +40,7 @@ Virtually every industry benefits from social media video, but the categories wh
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/services/social-media.html
+- **Website:** https://mystudionet.com/services/social-media
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

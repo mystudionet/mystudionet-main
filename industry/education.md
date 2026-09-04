@@ -28,7 +28,7 @@ AI production can be effectively used in educational video for animated explaine
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/industry/education.html
+- **Website:** https://mystudionet.com/industry/education
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

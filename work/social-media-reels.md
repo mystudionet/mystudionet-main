@@ -34,7 +34,7 @@ Mystudionet Productions tracks the performance of social media video through pla
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/work/social-media-reels.html
+- **Website:** https://mystudionet.com/work/social-media-reels
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

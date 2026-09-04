@@ -33,12 +33,12 @@ CATEGORIES = [
 ]
 
 CATEGORY_SERVICES = {
-    'Wedding Films': ('/services/wedding-films.html', 'View Wedding Film Packages'),
-    'AI & Technology': ('/services/ai-production.html', 'Learn About AI Production'),
+    'Wedding Films': ('/services/wedding-films', 'View Wedding Film Packages'),
+    'AI & Technology': ('/services/ai-production', 'Learn About AI Production'),
     'Marketing & Advertising': ('/marketing/', 'See Our Ad Management Services'),
-    'Video Production Tips': ('/services.html', 'Explore Our Services'),
-    'Long Island Business': ('/location/long-island.html', 'Video Production on Long Island'),
-    'Behind the Scenes': ('/work.html', 'See Our Work'),
+    'Video Production Tips': ('/services', 'Explore Our Services'),
+    'Long Island Business': ('/location/long-island', 'Video Production on Long Island'),
+    'Behind the Scenes': ('/work', 'See Our Work'),
 }
 
 # ── HELPERS ────────────────────────────────────────────────────────────────
@@ -130,46 +130,46 @@ NAV_HTML = '''  <nav id="nav" style="position:fixed;top:0;left:0;right:0;z-index
       </a>
       <div id="desk-nav" style="display:flex;align-items:center;gap:2rem;">
         <div class="nav-item">
-          <a href="/work.html" class="nav-link">Work ▾</a>
+          <a href="/work" class="nav-link">Work ▾</a>
           <div class="mega-panel">
             <div style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr 1fr;gap:3rem;">
               <div>
                 <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#888;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #333;">Type of Video</div>
                 <div style="display:flex;flex-direction:column;gap:0.3rem;">
-                  <a href="/work/video-ad.html" class="mega-link">Video Ad</a><a href="/work/product-video.html" class="mega-link">Product Video</a><a href="/work/about-us-video.html" class="mega-link">About Us Video</a><a href="/work/testimonial-video.html" class="mega-link">Testimonial Video</a><a href="/work/event-video.html" class="mega-link">Event Video</a><a href="/work/explainer-video.html" class="mega-link">Explainer Video</a><a href="/work/tutorial-video.html" class="mega-link">Tutorial Video</a><a href="/work/team-video.html" class="mega-link">Team Video</a><a href="/work/ai-video.html" class="mega-link">AI Video</a><a href="/work/brand-film.html" class="mega-link">Brand Film</a><a href="/work/tv-commercial.html" class="mega-link">TV Commercial</a><a href="/work/real-estate-video.html" class="mega-link">Real Estate Video</a><a href="/work/wedding-film.html" class="mega-link">Wedding Film</a><a href="/work/social-media-reels.html" class="mega-link">Social Media / Reels</a><a href="/work/drone-video.html" class="mega-link">Drone Video</a><a href="/work/crowdfunding-video.html" class="mega-link">Crowdfunding Video</a>
+                  <a href="/work/video-ad" class="mega-link">Video Ad</a><a href="/work/product-video" class="mega-link">Product Video</a><a href="/work/about-us-video" class="mega-link">About Us Video</a><a href="/work/testimonial-video" class="mega-link">Testimonial Video</a><a href="/work/event-video" class="mega-link">Event Video</a><a href="/work/explainer-video" class="mega-link">Explainer Video</a><a href="/work/tutorial-video" class="mega-link">Tutorial Video</a><a href="/work/team-video" class="mega-link">Team Video</a><a href="/work/ai-video" class="mega-link">AI Video</a><a href="/work/brand-film" class="mega-link">Brand Film</a><a href="/work/tv-commercial" class="mega-link">TV Commercial</a><a href="/work/real-estate-video" class="mega-link">Real Estate Video</a><a href="/work/wedding-film" class="mega-link">Wedding Film</a><a href="/work/social-media-reels" class="mega-link">Social Media / Reels</a><a href="/work/drone-video" class="mega-link">Drone Video</a><a href="/work/crowdfunding-video" class="mega-link">Crowdfunding Video</a>
                 </div>
               </div>
               <div>
                 <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#888;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #333;">By Industry</div>
                 <div style="display:flex;flex-direction:column;gap:0.3rem;">
-                  <a href="/industry/software-tech.html" class="mega-link">Software &amp; Tech</a><a href="/industry/education.html" class="mega-link">Education</a><a href="/industry/retail-ecommerce.html" class="mega-link">Retail &amp; E-commerce</a><a href="/industry/beauty-fashion.html" class="mega-link">Beauty &amp; Fashion</a><a href="/industry/health-fitness.html" class="mega-link">Health &amp; Fitness</a><a href="/industry/food-restaurant.html" class="mega-link">Food &amp; Restaurant</a><a href="/industry/professional-services.html" class="mega-link">Professional Services</a><a href="/industry/home-garden.html" class="mega-link">Home &amp; Garden</a><a href="/industry/medical-biotech.html" class="mega-link">Medical &amp; Biotech</a><a href="/industry/travel-hospitality.html" class="mega-link">Travel &amp; Hospitality</a><a href="/industry/real-estate.html" class="mega-link">Real Estate</a><a href="/industry/media-entertainment.html" class="mega-link">Media &amp; Entertainment</a><a href="/industry/automotive.html" class="mega-link">Automotive</a><a href="/industry/nonprofit.html" class="mega-link">Nonprofit</a>
+                  <a href="/industry/software-tech" class="mega-link">Software &amp; Tech</a><a href="/industry/education" class="mega-link">Education</a><a href="/industry/retail-ecommerce" class="mega-link">Retail &amp; E-commerce</a><a href="/industry/beauty-fashion" class="mega-link">Beauty &amp; Fashion</a><a href="/industry/health-fitness" class="mega-link">Health &amp; Fitness</a><a href="/industry/food-restaurant" class="mega-link">Food &amp; Restaurant</a><a href="/industry/professional-services" class="mega-link">Professional Services</a><a href="/industry/home-garden" class="mega-link">Home &amp; Garden</a><a href="/industry/medical-biotech" class="mega-link">Medical &amp; Biotech</a><a href="/industry/travel-hospitality" class="mega-link">Travel &amp; Hospitality</a><a href="/industry/real-estate" class="mega-link">Real Estate</a><a href="/industry/media-entertainment" class="mega-link">Media &amp; Entertainment</a><a href="/industry/automotive" class="mega-link">Automotive</a><a href="/industry/nonprofit" class="mega-link">Nonprofit</a>
                 </div>
               </div>
               <div>
                 <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#888;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #333;">By Location</div>
                 <div style="display:flex;flex-direction:column;gap:0.3rem;">
-                  <a href="/location/long-island.html" class="mega-link">Long Island</a><a href="/location/nyc.html" class="mega-link">New York City</a><a href="/location/hamptons.html" class="mega-link">The Hamptons</a><a href="/location/nassau-county.html" class="mega-link">Nassau County</a><a href="/location/suffolk-county.html" class="mega-link">Suffolk County</a><a href="/location/new-jersey.html" class="mega-link">New Jersey</a>
+                  <a href="/location/long-island" class="mega-link">Long Island</a><a href="/location/nyc" class="mega-link">New York City</a><a href="/location/hamptons" class="mega-link">The Hamptons</a><a href="/location/nassau-county" class="mega-link">Nassau County</a><a href="/location/suffolk-county" class="mega-link">Suffolk County</a><a href="/location/new-jersey" class="mega-link">New Jersey</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="nav-item">
-          <a href="/services.html" class="nav-link">Services ▾</a>
+          <a href="/services" class="nav-link">Services ▾</a>
           <div class="dropdown-panel">
-            <a href="/services/ai-production.html" class="drop-link">AI-Powered Production</a><a href="/services/brand-commercial.html" class="drop-link">Brand &amp; Commercial</a><a href="/services/social-media.html" class="drop-link">Social Media Video</a><a href="/services/wedding-films.html" class="drop-link">Wedding Films</a>
+            <a href="/services/ai-production" class="drop-link">AI-Powered Production</a><a href="/services/brand-commercial" class="drop-link">Brand &amp; Commercial</a><a href="/services/social-media" class="drop-link">Social Media Video</a><a href="/services/wedding-films" class="drop-link">Wedding Films</a>
           </div>
         </div>
         <div class="nav-item">
           <a href="/marketing/" class="nav-link">Marketing ▾</a>
           <div class="dropdown-panel">
-            <a href="/marketing/meta-ads.html" class="drop-link">Meta Ads Management</a><a href="/marketing/google-ads.html" class="drop-link">Google Ads Management</a><a href="/marketing/youtube-ads.html" class="drop-link">YouTube Ad Management</a>
+            <a href="/marketing/meta-ads" class="drop-link">Meta Ads Management</a><a href="/marketing/google-ads" class="drop-link">Google Ads Management</a><a href="/marketing/youtube-ads" class="drop-link">YouTube Ad Management</a>
           </div>
         </div>
-        <a href="/about.html" class="nav-link">About</a>
+        <a href="/about" class="nav-link">About</a>
         <a href="/blog/" class="nav-link active">Blog</a>
-        <a href="/contact.html" class="nav-link">Contact</a>
-        <a href="/contact.html" style="display:inline-block;background:#fff;color:#000;font-size:0.65rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:0.55rem 1.3rem;text-decoration:none;border:1px solid #fff;font-family:\'Poppins\',sans-serif;transition:background 0.2s,color 0.2s;" onmouseover="this.style.background=\'#000\';this.style.color=\'#fff\';" onmouseout="this.style.background=\'#fff\';this.style.color=\'#000\';">Start a Project</a>
+        <a href="/contact" class="nav-link">Contact</a>
+        <a href="/contact" style="display:inline-block;background:#fff;color:#000;font-size:0.65rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:0.55rem 1.3rem;text-decoration:none;border:1px solid #fff;font-family:\'Poppins\',sans-serif;transition:background 0.2s,color 0.2s;" onmouseover="this.style.background=\'#000\';this.style.color=\'#fff\';" onmouseout="this.style.background=\'#fff\';this.style.color=\'#000\';">Start a Project</a>
       </div>
       <button id="mob-btn" onclick="toggleMob()" style="display:none;color:#000;background:none;border:none;cursor:pointer;">
         <svg width="22" height="14" viewBox="0 0 22 14" fill="none"><rect width="22" height="1.5" fill="currentColor"/><rect y="6" width="22" height="1.5" fill="currentColor"/><rect y="12" width="22" height="1.5" fill="currentColor"/></svg>
@@ -184,25 +184,25 @@ NAV_HTML = '''  <nav id="nav" style="position:fixed;top:0;left:0;right:0;z-index
         <div style="border-bottom:1px solid #111;"><button onclick="mobToggle(this)" style="width:100%;display:flex;justify-content:space-between;align-items:center;background:none;border:none;color:#fff;font-size:1.25rem;font-weight:500;font-family:\'Poppins\',sans-serif;padding:1rem 1.5rem;cursor:pointer;text-align:left;">Work <span class="mob-arr" style="color:#fff;opacity:0.4;font-size:1.1rem;">+</span></button>
           <div class="mob-sub" style="display:none;padding:0 1.5rem 1.25rem;">
             <div style="font-size:0.52rem;letter-spacing:0.2em;text-transform:uppercase;color:#fff;opacity:0.4;padding:0.25rem 0 0.6rem;">Type of Video</div>
-            <a href="/work/video-ad.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Video Ad</a><a href="/work/product-video.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Product Video</a><a href="/work/brand-film.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Brand Film</a><a href="/work/wedding-film.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Wedding Film</a><a href="/work.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;">→ View All Work</a>
+            <a href="/work/video-ad" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Video Ad</a><a href="/work/product-video" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Product Video</a><a href="/work/brand-film" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Brand Film</a><a href="/work/wedding-film" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Wedding Film</a><a href="/work" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;">→ View All Work</a>
           </div>
         </div>
         <div style="border-bottom:1px solid #111;"><button onclick="mobToggle(this)" style="width:100%;display:flex;justify-content:space-between;align-items:center;background:none;border:none;color:#fff;font-size:1.25rem;font-weight:500;font-family:\'Poppins\',sans-serif;padding:1rem 1.5rem;cursor:pointer;text-align:left;">Services <span class="mob-arr" style="color:#fff;opacity:0.4;font-size:1.1rem;">+</span></button>
           <div class="mob-sub" style="display:none;padding:0 1.5rem 1.25rem;">
-            <a href="/services/ai-production.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">AI-Powered Production</a><a href="/services/brand-commercial.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Brand &amp; Commercial</a><a href="/services/social-media.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Social Media Video</a><a href="/services/wedding-films.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;">Wedding Films</a>
+            <a href="/services/ai-production" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">AI-Powered Production</a><a href="/services/brand-commercial" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Brand &amp; Commercial</a><a href="/services/social-media" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Social Media Video</a><a href="/services/wedding-films" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;">Wedding Films</a>
           </div>
         </div>
         <div style="border-bottom:1px solid #111;"><button onclick="mobToggle(this)" style="width:100%;display:flex;justify-content:space-between;align-items:center;background:none;border:none;color:#fff;font-size:1.25rem;font-weight:500;font-family:\'Poppins\',sans-serif;padding:1rem 1.5rem;cursor:pointer;text-align:left;">Marketing <span class="mob-arr" style="color:#fff;opacity:0.4;font-size:1.1rem;">+</span></button>
           <div class="mob-sub" style="display:none;padding:0 1.5rem 1.25rem;">
-            <a href="/marketing/meta-ads.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Meta Ads Management</a><a href="/marketing/google-ads.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Google Ads Management</a><a href="/marketing/youtube-ads.html" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;">YouTube Ad Management</a>
+            <a href="/marketing/meta-ads" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Meta Ads Management</a><a href="/marketing/google-ads" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;border-bottom:1px solid #111;">Google Ads Management</a><a href="/marketing/youtube-ads" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:\'Poppins\',sans-serif;">YouTube Ad Management</a>
           </div>
         </div>
-        <a href="/about.html" style="display:block;color:#fff;font-size:1.25rem;font-weight:500;font-family:\'Poppins\',sans-serif;padding:1rem 1.5rem;text-decoration:none;border-bottom:1px solid #111;">About</a>
+        <a href="/about" style="display:block;color:#fff;font-size:1.25rem;font-weight:500;font-family:\'Poppins\',sans-serif;padding:1rem 1.5rem;text-decoration:none;border-bottom:1px solid #111;">About</a>
         <a href="/blog/" style="display:block;color:#fff;font-size:1.25rem;font-weight:500;font-family:\'Poppins\',sans-serif;padding:1rem 1.5rem;text-decoration:none;border-bottom:1px solid #111;">Blog</a>
-        <a href="/contact.html" style="display:block;color:#fff;font-size:1.25rem;font-weight:500;font-family:\'Poppins\',sans-serif;padding:1rem 1.5rem;text-decoration:none;border-bottom:1px solid #111;">Contact</a>
+        <a href="/contact" style="display:block;color:#fff;font-size:1.25rem;font-weight:500;font-family:\'Poppins\',sans-serif;padding:1rem 1.5rem;text-decoration:none;border-bottom:1px solid #111;">Contact</a>
       </div>
       <div style="padding:1.25rem 1.5rem;flex-shrink:0;border-top:1px solid #111;">
-        <a href="/contact.html" style="display:block;background:#fff;color:#000;text-align:center;padding:1rem;font-size:0.75rem;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;text-decoration:none;font-family:\'Poppins\',sans-serif;">Start a Project →</a>
+        <a href="/contact" style="display:block;background:#fff;color:#000;text-align:center;padding:1rem;font-size:0.75rem;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;text-decoration:none;font-family:\'Poppins\',sans-serif;">Start a Project →</a>
       </div>
     </div>
   </nav>'''
@@ -270,7 +270,7 @@ def related_posts_html(current_slug, current_category, posts, max_count=3):
     for p in picked:
         date_fmt = datetime.strptime(p['date'], '%Y-%m-%d').strftime('%b %d, %Y')
         img_html = f'<img src="/blog/images/{p["image"]}" alt="{p["title"]}" style="width:100%;height:100%;object-fit:cover;display:block;">' if p.get('image') else '<div style="background:#111;width:100%;height:100%;"></div>'
-        cards.append(f'''      <a href="/blog/{p['slug']}.html" style="text-decoration:none;display:block;border:1px solid #1a1a1a;transition:border-color 0.25s;" onmouseover="this.style.borderColor=\'#555\'" onmouseout="this.style.borderColor=\'#1a1a1a\'">
+        cards.append(f'''      <a href="/blog/{p['slug']}" style="text-decoration:none;display:block;border:1px solid #1a1a1a;transition:border-color 0.25s;" onmouseover="this.style.borderColor=\'#555\'" onmouseout="this.style.borderColor=\'#1a1a1a\'">
         <div style="height:160px;overflow:hidden;">{img_html}</div>
         <div style="padding:1.25rem;">
           <div style="font-size:0.55rem;letter-spacing:0.16em;text-transform:uppercase;color:#fff;opacity:0.4;margin-bottom:0.5rem;">{p['category']} · {date_fmt}</div>
@@ -305,7 +305,7 @@ def generate_post_html(meta, content_html, related=[]):
     img_url  = f'{SITE}/blog/images/{image}' if image else f'{SITE}/og-image.jpg'
     img_tag  = f'<img src="/blog/images/{image}" alt="{title}" style="width:100%;height:100%;object-fit:cover;display:block;">' if image else ''
 
-    svc_link, svc_label = CATEGORY_SERVICES.get(category, ('/services.html', 'Explore Our Services'))
+    svc_link, svc_label = CATEGORY_SERVICES.get(category, ('/services', 'Explore Our Services'))
 
     json_ld = json.dumps({
         "@context": "https://schema.org",
@@ -315,13 +315,13 @@ def generate_post_html(meta, content_html, related=[]):
         "image": img_url,
         "datePublished": date_iso,
         "dateModified": date_iso,
-        "author": {"@type": "Person", "name": "Kursad Yonet", "url": f"{SITE}/about.html"},
+        "author": {"@type": "Person", "name": "Kursad Yonet", "url": f"{SITE}/about"},
         "publisher": {
             "@type": "Organization",
             "name": "Mystudionet Productions",
             "logo": {"@type": "ImageObject", "url": f"{SITE}/favicon.png"}
         },
-        "mainEntityOfPage": {"@type": "WebPage", "@id": f"{SITE}/blog/{slug}.html"},
+        "mainEntityOfPage": {"@type": "WebPage", "@id": f"{SITE}/blog/{slug}"},
         "keywords": ", ".join(tags),
         "articleSection": category,
         "wordCount": len(re.findall(r'\w+', raw_body))
@@ -333,7 +333,7 @@ def generate_post_html(meta, content_html, related=[]):
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE},
             {"@type": "ListItem", "position": 2, "name": "Blog", "item": f"{SITE}/blog/"},
-            {"@type": "ListItem", "position": 3, "name": title, "item": f"{SITE}/blog/{slug}.html"}
+            {"@type": "ListItem", "position": 3, "name": title, "item": f"{SITE}/blog/{slug}"}
         ]
     })
 
@@ -350,9 +350,9 @@ def generate_post_html(meta, content_html, related=[]):
   <title>{title} | Mystudionet Productions Blog</title>
   <meta name="description" content="{desc}">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="{SITE}/blog/{slug}.html">
+  <link rel="canonical" href="{SITE}/blog/{slug}">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="{SITE}/blog/{slug}.html">
+  <meta property="og:url" content="{SITE}/blog/{slug}">
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{desc}">
   <meta property="og:image" content="{img_url}">
@@ -433,9 +433,9 @@ def generate_post_html(meta, content_html, related=[]):
     <div style="max-width:720px;margin:0 auto;">
       <div style="font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:#fff;opacity:0.4;margin-bottom:1rem;">Share This Article</div>
       <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
-        <a href="https://twitter.com/intent/tweet?url={SITE}/blog/{slug}.html&text={title.replace(' ', '%20')}" target="_blank" rel="noopener" class="share-btn">Twitter / X</a>
-        <a href="https://www.linkedin.com/shareArticle?mini=true&url={SITE}/blog/{slug}.html&title={title.replace(' ', '%20')}" target="_blank" rel="noopener" class="share-btn">LinkedIn</a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u={SITE}/blog/{slug}.html" target="_blank" rel="noopener" class="share-btn">Facebook</a>
+        <a href="https://twitter.com/intent/tweet?url={SITE}/blog/{slug}&text={title.replace(' ', '%20')}" target="_blank" rel="noopener" class="share-btn">Twitter / X</a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url={SITE}/blog/{slug}&title={title.replace(' ', '%20')}" target="_blank" rel="noopener" class="share-btn">LinkedIn</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={SITE}/blog/{slug}" target="_blank" rel="noopener" class="share-btn">Facebook</a>
       </div>
     </div>
   </section>
@@ -448,7 +448,7 @@ def generate_post_html(meta, content_html, related=[]):
         <div style="font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:#fff;opacity:0.4;margin-bottom:0.5rem;">Written by</div>
         <div style="font-size:1rem;font-weight:600;color:#fff;margin-bottom:0.5rem;">Kursad Yonet</div>
         <p style="font-size:0.875rem;color:#fff;opacity:0.7;line-height:1.7;margin-bottom:1rem;">Founder of Mystudionet Productions. 20+ years of cinematic storytelling, now supercharged with AI. Based on Long Island, NY.</p>
-        <a href="/about.html" style="font-size:0.65rem;letter-spacing:0.14em;text-transform:uppercase;color:#fff;text-decoration:none;border-bottom:1px solid #555;padding-bottom:2px;">About Kursad →</a>
+        <a href="/about" style="font-size:0.65rem;letter-spacing:0.14em;text-transform:uppercase;color:#fff;text-decoration:none;border-bottom:1px solid #555;padding-bottom:2px;">About Kursad →</a>
       </div>
     </div>
   </section>
@@ -462,7 +462,7 @@ def generate_post_html(meta, content_html, related=[]):
       <h2 class="serif" style="font-size:clamp(1.8rem,4vw,2.8rem);color:#000;margin-bottom:1.25rem;line-height:1.2;">Ready to Start Your Project?</h2>
       <p style="font-size:0.95rem;color:#000;margin-bottom:2.5rem;line-height:1.7;">Free discovery call. No commitment.</p>
       <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-        <a href="/contact.html" style="display:inline-block;background:#000;color:#fff;font-size:0.72rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:0.9rem 2.2rem;text-decoration:none;border:1px solid #000;transition:background 0.2s,color 0.2s;" onmouseover="this.style.background=\'#fff\';this.style.color=\'#000\';" onmouseout="this.style.background=\'#000\';this.style.color=\'#fff\';">Book a Free Call</a>
+        <a href="/contact" style="display:inline-block;background:#000;color:#fff;font-size:0.72rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:0.9rem 2.2rem;text-decoration:none;border:1px solid #000;transition:background 0.2s,color 0.2s;" onmouseover="this.style.background=\'#fff\';this.style.color=\'#000\';" onmouseout="this.style.background=\'#000\';this.style.color=\'#fff\';">Book a Free Call</a>
         <a href="{svc_link}" style="display:inline-block;background:transparent;color:#000;font-size:0.72rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;padding:0.9rem 2.2rem;text-decoration:none;border:1px solid #bbb;transition:border-color 0.2s;" onmouseover="this.style.borderColor=\'#000\'" onmouseout="this.style.borderColor=\'#bbb\'">{svc_label}</a>
       </div>
     </div>
@@ -484,7 +484,7 @@ def build_index(posts):
     for p in posts_sorted:
         date_fmt = datetime.strptime(p['date'], '%Y-%m-%d').strftime('%b %d, %Y')
         img_html = f'<img src="/blog/images/{p["image"]}" alt="{p["title"]}" style="width:100%;height:100%;object-fit:cover;display:block;transition:transform 0.5s ease;">' if p.get('image') else '<div style="background:#111;width:100%;height:100%;display:flex;align-items:center;justify-content:center;"><span style="color:#333;font-size:0.7rem;letter-spacing:0.1em;">NO IMAGE</span></div>'
-        cards.append(f'''        <a href="/blog/{p['slug']}.html" style="text-decoration:none;display:block;border:1px solid #1a1a1a;transition:border-color 0.25s;" onmouseover="this.style.borderColor=\'#555\';this.querySelector(\'img\')&&(this.querySelector(\'img\').style.transform=\'scale(1.04)\')" onmouseout="this.style.borderColor=\'#1a1a1a\';this.querySelector(\'img\')&&(this.querySelector(\'img\').style.transform=\'scale(1)\')">
+        cards.append(f'''        <a href="/blog/{p['slug']}" style="text-decoration:none;display:block;border:1px solid #1a1a1a;transition:border-color 0.25s;" onmouseover="this.style.borderColor=\'#555\';this.querySelector(\'img\')&&(this.querySelector(\'img\').style.transform=\'scale(1.04)\')" onmouseout="this.style.borderColor=\'#1a1a1a\';this.querySelector(\'img\')&&(this.querySelector(\'img\').style.transform=\'scale(1)\')">
           <div style="height:220px;overflow:hidden;">{img_html}</div>
           <div style="padding:1.5rem;">
             <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem;">
@@ -556,7 +556,7 @@ def build_index(posts):
 # ── SITEMAP ────────────────────────────────────────────────────────────────
 
 def update_sitemap(slug, date_iso):
-    url = f'{SITE}/blog/{slug}.html'
+    url = f'{SITE}/blog/{slug}'
     if os.path.exists(SITEMAP):
         with open(SITEMAP, 'r') as f:
             content = f.read()
@@ -731,7 +731,7 @@ def main():
     # 5. Summary
     print(f'''
 ── Done! ────────────────────────────────
-  URL:       {SITE}/blog/{slug}.html
+  URL:       {SITE}/blog/{slug}
   Title:     {meta['title']}
   Category:  {meta['category']}
   Read time: {meta['reading_time']} min

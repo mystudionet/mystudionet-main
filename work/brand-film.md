@@ -37,7 +37,7 @@ Brand film pricing varies by scope, length, production approach, and deliverable
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/work/brand-film.html
+- **Website:** https://mystudionet.com/work/brand-film
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

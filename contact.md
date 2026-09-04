@@ -14,7 +14,7 @@ Mystudionet Productions welcomes inquiries from businesses, brands, and individu
 ## Frequently Asked Questions
 
 ### How do I contact Mystudionet Productions?
-You can contact Mystudionet Productions by email at info@mystudionet.com, by phone or WhatsApp at +1 (631) 355-5588, or by booking a free 30-minute discovery call at tidycal.com/mystudionet/30-minute-discovery. You can also use the contact form at mystudionet.com/contact.html. The team responds to all inquiries promptly, typically within one business day.
+You can contact Mystudionet Productions by email at info@mystudionet.com, by phone or WhatsApp at +1 (631) 355-5588, or by booking a free 30-minute discovery call at tidycal.com/mystudionet/30-minute-discovery. You can also use the contact form at mystudionet.com/contact. The team responds to all inquiries promptly, typically within one business day.
 
 ### Does Mystudionet Productions offer a free consultation?
 Yes. Mystudionet Productions offers a free 30-minute discovery call for all new project inquiries. During the call, founder Kursad Yonet will discuss your project goals, creative vision, timeline, and budget. There is no obligation, and many clients find the call valuable even if they are still in the early planning stages. Book your call at tidycal.com/mystudionet/30-minute-discovery.
@@ -42,7 +42,7 @@ The best way to get a quote from Mystudionet Productions is to book a free 30-mi
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/contact.html
+- **Website:** https://mystudionet.com/contact
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

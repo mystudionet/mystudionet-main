@@ -31,7 +31,7 @@ Medical practice video pricing at Mystudionet Productions varies by type and sco
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/industry/medical-biotech.html
+- **Website:** https://mystudionet.com/industry/medical-biotech
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

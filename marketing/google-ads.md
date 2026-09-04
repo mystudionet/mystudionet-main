@@ -34,7 +34,7 @@ Mystudionet Productions focuses on the video creative and campaign management si
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/marketing/google-ads.html
+- **Website:** https://mystudionet.com/marketing/google-ads
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

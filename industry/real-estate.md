@@ -34,7 +34,7 @@ Real estate videos are delivered in MP4 format suitable for MLS listing uploads,
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/industry/real-estate.html
+- **Website:** https://mystudionet.com/industry/real-estate
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

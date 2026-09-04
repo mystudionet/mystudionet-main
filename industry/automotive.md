@@ -28,7 +28,7 @@ Automotive commercial pricing at Mystudionet Productions varies by scope, produc
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/industry/automotive.html
+- **Website:** https://mystudionet.com/industry/automotive
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

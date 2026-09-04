@@ -40,7 +40,7 @@ Mystudionet Productions delivers final video in all commonly required formats in
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/services/brand-commercial.html
+- **Website:** https://mystudionet.com/services/brand-commercial
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

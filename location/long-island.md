@@ -52,7 +52,7 @@ At Mystudionet Productions, timeline depends on project scope. A short social me
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/location/long-island.html
+- **Website:** https://mystudionet.com/location/long-island
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

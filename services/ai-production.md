@@ -43,7 +43,7 @@ Yes. Mystudionet Productions frequently produces hybrid videos that combine trad
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/services/ai-production.html
+- **Website:** https://mystudionet.com/services/ai-production
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

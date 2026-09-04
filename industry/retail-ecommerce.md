@@ -34,7 +34,7 @@ For e-commerce brands, the most effective paid social video formats include: pro
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/industry/retail-ecommerce.html
+- **Website:** https://mystudionet.com/industry/retail-ecommerce
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

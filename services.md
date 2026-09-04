@@ -55,7 +55,7 @@ Getting started is easy. Visit mystudionet.com, click "Start a Project," or cont
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/services.html
+- **Website:** https://mystudionet.com/services
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

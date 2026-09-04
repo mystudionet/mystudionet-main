@@ -34,7 +34,7 @@ Testimonial videos are particularly effective for businesses in professional ser
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/work/testimonial-video.html
+- **Website:** https://mystudionet.com/work/testimonial-video
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

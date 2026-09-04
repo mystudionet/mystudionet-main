@@ -34,7 +34,7 @@ New Jersey businesses can contact Mystudionet Productions by email at info@mystu
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/location/new-jersey.html
+- **Website:** https://mystudionet.com/location/new-jersey
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

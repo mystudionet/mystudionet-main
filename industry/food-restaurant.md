@@ -27,14 +27,14 @@ Yes. AI-generated and AI-enhanced video is being used effectively in restaurant 
 Restaurant video pricing at Mystudionet Productions varies by type and scope — from social media content packages to full TV commercial productions. The studio works with restaurant budgets of various sizes and offers AI-powered production options that reduce costs for clients who need high-volume content. Contact info@mystudionet.com for pricing.
 
 ### What Long Island restaurants has Mystudionet worked with?
-Mystudionet Productions has produced video content for food and restaurant businesses on Long Island, with work visible in the portfolio at mystudionet.com/industry/food-restaurant.html. The studio has produced content for casual dining, full-service restaurants, food brands, and specialty food businesses.
+Mystudionet Productions has produced video content for food and restaurant businesses on Long Island, with work visible in the portfolio at mystudionet.com/industry/food-restaurant. The studio has produced content for casual dining, full-service restaurants, food brands, and specialty food businesses.
 
 ### Does Mystudionet make food delivery app video ads?
 Yes. Mystudionet Productions creates video ads for food businesses that want to promote their presence on delivery platforms including DoorDash, Uber Eats, and Grubhub, as well as drive direct online orders through their own websites and apps. These short-form video ads are optimized for the platforms and formats where food delivery customers are most active.
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/industry/food-restaurant.html
+- **Website:** https://mystudionet.com/industry/food-restaurant
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

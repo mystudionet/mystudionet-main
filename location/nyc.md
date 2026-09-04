@@ -40,7 +40,7 @@ For New York City startups, Mystudionet Productions offers an ideal combination 
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/location/nyc.html
+- **Website:** https://mystudionet.com/location/nyc
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

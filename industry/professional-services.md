@@ -34,7 +34,7 @@ Yes. Mystudionet Productions works with financial advisors and wealth management
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/industry/professional-services.html
+- **Website:** https://mystudionet.com/industry/professional-services
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

@@ -7,25 +7,25 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/about.html</loc>
+    <loc>https://mystudionet.com/about</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/contact.html</loc>
+    <loc>https://mystudionet.com/contact</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work.html</loc>
+    <loc>https://mystudionet.com/work</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/services.html</loc>
+    <loc>https://mystudionet.com/services</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -37,292 +37,286 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/blog/index.html</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://mystudionet.com/marketing/index.html</loc>
+    <loc>https://mystudionet.com/marketing/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/marketing/meta-ads.html</loc>
+    <loc>https://mystudionet.com/marketing/meta-ads</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/marketing/google-ads.html</loc>
+    <loc>https://mystudionet.com/marketing/google-ads</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/marketing/youtube-ads.html</loc>
+    <loc>https://mystudionet.com/marketing/youtube-ads</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/services/ai-production.html</loc>
+    <loc>https://mystudionet.com/services/ai-production</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/services/brand-commercial.html</loc>
+    <loc>https://mystudionet.com/services/brand-commercial</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/services/social-media.html</loc>
+    <loc>https://mystudionet.com/services/social-media</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/services/wedding-films.html</loc>
+    <loc>https://mystudionet.com/services/wedding-films</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/video-ad.html</loc>
+    <loc>https://mystudionet.com/work/video-ad</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/brand-film.html</loc>
+    <loc>https://mystudionet.com/work/brand-film</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/tv-commercial.html</loc>
+    <loc>https://mystudionet.com/work/tv-commercial</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/product-video.html</loc>
+    <loc>https://mystudionet.com/work/product-video</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/about-us-video.html</loc>
+    <loc>https://mystudionet.com/work/about-us-video</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/testimonial-video.html</loc>
+    <loc>https://mystudionet.com/work/testimonial-video</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/event-video.html</loc>
+    <loc>https://mystudionet.com/work/event-video</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/real-estate-video.html</loc>
+    <loc>https://mystudionet.com/work/real-estate-video</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/explainer-video.html</loc>
+    <loc>https://mystudionet.com/work/explainer-video</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/tutorial-video.html</loc>
+    <loc>https://mystudionet.com/work/tutorial-video</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/team-video.html</loc>
+    <loc>https://mystudionet.com/work/team-video</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/crowdfunding-video.html</loc>
+    <loc>https://mystudionet.com/work/crowdfunding-video</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/social-media-reels.html</loc>
+    <loc>https://mystudionet.com/work/social-media-reels</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/drone-video.html</loc>
+    <loc>https://mystudionet.com/work/drone-video</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/wedding-film.html</loc>
+    <loc>https://mystudionet.com/work/wedding-film</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/work/ai-video.html</loc>
+    <loc>https://mystudionet.com/work/ai-video</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/location/long-island.html</loc>
+    <loc>https://mystudionet.com/location/long-island</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/location/nyc.html</loc>
+    <loc>https://mystudionet.com/location/nyc</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/location/nassau-county.html</loc>
+    <loc>https://mystudionet.com/location/nassau-county</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/location/suffolk-county.html</loc>
+    <loc>https://mystudionet.com/location/suffolk-county</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/location/hamptons.html</loc>
+    <loc>https://mystudionet.com/location/hamptons</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/location/new-jersey.html</loc>
+    <loc>https://mystudionet.com/location/new-jersey</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/industry/software-tech.html</loc>
+    <loc>https://mystudionet.com/industry/software-tech</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/industry/education.html</loc>
+    <loc>https://mystudionet.com/industry/education</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/industry/retail-ecommerce.html</loc>
+    <loc>https://mystudionet.com/industry/retail-ecommerce</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/industry/beauty-fashion.html</loc>
+    <loc>https://mystudionet.com/industry/beauty-fashion</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/industry/health-fitness.html</loc>
+    <loc>https://mystudionet.com/industry/health-fitness</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/industry/food-restaurant.html</loc>
+    <loc>https://mystudionet.com/industry/food-restaurant</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/industry/professional-services.html</loc>
+    <loc>https://mystudionet.com/industry/professional-services</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/industry/home-garden.html</loc>
+    <loc>https://mystudionet.com/industry/home-garden</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/industry/medical-biotech.html</loc>
+    <loc>https://mystudionet.com/industry/medical-biotech</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/industry/travel-hospitality.html</loc>
+    <loc>https://mystudionet.com/industry/travel-hospitality</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/industry/real-estate.html</loc>
+    <loc>https://mystudionet.com/industry/real-estate</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/industry/media-entertainment.html</loc>
+    <loc>https://mystudionet.com/industry/media-entertainment</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/industry/automotive.html</loc>
+    <loc>https://mystudionet.com/industry/automotive</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://mystudionet.com/industry/nonprofit.html</loc>
+    <loc>https://mystudionet.com/industry/nonprofit</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
-    <loc>https://mystudionet.com/blog/hire-video-production-company-long-island.html</loc>
+    <loc>https://mystudionet.com/blog/hire-video-production-company-long-island</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://mystudionet.com/blog/how-much-does-an-ai-commercial-cost-in-2026.html</loc>
+    <loc>https://mystudionet.com/blog/how-much-does-an-ai-commercial-cost-in-2026</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://mystudionet.com/blog/ai-video-vs-traditional-video-production-what-businesses-need-to-know.html</loc>
+    <loc>https://mystudionet.com/blog/ai-video-vs-traditional-video-production-what-businesses-need-to-know</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

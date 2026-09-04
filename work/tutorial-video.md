@@ -28,7 +28,7 @@ Tutorial video pricing at Mystudionet Productions depends on the number of video
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/work/tutorial-video.html
+- **Website:** https://mystudionet.com/work/tutorial-video
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

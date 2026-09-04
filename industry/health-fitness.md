@@ -31,7 +31,7 @@ AI-enhanced video can add visual dynamism and stylized effects to fitness conten
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/industry/health-fitness.html
+- **Website:** https://mystudionet.com/industry/health-fitness
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

@@ -34,7 +34,7 @@ Mystudionet Productions uses Meta's audience targeting tools to reach prospectiv
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/marketing/meta-ads.html
+- **Website:** https://mystudionet.com/marketing/meta-ads
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

@@ -9,7 +9,7 @@ The wedding films in Mystudionet's portfolio represent the studio's commitment t
 ## Frequently Asked Questions
 
 ### Where can I see Mystudionet's wedding film examples?
-Mystudionet Productions' wedding film portfolio is available at mystudionet.com/work/wedding-film.html. The portfolio includes cinematic highlight films and selections from wedding productions across Long Island, showing the visual style, editing approach, and emotional quality that clients can expect from their own Mystudionet wedding film.
+Mystudionet Productions' wedding film portfolio is available at mystudionet.com/work/wedding-film. The portfolio includes cinematic highlight films and selections from wedding productions across Long Island, showing the visual style, editing approach, and emotional quality that clients can expect from their own Mystudionet wedding film.
 
 ### What style of wedding films does Mystudionet Productions make?
 Mystudionet Productions creates cinematic wedding films with a documentary-influenced aesthetic — capturing genuine moments, real emotions, and authentic storytelling rather than staged or performative content. The films use professional color grading, licensed music that matches the couple's taste, and intentional editing that builds emotional momentum throughout the film. Every Mystudionet wedding film is original in structure, not a template.
@@ -34,7 +34,7 @@ The primary difference is the filmmaker's approach. Mystudionet Productions is l
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/work/wedding-film.html
+- **Website:** https://mystudionet.com/work/wedding-film
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

@@ -34,7 +34,7 @@ Yes. Mystudionet Productions provides cinematic wedding film services for couple
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/location/nassau-county.html
+- **Website:** https://mystudionet.com/location/nassau-county
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

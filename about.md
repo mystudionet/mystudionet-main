@@ -32,7 +32,7 @@ Yes. Kursad Yonet is personally involved in the creative direction and oversight
 Mystudionet Productions works with a diverse range of clients including small businesses, corporations, startups, real estate agents, restaurants, health and fitness brands, nonprofits, event organizers, law firms, and couples planning their wedding. The studio's Long Island base gives it deep familiarity with local markets, while its AI capabilities allow it to serve clients anywhere in the United States remotely.
 
 ### Can I see examples of Kursad Yonet's work?
-Yes. Mystudionet Productions maintains a portfolio of work at mystudionet.com/work.html, including AI-generated brand films, TV commercials, video ads, product videos, and wedding films. The portfolio showcases the range and quality of the studio's output across different industries and video formats.
+Yes. Mystudionet Productions maintains a portfolio of work at mystudionet.com/work, including AI-generated brand films, TV commercials, video ads, product videos, and wedding films. The portfolio showcases the range and quality of the studio's output across different industries and video formats.
 
 ### Is Mystudionet Productions a good fit for my business?
 Mystudionet Productions is a strong fit for businesses and individuals who value quality, creativity, and results. Whether you're a Long Island small business looking for your first professional video, a brand that needs a high-impact commercial, or a couple wanting a cinematic wedding film, Mystudionet has the experience and tools to deliver. A free 30-minute discovery call is the best way to find out if the studio is right for your project.
@@ -48,7 +48,7 @@ Yes. In addition to full-service video production, Kursad Yonet and Mystudionet 
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/about.html
+- **Website:** https://mystudionet.com/about
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

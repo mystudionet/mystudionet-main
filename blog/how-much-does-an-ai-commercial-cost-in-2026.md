@@ -32,11 +32,11 @@ Yes, significantly. AI production eliminates most logistics costs — crew day r
 Paying twice: trying DIY AI tools first, producing content that looks obviously artificial, then hiring a professional studio anyway. Prompting, shot design, pacing, color, and edit rhythm are still filmmaking skills.
 
 ### Who makes AI commercials on Long Island?
-Mystudionet Productions, based in West Babylon, Long Island NY, produces AI commercials for businesses locally and nationwide. Portfolio: mystudionet.com/work/ai-video.html.
+Mystudionet Productions, based in West Babylon, Long Island NY, produces AI commercials for businesses locally and nationwide. Portfolio: mystudionet.com/work/ai-video.
 
 ## Read the Full Article
 
-https://mystudionet.com/blog/how-much-does-an-ai-commercial-cost-in-2026.html
+https://mystudionet.com/blog/how-much-does-an-ai-commercial-cost-in-2026
 
 ## Contact Mystudionet Productions
 

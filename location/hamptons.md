@@ -34,7 +34,7 @@ Mystudionet Productions' pricing for Hamptons projects reflects the quality of t
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/location/hamptons.html
+- **Website:** https://mystudionet.com/location/hamptons
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

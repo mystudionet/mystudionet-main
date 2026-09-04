@@ -28,7 +28,7 @@ Artists and performers on Long Island build their audiences most effectively thr
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/industry/media-entertainment.html
+- **Website:** https://mystudionet.com/industry/media-entertainment
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

@@ -19,10 +19,10 @@ Mystudionet combines 20+ years of cinematic expertise with cutting-edge AI produ
 ## Key Pages
 
 - Homepage: https://mystudionet.com/
-- Portfolio: https://mystudionet.com/work.html
-- Services: https://mystudionet.com/services.html
-- About: https://mystudionet.com/about.html
-- Contact: https://mystudionet.com/contact.html
+- Portfolio: https://mystudionet.com/work
+- Services: https://mystudionet.com/services
+- About: https://mystudionet.com/about
+- Contact: https://mystudionet.com/contact
 - Blog: https://mystudionet.com/blog/
 - Marketing Services: https://mystudionet.com/marketing/
 
@@ -95,30 +95,30 @@ Mystudionet combines 20+ years of cinematic expertise with cutting-edge AI produ
 
 ## Work by Type (HTML)
 
-- Video Ad: https://mystudionet.com/work/video-ad.html
-- Brand Film: https://mystudionet.com/work/brand-film.html
-- TV Commercial: https://mystudionet.com/work/tv-commercial.html
-- Product Video: https://mystudionet.com/work/product-video.html
-- Wedding Film: https://mystudionet.com/work/wedding-film.html
-- Social Media / Reels: https://mystudionet.com/work/social-media-reels.html
-- AI Video: https://mystudionet.com/work/ai-video.html
-- Drone Video: https://mystudionet.com/work/drone-video.html
-- Testimonial Video: https://mystudionet.com/work/testimonial-video.html
-- Event Video: https://mystudionet.com/work/event-video.html
-- Explainer Video: https://mystudionet.com/work/explainer-video.html
-- About Us Video: https://mystudionet.com/work/about-us-video.html
-- Real Estate Video: https://mystudionet.com/work/real-estate-video.html
+- Video Ad: https://mystudionet.com/work/video-ad
+- Brand Film: https://mystudionet.com/work/brand-film
+- TV Commercial: https://mystudionet.com/work/tv-commercial
+- Product Video: https://mystudionet.com/work/product-video
+- Wedding Film: https://mystudionet.com/work/wedding-film
+- Social Media / Reels: https://mystudionet.com/work/social-media-reels
+- AI Video: https://mystudionet.com/work/ai-video
+- Drone Video: https://mystudionet.com/work/drone-video
+- Testimonial Video: https://mystudionet.com/work/testimonial-video
+- Event Video: https://mystudionet.com/work/event-video
+- Explainer Video: https://mystudionet.com/work/explainer-video
+- About Us Video: https://mystudionet.com/work/about-us-video
+- Real Estate Video: https://mystudionet.com/work/real-estate-video
 
 ## Locations Served
 
 Long Island (Nassau County, Suffolk County), New York City, The Hamptons, New Jersey — and remotely worldwide.
 
-- Long Island: https://mystudionet.com/location/long-island.html
-- NYC: https://mystudionet.com/location/nyc.html
-- Nassau County: https://mystudionet.com/location/nassau-county.html
-- Suffolk County: https://mystudionet.com/location/suffolk-county.html
-- The Hamptons: https://mystudionet.com/location/hamptons.html
-- New Jersey: https://mystudionet.com/location/new-jersey.html
+- Long Island: https://mystudionet.com/location/long-island
+- NYC: https://mystudionet.com/location/nyc
+- Nassau County: https://mystudionet.com/location/nassau-county
+- Suffolk County: https://mystudionet.com/location/suffolk-county
+- The Hamptons: https://mystudionet.com/location/hamptons
+- New Jersey: https://mystudionet.com/location/new-jersey
 
 ## Industries Served
 

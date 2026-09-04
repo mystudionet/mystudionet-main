@@ -31,7 +31,7 @@ Mystudionet Productions brings a cinematic filmmaker's eye to beauty and fashion
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/industry/beauty-fashion.html
+- **Website:** https://mystudionet.com/industry/beauty-fashion
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

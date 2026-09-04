@@ -33,7 +33,7 @@ Yes. Mystudionet Productions films destination weddings and weddings beyond Long
 Mystudionet Productions has filmed weddings at a wide range of Long Island venues including waterfront venues, estate properties, country clubs, vineyards, gardens, and ballrooms throughout Nassau County, Suffolk County, and the Hamptons. The studio is familiar with the unique lighting and logistical considerations of many Long Island wedding venues.
 
 ### Can I see examples of Mystudionet's wedding film work?
-Yes. Examples of Mystudionet Productions' wedding film work are available at mystudionet.com/work/wedding-film.html. The studio's wedding portfolio demonstrates the cinematic quality, emotional depth, and visual artistry that clients can expect from their wedding film.
+Yes. Examples of Mystudionet Productions' wedding film work are available at mystudionet.com/work/wedding-film. The studio's wedding portfolio demonstrates the cinematic quality, emotional depth, and visual artistry that clients can expect from their wedding film.
 
 ### Does Mystudionet Productions also offer photography for weddings?
 Mystudionet Productions is primarily a video production company and does not offer wedding photography as a standalone service. However, the studio can recommend trusted Long Island wedding photographers and often coordinates with photographers on wedding days to ensure complementary coverage. Contact the studio to discuss your full wedding coverage needs.
@@ -43,7 +43,7 @@ Mystudionet Productions delivers final wedding films within 8–12 weeks of the 
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/services/wedding-films.html
+- **Website:** https://mystudionet.com/services/wedding-films
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

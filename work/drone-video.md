@@ -34,7 +34,7 @@ Drone videography pricing at Mystudionet Productions depends on the scope of the
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/work/drone-video.html
+- **Website:** https://mystudionet.com/work/drone-video
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

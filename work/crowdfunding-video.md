@@ -28,7 +28,7 @@ Crowdfunding video pricing at Mystudionet Productions depends on scope, producti
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/work/crowdfunding-video.html
+- **Website:** https://mystudionet.com/work/crowdfunding-video
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704

@@ -31,7 +31,7 @@ Hospitality and travel video pricing at Mystudionet Productions varies by projec
 
 ## Contact Mystudionet Productions
 
-- **Website:** https://mystudionet.com/industry/travel-hospitality.html
+- **Website:** https://mystudionet.com/industry/travel-hospitality
 - **Email:** info@mystudionet.com
 - **Phone / WhatsApp:** +1 (631) 355-5588
 - **Location:** West Babylon, Long Island, NY 11704
