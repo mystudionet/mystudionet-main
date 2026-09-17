@@ -58,6 +58,26 @@ def excerpt(body, length=160):
     plain = ' '.join(plain.split())
     return plain[:length].rsplit(' ', 1)[0] + '…' if len(plain) > length else plain
 
+def extract_faq(body):
+    """Build FAQPage JSON-LD from the '## Frequently Asked Questions' section
+    (### question headings, answer = following paragraphs). Returns '' if none."""
+    m = re.search(r'^##\s+(?:Frequently Asked Questions|FAQ)\s*$(.*?)(?=^##\s|\Z)', body, re.M | re.S | re.I)
+    if not m:
+        return ''
+    qa = []
+    for chunk in re.split(r'^###\s+', m.group(1), flags=re.M)[1:]:
+        q, _, a = chunk.partition('\n')
+        a = re.sub(r'\[(.+?)\]\((.+?)\)', r'\1', a)
+        a = re.sub(r'(\*\*|__|\*)', '', a)
+        a = ' '.join(a.split())
+        if q.strip() and a:
+            qa.append({"@type": "Question", "name": q.strip(),
+                       "acceptedAnswer": {"@type": "Answer", "text": a}})
+    if not qa:
+        return ''
+    ld = json.dumps({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": qa}, indent=2, ensure_ascii=False)
+    return f'\n  <script type="application/ld+json">{ld}</script>'
+
 def inline_fmt(t):
     t = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', t)
     t = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', t)
@@ -314,7 +334,7 @@ def generate_post_html(meta, content_html, related=[]):
         "description": desc,
         "image": img_url,
         "datePublished": date_iso,
-        "dateModified": date_iso,
+        "dateModified": meta.get('modified') or date_iso,
         "author": {"@type": "Person", "name": "Kursad Yonet", "url": f"{SITE}/about"},
         "publisher": {
             "@type": "Organization",
@@ -326,6 +346,8 @@ def generate_post_html(meta, content_html, related=[]):
         "articleSection": category,
         "wordCount": len(re.findall(r'\w+', raw_body))
     }, indent=2)
+
+    faq_ld = extract_faq(raw_body)
 
     breadcrumb_ld = json.dumps({
         "@context": "https://schema.org",
@@ -369,7 +391,7 @@ def generate_post_html(meta, content_html, related=[]):
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <script type="application/ld+json">{json_ld}</script>
-  <script type="application/ld+json">{breadcrumb_ld}</script>
+  <script type="application/ld+json">{breadcrumb_ld}</script>{faq_ld}
   <style>
 {SHARED_CSS}
     .prose a {{ color:#fff; text-decoration:underline; text-underline-offset:3px; }}
@@ -506,7 +528,7 @@ def build_index(posts):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog | Mystudionet Productions — Video Production Insights</title>
+  <title>Blog | Mystudionet Productions: AI Video Production Insights</title>
   <meta name="description" content="Video production tips, AI filmmaking insights, wedding film advice, and marketing strategies from Mystudionet Productions on Long Island, NY.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="{SITE}/blog/">
@@ -625,6 +647,7 @@ def parse_input_file(filepath):
         'date':         date_iso,
         'reading_time': rt,
         'excerpt':      ex,
+        'modified':     meta.get('MODIFIED', ''),
         '_raw_body':    body,
     }, body.strip()
 

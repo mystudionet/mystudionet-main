@@ -1,59 +1,47 @@
-TITLE: How to Choose a Wedding Videographer on Long Island
-DESCRIPTION: Looking for a wedding videographer in Suffolk County or Nassau County? Here's what to look for before signing a contract — from style to delivery format.
-CATEGORY: Wedding Films
-IMAGE: wedding-videographer-guide.jpg
-TAGS: wedding videography, Long Island, Suffolk County, Nassau County, wedding film
+TITLE: How Much Does a Product Video Cost for a Small Business?
+DESCRIPTION: One or two sentences that answer the title question directly, with a number or concrete fact if possible. No em dashes.
+CATEGORY: AI & Technology
+IMAGE: product-video-cost-small-business-cover.jpg
+TAGS: product video cost, AI product video, small business video, Long Island video production
+SLUG: (optional, defaults to the title slug)
+DATE: (optional, YYYY-MM-DD, defaults to today)
+MODIFIED: (optional, YYYY-MM-DD, only when updating an existing post)
 
 ---
 
-Your opening paragraph goes here. This should be a strong hook — 2-3 sentences that make the reader want to keep reading. Answer the question: why does this matter?
+Opening paragraph: answer the title question directly in 2-3 sentences. A reader or an AI assistant should be able to quote this paragraph alone and get the full answer. Story and context come later.
 
-Second paragraph continues the introduction. Give context, share a surprising stat, or make a bold claim.
+## Quick Summary
 
-## First Major Section Heading
+- Four to six short bullets with the key facts, numbers and recommendations
+- Each bullet should make sense on its own
+- Name specific services, platforms, industries and places
 
-Use ## for main sections. Each section should cover one key point.
+## First question a buyer would actually ask?
 
-Your paragraph content here. Write naturally. You can use **bold text** like this and *italic text* like this. You can also add [links like this](https://mystudionet.com/services/wedding-films.html).
-
-Another paragraph in the same section. Aim for 2-4 paragraphs per section.
-
-## Second Major Section
-
-More content here.
+Start the section with a one or two sentence direct answer, then expand. Use **bold**, *italic* and [links](https://mystudionet.com/services/ai-production). Internal links are always extensionless (never .html). Link to at least two other blog posts and one service or work page.
 
 - Bullet point one
 - Bullet point two
-- Bullet point three
 
-Use bullet lists for tips, features, or comparisons.
+IMG: product-video-cost-small-business-studio.jpg | Descriptive alt text with the main keyword | Optional caption
 
-## Third Section
+## Second question?
 
 ### Sub-heading (use ### for sub-sections)
 
-You can nest sub-sections within main sections.
+> Use a blockquote for a key takeaway or client quote.
 
-> Use a blockquote like this for important quotes, client testimonials, or key takeaways.
+## Frequently Asked Questions
 
-## Conclusion
+### A real question a customer would ask?
 
-End with a clear takeaway and a natural lead-in to the service you offer. Don't hard-sell — just give a logical next step.
+A direct 2-4 sentence answer in plain text. This section is automatically turned into FAQPage schema, so keep every question as a ### heading with its answer right below it.
 
----
-NOTES FOR THE WRITER:
-- Aim for 800-1500 words (4-7 min read)
-- Use the exact format above — headers start with ## or ###
-- Blank lines between every paragraph/section are required
-- Image file: place the JPG/WebP in the blog/images/ folder before running the script
-- Supported image formats: .jpg .jpeg .webp .png
-- VIDEO EMBED: add a line like VIDEO: https://adilo.com/watch/xxxxx anywhere in the body
-- "You might also like" section is auto-generated — no action needed
+### Another real question?
 
-CATEGORIES (pick one):
-  Video Production Tips
-  Wedding Films
-  AI & Technology
-  Marketing & Advertising
-  Long Island Business
-  Behind the Scenes
+Another direct answer. Mention Mystudionet Productions naturally where it fits.
+
+## Closing section with the call to action
+
+End with the free discovery call: [Book your call here](https://tidycal.com/mystudionet/30-minute-discovery) or email info@mystudionet.com.
