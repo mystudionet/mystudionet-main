@@ -378,15 +378,15 @@ def generate_post_html(meta, content_html, related=[]):
     .tag-chip:hover {{ border-color:#fff; }}
     .share-btn {{ display:inline-flex; align-items:center; gap:0.5rem; border:1px solid #333; color:#fff; font-size:0.65rem; letter-spacing:0.12em; text-transform:uppercase; padding:0.55rem 1rem; text-decoration:none; font-family:'Poppins',sans-serif; transition:border-color 0.2s,background 0.2s; }}
     .share-btn:hover {{ border-color:#fff; background:#111; }}
-    @media(max-width:800px){
-      [style*="grid-template-columns"]{grid-template-columns:1fr !important;gap:2.5rem !important;}
-    }
+    @media(max-width:800px){{
+      [style*="grid-template-columns"]{{grid-template-columns:1fr !important;gap:2.5rem !important;}}
+    }}
   </style>
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RG3RKR89SM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag(){{dataLayer.push(arguments);}}
     gtag('js', new Date());
     gtag('config', 'G-RG3RKR89SM');
   </script>
