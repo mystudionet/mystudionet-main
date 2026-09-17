@@ -3,9 +3,7 @@ DESCRIPTION: One or two sentences that answer the title question directly, with 
 CATEGORY: AI & Technology
 IMAGE: product-video-cost-small-business-cover.jpg
 TAGS: product video cost, AI product video, small business video, Long Island video production
-SLUG: (optional, defaults to the title slug)
-DATE: (optional, YYYY-MM-DD, defaults to today)
-MODIFIED: (optional, YYYY-MM-DD, only when updating an existing post)
+NOTE: optional extra headers are SLUG, DATE and MODIFIED (both dates as YYYY-MM-DD). Leave them out for a new post.
 
 ---
 
