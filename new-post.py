@@ -751,6 +751,15 @@ def main():
     # 4. Update sitemap
     update_sitemap(slug, meta['date'])
 
+    # 5. Permanent redirect for the legacy .html form (Cloudflare Pages _redirects)
+    rp = os.path.join(BASE, '_redirects')
+    line = f'/blog/{slug}.html /blog/{slug} 301'
+    existing = open(rp, encoding='utf-8').read() if os.path.exists(rp) else ''
+    if line not in existing:
+        with open(rp, 'a', encoding='utf-8') as f:
+            f.write(('' if existing.endswith('\n') or not existing else '\n') + line + '\n')
+        print('  ✓ _redirects updated')
+
     # 5. Summary
     print(f'''
 ── Done! ────────────────────────────────
