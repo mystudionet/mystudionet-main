@@ -1,14 +1,14 @@
 # Brand Film Production | Mystudionet Productions | Long Island, NY
 
-> Mystudionet Productions produces cinematic brand films (2 to 5 minutes) for Long Island and New York businesses, with AI-assisted production that delivers in 2 to 4 weeks at a fraction of traditional cost.
+> Mystudionet Productions produces cinematic brand films (1 to 3 minutes) for Long Island and New York businesses, with AI-assisted production that delivers in 2 to 4 weeks at a fraction of traditional cost.
 
 ## Quick answer
 
-A brand film is a 2 to 5 minute cinematic video that tells who your company is and why customers should choose you. Mystudionet Productions produces brand films for Long Island, New York City and New Jersey businesses, with AI-assisted production that delivers in 2 to 4 weeks.
+A brand film is a 1 to 3 minute cinematic video that tells who your company is and why customers should choose you. Mystudionet Productions produces brand films for Long Island, New York City and New Jersey businesses, with AI-assisted production that delivers in 2 to 4 weeks.
 
 ## At a glance
 
-- Format: 2 to 5 minute cinematic brand story, plus 30 to 60 second cuts for social and ads
+- Format: 1 to 3 minute cinematic brand story, plus 30 to 60 second cuts for social and ads
 - Production: full crew, fully AI-generated, or hybrid (real people plus AI environments)
 - Turnaround: typically 2 to 4 weeks for AI-assisted films, 4 to 8 weeks for traditional shoots
 - Included: story development, production, cinema-grade color grade, licensed music, multi-format delivery
@@ -16,14 +16,14 @@ A brand film is a 2 to 5 minute cinematic video that tells who your company is a
 
 ## What is a brand film, and what does one cost?
 
-A brand film is a short cinematic video, usually 2 to 5 minutes, that tells your company's story: who you are, what you stand for and why customers should choose you. It is not a sales pitch. It creates emotional connection and earns trust before a single transaction happens, which is why it works as the hero video on a homepage, on LinkedIn and as a pre-roll ad.
+A brand film is a short cinematic video, usually 1 to 3 minutes, that tells your company's story: who you are, what you stand for and why customers should choose you. It is not a sales pitch. It creates emotional connection and earns trust before a single transaction happens, which is why it works as the hero video on a homepage, on LinkedIn and as a pre-roll ad.
 
 Costs vary with length, locations and whether the film is shot with a crew, produced with AI or both. A traditionally filmed brand film for a local business typically runs $20,000 to $60,000; AI-assisted production usually lands at 20 to 40 percent of that. We explain the numbers in How Much Does an AI Commercial Cost in 2026? and the full definition in What Is a Brand Film and Does Your Business Need One? Every project is quoted individually.
 
 ## Frequently Asked Questions
 
 ### What is a brand film?
-A brand film is a cinematic short video, usually 2 to 5 minutes, that tells your company's story: who you are, what you stand for, and why customers should choose you. It is not a direct sales pitch but an emotional connection piece that builds trust before the first conversation.
+A brand film is a cinematic short video, usually 1 to 3 minutes, that tells your company's story: who you are, what you stand for, and why customers should choose you. It is not a direct sales pitch but an emotional connection piece that builds trust before the first conversation.
 
 ### How much does a brand film cost on Long Island?
 A traditionally filmed brand film for a local business typically costs $20,000 to $60,000 once crew, locations, equipment and editing are counted. AI-assisted brand films usually cost 20 to 40 percent of that. Mystudionet Productions quotes every brand film individually after a free 30-minute discovery call.
@@ -32,7 +32,7 @@ A traditionally filmed brand film for a local business typically costs $20,000 t
 AI-assisted brand films typically take 2 to 4 weeks from approved concept to delivery. Traditionally filmed brand films take 4 to 8 weeks because of scheduling, the shoot itself and a longer edit. Hybrid projects fall in between.
 
 ### How long should a brand film be?
-Brand films typically run 2 to 5 minutes. We also deliver 30 to 60 second cuts for paid social, YouTube pre-roll and Instagram, produced from the same material, so one project covers your website, ads and presentations.
+Brand films typically run 1 to 3 minutes. We also deliver 30 to 60 second cuts for paid social, YouTube pre-roll and Instagram, produced from the same material, so one project covers your website, ads and presentations.
 
 ### What is the difference between a brand film and a commercial?
 A commercial promotes a specific product or offer with a direct call to action. A brand film focuses on your company's identity, values and story. Most businesses use both: the brand film builds trust, the commercial converts.
