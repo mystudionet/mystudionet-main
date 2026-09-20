@@ -493,6 +493,19 @@ def generate_post_html(meta, content_html, related=[]):
 {FOOTER_HTML}
 
 {SHARED_JS}
+  <!-- VBOUT tracking -->
+  <script type="text/javascript">
+/* embed code starts */
+var _vbset = _vbset || [];
+_vbset.push(['_account', 'VBT-70637-15292']);
+_vbset.push(['_domain', 'https://mystudionet.com']);
+
+(function() {{
+    var vbt = document.createElement('script'); vbt.type = 'text/javascript'; vbt.async = true; 
+    vbt.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.vbt.io/tracker?_account='+_vbset[0][1]+'&_domain='+_vbset[1][1];var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vbt, s);
+}})();
+/* embed code ends */
+</script>
 </body>
 </html>'''
 
@@ -572,6 +585,19 @@ def build_index(posts):
 {FOOTER_HTML}
 
 {SHARED_JS}
+  <!-- VBOUT tracking -->
+  <script type="text/javascript">
+/* embed code starts */
+var _vbset = _vbset || [];
+_vbset.push(['_account', 'VBT-70637-15292']);
+_vbset.push(['_domain', 'https://mystudionet.com']);
+
+(function() {{
+    var vbt = document.createElement('script'); vbt.type = 'text/javascript'; vbt.async = true; 
+    vbt.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.vbt.io/tracker?_account='+_vbset[0][1]+'&_domain='+_vbset[1][1];var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vbt, s);
+}})();
+/* embed code ends */
+</script>
 </body>
 </html>'''
 
