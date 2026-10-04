@@ -70,3 +70,10 @@
 /blog/how-to-write-a-video-ad-script-that-actually-converts-in-2026.html /blog/how-to-write-a-video-ad-script-that-actually-converts-in-2026 301
 /blog/how-long-should-a-video-ad-be-for-meta-youtube-and-tiktok-in-2026.html /blog/how-long-should-a-video-ad-be-for-meta-youtube-and-tiktok-in-2026 301
 /blog/how-to-measure-video-marketing-roi-for-small-business-in-2026.html /blog/how-to-measure-video-marketing-roi-for-small-business-in-2026 301
+
+# 3) Eski platform kalintilari (Search Console 404 / crawled-not-indexed, 2026-10-04)
+/post/* /blog/ 301
+/contact-us /contact 301
+/contact-us/ /contact 301
+/thank-you-page-for-booking-call /contact 301
+/thank-you-page-for-booking-call/ /contact 301
