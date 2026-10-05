@@ -34,6 +34,8 @@ Mystudionet combines 20+ years of cinematic expertise with cutting-edge AI produ
 - Services FAQ: https://mystudionet.com/services.md
 - Portfolio FAQ: https://mystudionet.com/work.md
 - Contact FAQ: https://mystudionet.com/contact.md
+- Privacy Policy: https://mystudionet.com/privacy.md
+- Data Deletion Instructions: https://mystudionet.com/data-deletion.md
 
 ### Location Pages
 - Long Island: https://mystudionet.com/location/long-island.md

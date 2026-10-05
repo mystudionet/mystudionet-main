@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Mystudionet Productions</title>
+  <meta name="description" content="How Mystudionet Productions (Blipmedia Inc.) collects, uses and protects information in its social media management service, including Instagram publishing.">
+  <link rel="canonical" href="https://mystudionet.com/privacy">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background: #000; color: #fff; font-family: 'Poppins', sans-serif; -webkit-font-smoothing: antialiased; }
+    .serif { font-family: 'Playfair Display', Georgia, serif; }
+    .label { font-size: 0.65rem; letter-spacing: 0.22em; text-transform: uppercase; color:#fff; }
+    #nav { background: #fff; border-bottom: 1px solid #e8e8e8; transition: background 0.3s, border-color 0.3s, box-shadow 0.3s; }
+    #nav.scrolled { background: #fff; border-bottom: 1px solid #ddd; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+    .btn-primary { display: inline-block; background: #fff; color: #000; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.9rem 2.2rem; text-decoration: none; border: 1px solid #fff; transition: background 0.2s, color 0.2s; }
+    .btn-primary:hover { background: #93C572; border-color: #93C572; color: #000; }
+    .btn-primary-inv { display: inline-block; background: #fff; color: #000; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.9rem 2.2rem; text-decoration: none; border: 1px solid #000; border-radius: 999px; transition: background 0.2s, color 0.2s, border-color 0.2s; }
+    .btn-primary-inv:hover { background: #93C572; border-color: #93C572; color: #000; }
+    .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    ::-webkit-scrollbar { width: 3px; } ::-webkit-scrollbar-track { background: #000; } ::-webkit-scrollbar-thumb { background: #fff; }
+  
+    /* NAV DROPDOWN */
+    .nav-link{color:#000;font-size:1rem;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;font-family:'Poppins',sans-serif;transition:opacity 0.2s;white-space:nowrap;}
+    .nav-link:hover,.nav-link.active{opacity:0.65;}
+    .mega-col-hd{font-size:0.55rem;letter-spacing:0.22em;text-transform:uppercase;color:#fff;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #222;}
+    .mega-link{color:#222;font-size:0.875rem;text-decoration:none;font-family:'Poppins',sans-serif;padding:0.3rem 0;transition:opacity 0.2s;display:block;}
+    .mega-link:hover{opacity:0.6;}
+    .drop-link{color:#000;font-size:0.875rem;text-decoration:none;font-family:'Poppins',sans-serif;padding:0.75rem 1.25rem;display:block;transition:background 0.15s;white-space:nowrap;}
+    .drop-link:hover{background:#f5f5f5;}
+    .nav-item{position:relative;}
+    .mega-panel{display:none;position:fixed;left:0;right:0;top:62px;background:#fff;border-top:1px solid #e8e8e8;border-bottom:1px solid #e8e8e8;padding:2rem 1.5rem;z-index:998;box-shadow:0 8px 24px rgba(0,0,0,0.08);}
+    .nav-item.open .mega-panel{display:block;}
+    .dropdown-panel{display:none;position:absolute;top:calc(100% + 0.4rem);left:50%;transform:translateX(-50%);background:#fff;border:1px solid #e8e8e8;min-width:220px;z-index:998;padding:0.5rem 0;box-shadow:0 4px 16px rgba(0,0,0,0.1);}
+    .nav-item.open .dropdown-panel{display:block;}
+
+    /* White background sections: force dark text */
+    [style*="background:#fff"] h1,[style*="background:#fff"] h2,[style*="background:#fff"] h3,
+    [style*="background:#fff"] h4,[style*="background:#fff"] p,[style*="background:#fff"] span,
+    [style*="background:#fff"] li,[style*="background:#fff"] label,[style*="background:#fff"] div {
+      color: #111 !important;
+    }
+    [style*="background:#fff"] a:not([style*="background:#000"]):not([style*="background: #000"]):not(.btn-primary):not(.btn-outline) {
+      color: #111 !important;
+    }
+  
+    [style*="background: #fff"] h1,[style*="background: #fff"] h2,[style*="background: #fff"] h3,
+    [style*="background: #fff"] h4,[style*="background: #fff"] p,[style*="background: #fff"] span,
+    [style*="background: #fff"] li,[style*="background: #fff"] label,[style*="background: #fff"] div{color:#111 !important;}
+    [style*="background: #fff"] a:not([style*="background:#000"]):not([style*="background: #000"]):not(.btn-primary):not(.btn-outline){color:#111 !important;}
+  
+    /* MOBILE: collapse all inline multi-column grids to single column */
+    @media(max-width:800px){
+      [style*="grid-template-columns"]{grid-template-columns:1fr !important;gap:2.5rem !important;}
+    }
+  </style>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mystudionet.com/privacy">
+  <meta property="og:title" content="Privacy Policy | Mystudionet Productions">
+  <meta property="og:description" content="How Mystudionet Productions (Blipmedia Inc.) collects, uses and protects information in its social media management service, including Instagram publishing.">
+  <meta property="og:image" content="https://mystudionet.com/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Privacy Policy | Mystudionet Productions">
+  <meta name="twitter:description" content="How Mystudionet Productions (Blipmedia Inc.) collects, uses and protects information in its social media management service, including Instagram publishing.">
+  <meta name="twitter:image" content="https://mystudionet.com/og-image.jpg">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "WebPage",
+ "name": "Privacy Policy | Mystudionet Productions",
+ "url": "https://mystudionet.com/privacy",
+ "description": "How Mystudionet Productions (Blipmedia Inc.) collects, uses and protects information in its social media management service, including Instagram publishing.",
+ "dateModified": "2026-10-05",
+ "publisher": {
+  "@type": "Organization",
+  "name": "Mystudionet Productions",
+  "legalName": "Blipmedia Inc.",
+  "url": "https://mystudionet.com",
+  "email": "hello@mystudionet.com",
+  "telephone": "+1-631-355-5588"
+ }
+}
+  </script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RG3RKR89SM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RG3RKR89SM');
+  </script>
+</head>
+<body style="background:#000;">
+
+  <!-- NAV -->
+  <nav id="nav" style="position:fixed;top:0;left:0;right:0;z-index:1000;padding:1rem 1.5rem;">
+    <div style="max-width:1280px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;position:relative;">
+      <a href="/" style="text-decoration:none;z-index:101;">
+        <div class="serif" style="color:#000;font-size:1.1rem;letter-spacing:0.04em;">Mystudionet</div>
+        <div style="font-size:0.6rem;letter-spacing:0.22em;text-transform:uppercase;color:#000;margin-top:1px;">Productions</div>
+      </a>
+      <div id="desk-nav" style="display:flex;align-items:center;gap:2rem;">
+
+        <div class="nav-item">
+          <a href="/work" class="nav-link" style="">Work ▾</a>
+          <div class="mega-panel">
+            <div style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr 1fr;gap:3rem;">
+              <div>
+                <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#888;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #e0e0e0;">Type of Video</div>
+                <div style="display:flex;flex-direction:column;gap:0.3rem;">
+                  <a href="/work/video-ad" class="mega-link">Video Ad</a>
+                  <a href="/work/product-video" class="mega-link">Product Video</a>
+                  <a href="/work/about-us-video" class="mega-link">About Us Video</a>
+                  <a href="/work/testimonial-video" class="mega-link">Testimonial Video</a>
+                  <a href="/work/event-video" class="mega-link">Event Video</a>
+                  <a href="/work/explainer-video" class="mega-link">Explainer Video</a>
+                  <a href="/work/tutorial-video" class="mega-link">Tutorial Video</a>
+                  <a href="/work/team-video" class="mega-link">Team Video</a>
+                  <a href="/work/ai-video" class="mega-link">AI Video</a>
+                  <a href="/work/brand-film" class="mega-link">Brand Film</a>
+                  <a href="/work/tv-commercial" class="mega-link">TV Commercial</a>
+                  <a href="/work/real-estate-video" class="mega-link">Real Estate Video</a>
+                  <a href="/work/wedding-film" class="mega-link">Wedding Film</a>
+                  <a href="/work/social-media-reels" class="mega-link">Social Media / Reels</a>
+                  <a href="/work/drone-video" class="mega-link">Drone Video</a>
+                  <a href="/work/crowdfunding-video" class="mega-link">Crowdfunding Video</a>
+                </div>
+              </div>
+              <div>
+                <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#888;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #e0e0e0;">By Industry</div>
+                <div style="display:flex;flex-direction:column;gap:0.3rem;">
+                  <a href="/industry/software-tech" class="mega-link">Software &amp; Tech</a>
+                  <a href="/industry/education" class="mega-link">Education</a>
+                  <a href="/industry/retail-ecommerce" class="mega-link">Retail &amp; E-commerce</a>
+                  <a href="/industry/beauty-fashion" class="mega-link">Beauty &amp; Fashion</a>
+                  <a href="/industry/health-fitness" class="mega-link">Health &amp; Fitness</a>
+                  <a href="/industry/food-restaurant" class="mega-link">Food &amp; Restaurant</a>
+                  <a href="/industry/professional-services" class="mega-link">Professional Services</a>
+                  <a href="/industry/home-garden" class="mega-link">Home &amp; Garden</a>
+                  <a href="/industry/medical-biotech" class="mega-link">Medical &amp; Biotech</a>
+                  <a href="/industry/travel-hospitality" class="mega-link">Travel &amp; Hospitality</a>
+                  <a href="/industry/real-estate" class="mega-link">Real Estate</a>
+                  <a href="/industry/media-entertainment" class="mega-link">Media &amp; Entertainment</a>
+                  <a href="/industry/automotive" class="mega-link">Automotive</a>
+                  <a href="/industry/nonprofit" class="mega-link">Nonprofit</a>
+                </div>
+              </div>
+              <div>
+                <div style="font-size:0.57rem;letter-spacing:0.22em;text-transform:uppercase;color:#888;margin-bottom:1rem;padding-bottom:0.6rem;border-bottom:1px solid #e0e0e0;">By Location</div>
+                <div style="display:flex;flex-direction:column;gap:0.3rem;">
+                  <a href="/location/long-island" class="mega-link">Long Island</a>
+                  <a href="/location/nyc" class="mega-link">New York City</a>
+                  <a href="/location/hamptons" class="mega-link">The Hamptons</a>
+                  <a href="/location/nassau-county" class="mega-link">Nassau County</a>
+                  <a href="/location/suffolk-county" class="mega-link">Suffolk County</a>
+                  <a href="/location/new-jersey" class="mega-link">New Jersey</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="/services" class="nav-link" style="">Services ▾</a>
+          <div class="dropdown-panel">
+            <a href="/services/ai-production" class="drop-link">AI-Powered Production</a>
+            <a href="/services/brand-commercial" class="drop-link">Brand &amp; Commercial</a>
+            <a href="/services/social-media" class="drop-link">Social Media Video</a>
+            <a href="/services/wedding-films" class="drop-link">Wedding Films</a>
+            <a href="/services/photography" class="drop-link">Photography</a>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="/marketing/" class="nav-link" style="">Marketing ▾</a>
+          <div class="dropdown-panel">
+            <a href="/marketing/meta-ads" class="drop-link">Meta Ads Management</a>
+            <a href="/marketing/google-ads" class="drop-link">Google Ads Management</a>
+            <a href="/marketing/youtube-ads" class="drop-link">YouTube Ad Management</a>
+          </div>
+        </div>
+
+        <a href="/about" class="nav-link" style="">About</a>
+        <a href="/blog/" class="nav-link" style="">Blog</a>
+        <a href="/contact" class="nav-link" style="">Contact</a>
+        <a href="/contact" style="display:inline-block;background:#fff;color:#000;font-size:0.65rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:0.9rem 2.2rem;text-decoration:none;border:1px solid #000;font-family:'Poppins',sans-serif;font-size:0.92rem;border-radius:999px;transition:background 0.2s,color 0.2s;" onmouseover="this.style.background='#93C572';this.style.borderColor='#93C572';" onmouseout="this.style.background='#fff';this.style.borderColor='#000';">Start a Project</a>
+      </div>
+      <button id="mob-btn" onclick="toggleMob()" style="display:none;color:#000;background:none;border:none;cursor:pointer;">
+        <svg width="22" height="14" viewBox="0 0 22 14" fill="none"><rect width="22" height="1.5" fill="currentColor"/><rect y="6" width="22" height="1.5" fill="currentColor"/><rect y="12" width="22" height="1.5" fill="currentColor"/></svg>
+      </button>
+    </div>
+    <div id="mob-menu" style="display:none;position:fixed;inset:0;background:#000;z-index:1999;flex-direction:column;overflow:hidden;">
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:1.2rem 1.5rem;border-bottom:1px solid #111;flex-shrink:0;">
+        <a href="/" style="text-decoration:none;">
+          <div style="font-family:'Playfair Display',serif;color:#fff;font-size:1.05rem;letter-spacing:0.04em;">Mystudionet</div>
+          <div style="font-size:0.52rem;letter-spacing:0.22em;text-transform:uppercase;color:#fff;">Productions</div>
+        </a>
+        <button onclick="toggleMob()" aria-label="Close menu" style="background:none;border:none;color:#fff;cursor:pointer;font-size:1.5rem;line-height:1;padding:0.4rem 0.6rem;display:flex;align-items:center;justify-content:center;">✕</button>
+      </div>
+      <div style="flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;">
+        <div style="border-bottom:1px solid #111;">
+          <a href="/work" style="width:100%;display:flex;justify-content:space-between;align-items:center;color:#fff;font-size:1.25rem;font-weight:500;font-family:'Poppins',sans-serif;padding:1rem 1.5rem;text-decoration:none;letter-spacing:0.01em;border-bottom:1px solid #111;">Work</a>
+          <div class="mob-sub" style="display:none;padding:0 1.5rem 1.25rem;">
+            <div style="font-size:0.52rem;letter-spacing:0.2em;text-transform:uppercase;color:#fff;padding:0.25rem 0 0.6rem;">Type of Video</div>
+            <a href="/work/video-ad" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Video Ad</a>
+            <a href="/work/product-video" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Product Video</a>
+            <a href="/work/about-us-video" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">About Us Video</a>
+            <a href="/work/testimonial-video" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Testimonial Video</a>
+            <a href="/work/event-video" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Event Video</a>
+            <a href="/work/explainer-video" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Explainer Video</a>
+            <a href="/work/tutorial-video" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Tutorial Video</a>
+            <a href="/work/team-video" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Team Video</a>
+            <a href="/work/ai-video" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">AI Video</a>
+            <a href="/work/brand-film" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Brand Film</a>
+            <a href="/work/tv-commercial" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">TV Commercial</a>
+            <a href="/work/real-estate-video" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Real Estate Video</a>
+            <a href="/work/wedding-film" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Wedding Film</a>
+            <a href="/work/social-media-reels" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Social Media / Reels</a>
+            <a href="/work/drone-video" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Drone Video</a>
+            <a href="/work/crowdfunding-video" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">Crowdfunding Video</a>
+            <div style="font-size:0.52rem;letter-spacing:0.2em;text-transform:uppercase;color:#fff;padding:0.9rem 0 0.6rem;margin-top:0.5rem;">By Industry</div>
+            <a href="/industry/software-tech" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Software &amp; Tech</a>
+            <a href="/industry/education" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Education</a>
+            <a href="/industry/retail-ecommerce" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Retail &amp; E-commerce</a>
+            <a href="/industry/beauty-fashion" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Beauty &amp; Fashion</a>
+            <a href="/industry/health-fitness" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Health &amp; Fitness</a>
+            <a href="/industry/food-restaurant" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Food &amp; Restaurant</a>
+            <a href="/industry/professional-services" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Professional Services</a>
+            <a href="/industry/home-garden" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Home &amp; Garden</a>
+            <a href="/industry/medical-biotech" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Medical &amp; Biotech</a>
+            <a href="/industry/travel-hospitality" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Travel &amp; Hospitality</a>
+            <a href="/industry/real-estate" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Real Estate</a>
+            <a href="/industry/media-entertainment" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Media &amp; Entertainment</a>
+            <a href="/industry/automotive" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Automotive</a>
+            <a href="/industry/nonprofit" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">Nonprofit</a>
+            <div style="font-size:0.52rem;letter-spacing:0.2em;text-transform:uppercase;color:#fff;padding:0.9rem 0 0.6rem;margin-top:0.5rem;">By Location</div>
+            <a href="/location/long-island" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Long Island</a>
+            <a href="/location/nyc" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">New York City</a>
+            <a href="/location/hamptons" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">The Hamptons</a>
+            <a href="/location/nassau-county" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Nassau County</a>
+            <a href="/location/suffolk-county" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Suffolk County</a>
+            <a href="/location/new-jersey" style="display:block;color:#fff;font-size:0.9rem;padding:0.45rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">New Jersey</a>
+          </div>
+        </div>
+        <div style="border-bottom:1px solid #111;">
+          <button onclick="mobToggle(this)" style="width:100%;display:flex;justify-content:space-between;align-items:center;background:none;border:none;color:#fff;font-size:1.25rem;font-weight:500;font-family:'Poppins',sans-serif;padding:1rem 1.5rem;cursor:pointer;text-align:left;letter-spacing:0.01em;">Services <span class="mob-arr" style="color:#fff;font-size:1.1rem;font-weight:300;">+</span></button>
+          <div class="mob-sub" style="display:none;padding:0 1.5rem 1.25rem;">
+            <a href="/services/ai-production" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">AI-Powered Production</a>
+            <a href="/services/brand-commercial" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Brand &amp; Commercial</a>
+            <a href="/services/social-media" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Social Media Video</a>
+            <a href="/services/wedding-films" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;border-bottom:1px solid #0d0d0d;font-family:'Poppins',sans-serif;">Wedding Films</a>
+            <a href="/services/photography" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">Photography</a>
+          </div>
+        </div>
+        <div style="border-bottom:1px solid #111;">
+          <button onclick="mobToggle(this)" style="width:100%;display:flex;justify-content:space-between;align-items:center;background:none;border:none;color:#fff;font-size:1.25rem;font-weight:500;font-family:'Poppins',sans-serif;padding:1rem 1.5rem;cursor:pointer;text-align:left;letter-spacing:0.01em;">Marketing <span class="mob-arr" style="color:#fff;font-size:1.1rem;font-weight:300;">+</span></button>
+          <div class="mob-sub" style="display:none;padding:0 1.5rem 1.25rem;">
+            <a href="/marketing/meta-ads" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Meta Ads Management</a>
+            <a href="/marketing/google-ads" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;border-bottom:1px solid #0d0d0d;">Google Ads Management</a>
+            <a href="/marketing/youtube-ads" style="display:block;color:#fff;font-size:0.9rem;padding:0.55rem 0;text-decoration:none;font-family:'Poppins',sans-serif;">YouTube Ad Management</a>
+          </div>
+        </div>
+        <a href="/about" style="display:block;color:#fff;font-size:1.25rem;font-weight:500;font-family:'Poppins',sans-serif;padding:1rem 1.5rem;text-decoration:none;border-bottom:1px solid #111;letter-spacing:0.01em;">About</a>
+        <a href="/blog/" style="display:block;color:#fff;font-size:1.25rem;font-weight:500;font-family:'Poppins',sans-serif;padding:1rem 1.5rem;text-decoration:none;border-bottom:1px solid #111;letter-spacing:0.01em;">Blog</a>
+        <a href="/contact" style="display:block;color:#fff;font-size:1.25rem;font-weight:500;font-family:'Poppins',sans-serif;padding:1rem 1.5rem;text-decoration:none;border-bottom:1px solid #111;letter-spacing:0.01em;">Contact</a>
+      </div>
+      <div style="padding:1.25rem 1.5rem;flex-shrink:0;border-top:1px solid #111;">
+        <a href="/contact" style="display:block;background:#fff;color:#000;text-align:center;padding:1rem;font-size:0.75rem;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;text-decoration:none;font-family:'Poppins',sans-serif;">Start a Project →</a>
+      </div>
+    </div>
+  </nav>
+
+  <section style="background:#000; padding:9rem 1.5rem 3.5rem;">
+    <div style="max-width:820px; margin:0 auto;">
+      <div class="label" style="margin-bottom:1rem;">Legal</div>
+      <h1 class="serif" style="font-size:clamp(2.2rem,5vw,3.4rem); line-height:1.1; color:#fff;">Privacy Policy</h1>
+      <p style="color:#fff; opacity:0.75; margin-top:1rem; font-size:0.95rem;">Last updated: October 5, 2026</p>
+    </div>
+  </section>
+
+  <section style="background:#fff; padding:4rem 1.5rem 5rem; border-top:1px solid #e0e0e0;">
+    <div class="legal" style="max-width:820px; margin:0 auto; font-size:1rem; line-height:1.75;">
+      <p>This Privacy Policy explains how Mystudionet Productions, a brand of Blipmedia Inc. ("Mystudionet", "we", "us"), collects, uses and protects information when businesses use our social media management service (the "Service"), including our app that connects to Instagram through Meta's Instagram API.</p>
+
+      <h2>Who this policy applies to</h2>
+      <p>The Service is offered to business clients. A client connects their own Instagram professional account so that we can publish content the client has approved. This policy covers the information we receive through that connection and the information clients give us directly.</p>
+
+      <h2>Information we collect</h2>
+      <ul>
+        <li><strong>Account information from Instagram:</strong> the Instagram account ID, username, account type and profile picture, received when the account owner authorizes our app.</li>
+        <li><strong>Access token:</strong> a token issued by Meta that lets the Service publish on the connected account. We never receive or store the account password.</li>
+        <li><strong>Content we publish:</strong> the photos, videos and captions prepared for the client, and the IDs Instagram returns for published posts.</li>
+        <li><strong>Client contact details:</strong> the business name, contact name, email address and phone number the client gives us.</li>
+      </ul>
+      <p>We do not collect information about the followers of a connected account, and we do not read private messages.</p>
+
+      <h2>How we use information</h2>
+      <ul>
+        <li>To publish content the client has approved, at the time the client has chosen.</li>
+        <li>To confirm that a post was published and to report the result to the client.</li>
+        <li>To contact the client about their account and the Service.</li>
+      </ul>
+      <p>We do not use this information for advertising, and we do not sell it or share it with data brokers.</p>
+
+      <h2>How we store and protect information</h2>
+      <p>Access tokens are kept in encrypted storage on our secure servers and are used only to publish posts for the client. Media files are hosted on Cloudflare so that Instagram can fetch them for publishing. Access to these systems is limited to the Mystudionet team members who manage the client's account.</p>
+
+      <h2>Sharing</h2>
+      <p>We share information only with the providers needed to run the Service: Meta (to publish on Instagram), Cloudflare (media hosting) and our server host. Each of them processes the information only to provide their service to us. We may also disclose information if the law requires it.</p>
+
+      <h2>How long we keep information</h2>
+      <p>We keep account information and access tokens while the client uses the Service. When the client disconnects the account or ends the Service, we delete the access token and account information within 30 days. Records of published posts that are needed for billing or legal reasons are kept for up to 12 months.</p>
+
+      <h2>Your choices and rights</h2>
+      <ul>
+        <li>You can remove our app at any time in Instagram under <strong>Settings → Apps and websites</strong>. The access token stops working immediately.</li>
+        <li>You can ask us for a copy of the information we hold about your account, or ask us to correct or delete it.</li>
+        <li>To delete your data, follow the steps on our <a href="/data-deletion">Data Deletion Instructions</a> page.</li>
+      </ul>
+
+      <h2>Children</h2>
+      <p>The Service is for businesses and is not directed to children under 13. We do not knowingly collect information from children.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>If we change this policy, we will update the date at the top of this page. Significant changes will be sent to clients by email.</p>
+
+      <h2>Contact us</h2>
+      <p>Mystudionet Productions (Blipmedia Inc.)<br>Long Island, New York<br>Email: <a href="mailto:hello@mystudionet.com">hello@mystudionet.com</a><br>Phone: <a href="tel:+16313555588">(631) 355-5588</a></p>
+    </div>
+  </section>
+
+  <style>
+    .legal h2 { font-family:'Playfair Display',Georgia,serif; font-size:1.55rem; margin:2.4rem 0 0.8rem; }
+    .legal p { margin:0 0 1rem; }
+    .legal ul, .legal ol { margin:0 0 1.2rem 1.4rem; }
+    .legal ul { list-style:disc; } .legal ol { list-style:decimal; }
+    .legal li { margin:0.35rem 0; }
+    .legal a { text-decoration:underline; }
+  </style>
+
+  <footer style="background:#000; border-top:1px solid #1a1a1a; padding:3rem 1.5rem;">
+    <div style="max-width:1280px; margin:0 auto; display:grid; grid-template-columns:1fr auto 1fr; align-items:center; gap:2rem;">
+      <div>
+        <div class="serif" style="color:#fff; font-size:1rem; letter-spacing:0.04em;">Mystudionet</div>
+        <div class="label" style="color:#fff; margin-top:2px;">Productions</div>
+      </div>
+      <p style="color:#fff; font-size:0.7rem; text-align:center;">© 2026 Mystudionet Productions · Long Island, NY</p>
+      <div style="text-align:right;">
+        <a href="tel:+16313555588" style="color:#fff; font-size:0.75rem; text-decoration:none; display:block;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">(631) 355-5588</a>
+        <a href="mailto:hello@mystudionet.com" style="color:#fff; font-size:0.75rem; text-decoration:none; display:block; margin-top:0.25rem;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">hello@mystudionet.com</a>
+      </div>
+    </div>
+      <div style="max-width:1280px;margin:2rem auto 0;padding-top:2rem;border-top:1px solid #111;display:flex;justify-content:center;gap:1.75rem;align-items:center;">
+      <a href="https://instagram.com/mystudionet" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style="color:#fff;opacity:0.45;transition:opacity 0.2s;display:flex;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.45'"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+      <a href="https://youtube.com/@mystudionet" target="_blank" rel="noopener noreferrer" aria-label="YouTube" style="color:#fff;opacity:0.45;transition:opacity 0.2s;display:flex;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.45'"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg></a>
+      <a href="https://facebook.com/mystudionet" target="_blank" rel="noopener noreferrer" aria-label="Facebook" style="color:#fff;opacity:0.45;transition:opacity 0.2s;display:flex;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.45'"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+      <a href="https://tiktok.com/@mystudionet" target="_blank" rel="noopener noreferrer" aria-label="TikTok" style="color:#fff;opacity:0.45;transition:opacity 0.2s;display:flex;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.45'"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+      <a href="https://linkedin.com/company/mystudionet" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style="color:#fff;opacity:0.45;transition:opacity 0.2s;display:flex;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.45'"><svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+      <a href="https://vimeo.com/mystudionet" target="_blank" rel="noopener noreferrer" aria-label="Vimeo" style="color:#fff;opacity:0.45;transition:opacity 0.2s;display:flex;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.45'"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.977 6.416c-.105 2.338-1.739 5.543-4.894 9.609-3.268 4.247-6.026 6.37-8.29 6.37-1.409 0-2.578-1.294-3.553-3.881L5.322 11.4C4.603 8.816 3.834 7.522 3.01 7.522c-.179 0-.806.378-1.881 1.132L0 7.197c1.185-1.044 2.351-2.084 3.501-3.128C5.08 2.701 6.266 1.984 7.055 1.91c1.867-.18 3.016 1.1 3.447 3.838.465 2.953.789 4.789.971 5.507.539 2.45 1.131 3.674 1.776 3.674.502 0 1.256-.796 2.265-2.385 1.004-1.589 1.54-2.797 1.612-3.628.144-1.371-.395-2.061-1.612-2.061-.574 0-1.167.121-1.777.391 1.186-3.868 3.434-5.757 6.762-5.637 2.473.06 3.628 1.664 3.478 4.807l-.001.004z"/></svg></a>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll',function(){document.getElementById('nav').classList.toggle('scrolled',window.scrollY>60);});
+    function toggleMob(){var m=document.getElementById('mob-menu');var open=m.style.display==='flex';m.style.display=open?'none':'flex';document.body.style.overflow=open?'':'hidden';}
+    function mobToggle(btn){var sub=btn.nextElementSibling;var arr=btn.querySelector('.mob-arr');var isOpen=sub.style.display==='block';document.querySelectorAll('.mob-sub').forEach(function(s){s.style.display='none';});document.querySelectorAll('.mob-arr').forEach(function(a){a.textContent='+';});if(!isOpen){sub.style.display='block';if(arr)arr.textContent='−';}}
+    (function(){var btn=document.getElementById('mob-btn');var nav=document.getElementById('desk-nav');function chk(){if(window.innerWidth<900){btn.style.display='block';nav.style.display='none';}else{btn.style.display='none';nav.style.display='flex';var m=document.getElementById('mob-menu');if(m){m.style.display='none';document.body.style.overflow='';}}}chk();window.addEventListener('resize',chk);})();
+    (function(){var T={};document.querySelectorAll('.nav-item').forEach(function(item,i){item.addEventListener('mouseenter',function(){clearTimeout(T[i]);item.classList.add('open');});item.addEventListener('mouseleave',function(){T[i]=setTimeout(function(){item.classList.remove('open');},220);});var p=item.querySelector('.mega-panel,.dropdown-panel');if(p){p.addEventListener('mouseenter',function(){clearTimeout(T[i]);});p.addEventListener('mouseleave',function(){T[i]=setTimeout(function(){item.classList.remove('open');},220);});}});})();
+    var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('visible');obs.unobserve(x.target);}});},{threshold:0.08});
+    document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
+  </script>
+  <script defer type="text/javascript" id="chatbot-initials-script" src="https://chat-bbl.noform.ai/script-chatbot.js" data-server-url="https://app.noform.ai" data-bot-id="671aa4e11e9da18305d7baca"></script>
+  <!-- VBOUT tracking -->
+  <script type="text/javascript">
+/* embed code starts */
+var _vbset = _vbset || [];
+_vbset.push(['_account', 'VBT-70637-15292']);
+_vbset.push(['_domain', 'https://mystudionet.com']);
+
+(function() {
+    var vbt = document.createElement('script'); vbt.type = 'text/javascript'; vbt.async = true; 
+    vbt.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.vbt.io/tracker?_account='+_vbset[0][1]+'&_domain='+_vbset[1][1];var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vbt, s);
+})();
+/* embed code ends */
+</script>
+</body>
+</html>
