@@ -402,4 +402,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <url>
+    <loc>https://mystudionet.com/blog/ai-video-for-service-businesses-the-4-videos-that-drive-the-most-leads-in-2026</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
