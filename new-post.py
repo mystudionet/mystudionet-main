@@ -309,6 +309,8 @@ def related_posts_html(current_slug, current_category, posts, max_count=3):
   </section>'''
 
 def generate_post_html(meta, content_html, related=[]):
+    if len(meta.get('title',''))>60: print('UYARI: baslik 60 karakterden uzun, Google kesecek:',len(meta['title']))
+    if len(meta.get('description',''))>158: print('UYARI: aciklama 158 karakterden uzun, Google kesecek:',len(meta['description']))
     title    = meta['title']
     desc     = meta['description']
     slug     = meta['slug']
@@ -369,7 +371,7 @@ def generate_post_html(meta, content_html, related=[]):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title} | Mystudionet Productions Blog</title>
+  <title>{title if len(title) > 45 else title + " | Mystudionet"}</title>
   <meta name="description" content="{desc}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="{SITE}/blog/{slug}">
@@ -541,8 +543,8 @@ def build_index(posts):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog | Mystudionet Productions: AI Video Production Insights</title>
-  <meta name="description" content="Video production tips, AI filmmaking insights, wedding film advice, and marketing strategies from Mystudionet Productions on Long Island, NY.">
+  <title>AI Video Production Blog | Mystudionet</title>
+  <meta name="description" content="Video production tips, AI filmmaking insights and marketing strategies for small businesses from Mystudionet Productions on Long Island, NY.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="{SITE}/blog/">
   <meta property="og:type" content="website">
