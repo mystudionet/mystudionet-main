@@ -1,10 +1,12 @@
 # Privacy Policy | Mystudionet Productions
 
-> How Mystudionet Productions (Blipmedia Inc.) collects, uses and protects information in its social media management service, including Instagram publishing. Last updated October 5, 2026. Full policy: https://mystudionet.com/privacy
+> How Mystudionet Productions (Blipmedia Inc.) collects, uses and protects information in its social media management service, including Instagram publishing. Last updated October 16, 2026. Full policy: https://mystudionet.com/privacy
 
 ## Summary
 
 Mystudionet Productions is a brand of Blipmedia Inc., a video production and social media company on Long Island, New York. Business clients connect their own Instagram professional account to our app so we can publish content they have approved. We receive the account ID, username, account type, profile picture and an access token from Meta. We never receive the account password, we never read private messages and we never collect follower data. We use the information only to publish and report on approved posts. We do not sell it or use it for advertising.
+
+We also run an opt-in text message (SMS) program. People who check the SMS consent box on our contact form or text START or JOIN to (631) 515-6611 receive inquiry replies, appointment reminders, project updates and occasional offers. Mobile information, including phone numbers and SMS opt-in data and consent, is never shared with or sold to third parties or affiliates for marketing or promotional purposes. Reply STOP to opt out, HELP for help. Program terms: https://mystudionet.com/sms-terms
 
 ## Frequently Asked Questions
 
@@ -40,6 +42,12 @@ In Instagram, go to Settings, then Apps and websites, and remove the app. Access
 
 **How do I ask for my data to be deleted?**
 Follow the steps at https://mystudionet.com/data-deletion or email hello@mystudionet.com with the subject "Data Deletion Request".
+
+**Does Mystudionet share my phone number from text messages?**
+No. Phone numbers and SMS opt-in data and consent are not shared with or sold to third parties or affiliates for marketing or promotional purposes. They are shared only with the SMS provider that delivers our messages.
+
+**How do I stop text messages from Mystudionet?**
+Reply STOP to any message. Reply HELP for help.
 
 **Is the service meant for children?**
 No. It is a business service and is not directed to children under 13.
